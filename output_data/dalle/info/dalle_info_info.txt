@@ -115,3 +115,81 @@ Cost: 0.01
 
 --------------------------------------------------
 
+Prompt: Władca Pierścieni
+Response URL: {
+  "created": 1729180613,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-g2LuCIgj9W4iSkqTOXRNaDSS.png?st=2024-10-17T14%3A56%3A53Z&se=2024-10-17T16%3A56%3A53Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A17%3A24Z&ske=2024-10-17T23%3A17%3A24Z&sks=b&skv=2024-08-04&sig=Pbv%2Br4XGA4IJyPjWzeom4iuo7CliJ5nrFdo6egyIR4I%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: Pan Tadeusz
+Response URL: {
+  "created": 1729180667,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-mOowE9kDokJiD6jOgQQ0Q6GH.png?st=2024-10-17T14%3A57%3A47Z&se=2024-10-17T16%3A57%3A47Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A16%3A26Z&ske=2024-10-17T23%3A16%3A26Z&sks=b&skv=2024-08-04&sig=y1h7uNM1MmbLHyAt%2BgdDZyw7oSrwsxt9gMqKmCnmHLk%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: literatura, epoka romantyzmu, Polska, wojna, szlachta, wieś, narodowa, historia, powieść
+Response URL: {
+  "created": 1729181268,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-wLzFXTbyM030yXUybZ11SW90.png?st=2024-10-17T15%3A07%3A48Z&se=2024-10-17T17%3A07%3A48Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A00%3A06Z&ske=2024-10-17T23%3A00%3A06Z&sks=b&skv=2024-08-04&sig=0dyU3fv6ekBCRGPW89ggWykfoKWdhgkwuGuR7LpIt00%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: science fiction, mars, astronaut, red planet, alien, exploration, space suit
+Response URL: {
+  "created": 1729184826,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-56qBy2svDPXkSkYlifIgGlBa.png?st=2024-10-17T16%3A07%3A06Z&se=2024-10-17T18%3A07%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A28%3A59Z&ske=2024-10-17T23%3A28%3A59Z&sks=b&skv=2024-08-04&sig=DyKaQZp4jmeZpt26YPhqacH7wKxeYOMgcIlTZXXkQ7g%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: Pan Tadeusz, książka, literatura, epoka, Polska, romantyzm, Adam Mickiewicz, chłopi, szlachta, bitwa, polskie tradycje, obyczaje, wojna
+Response URL: {
+  "created": 1729185416,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-kaPuqpsbJlHMm4W2wDZqFCNs.png?st=2024-10-17T16%3A16%3A56Z&se=2024-10-17T18%3A16%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A19%3A17Z&ske=2024-10-17T23%3A19%3A17Z&sks=b&skv=2024-08-04&sig=6ITsxsnFO2JW2FE%2BZn%2BJ1KWvz48LLMcRYHZhBs44YW0%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: Kaczor Donald, komiks, Disney, postać fikcyjna
+Response URL: {
+  "created": 1729185532,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-SBvxYQQjkZca0lGbDgOq5Pmz.png?st=2024-10-17T16%3A18%3A52Z&se=2024-10-17T18%3A18%3A52Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A12%3A22Z&ske=2024-10-17T23%3A12%3A22Z&sks=b&skv=2024-08-04&sig=o0pqBosx5Y2ZJo%2BOJtENogEKZN88WsU5dTT7m/58RFo%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+

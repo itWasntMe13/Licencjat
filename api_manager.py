@@ -15,7 +15,7 @@ MY_API_KEY = get_api_key()
 # Klasa do obsługi API dla GPT-3.5
 class GPTPrompt:
     def __init__(self, prompt, api_key=MY_API_KEY, model="gpt-3.5-turbo", token_limit=4096):
-        openai.api_key = api_key  # Ustawienie klucza API dla OpenAI
+        openai.api_key = api_key  # Ustawienie klucza API dla openai
         self.model = model  # Model AI, w projekcie używamy GPT-3.5 Turbo
         self.token_limit = token_limit  # Limit tokenów na odpowiedź
         self.prompt = prompt  # Zapytanie do API
@@ -35,8 +35,8 @@ class GPTPrompt:
         )
 
     # Funkcja odbierająca odpowiedź i generująca informacje o zapytaniu
-    def get_gpt(self, save_to="./output_data/gpt/zapytanie", save_info=False, save_response=False, save_prompt=False):
-        self.response = self.__send_prompt()
+    def get_gpt(self, system_role="", save_to="./output_data/gpt/zapytanie", save_info=False, save_response=False, save_prompt=False):
+        self.response = self.__send_prompt(system_role)
         self.output_tokens = self.count_tokens(self.response)
         self.cost = self.__cost()
         # Zapisz informacje o zapytaniu/odpowiedzi do pliku, jeśli save_info = True
@@ -69,13 +69,13 @@ class GPTPrompt:
             print(f"Zapisano informacje w {save_to}.info.txt")
 
     # Funkcja do wysłania zapytania do API
-    def __send_prompt(self, save_debug_to='./debug_data/dalle/debug_data'):
+    def __send_prompt(self, system_role, save_debug_to='./debug_data/dalle/debug_data'):
         try:
             print(f"Wysyłanie zapytania do {self.model}...")
             response = openai.ChatCompletion.create(
                 model=self.model,
                 messages=[
-                    {"role": "system", "content": "Jesteś pisarzem streszczeń."},
+                    {"role": "system", "content": system_role},
                     {"role": "user", "content": self.prompt}
                 ],
                 max_tokens=1000,
@@ -118,7 +118,7 @@ class DALLEPrompt:
     def __init__(self, prompt, api_key=MY_API_KEY, model="dall-e-2.0", size="1024x1024", n=1,
                  save_img_to="./output_data/dalle/img/dalle_img", save_info_to="./output_data/dalle/info/dalle_info",
                  save_img=True, save_info=True, save_url=False, save_prompt=True):
-        openai.api_key = api_key  # Ustawienie klucza API dla OpenAI
+        openai.api_key = api_key  # Ustawienie klucza API dla openai
         self.model = model  # Model AI, w projekcie używamy DALL-E 2.0
         self.prompt = prompt  # Zapytanie do API
         self.size = size  # Rozmiar obrazka
@@ -245,36 +245,3 @@ class DALLEPrompt:
         elif self.model == "dall-e-3":
             if self.size == "1024":
                 return 0.01
-
-
-
-
-#     # Nazwa pliku, który chcesz otworzyć
-#     file_name = "o_dwoch_takich_co_ukradli_ksiezyc_002.txt"
-#
-#     # Otwieranie pliku i odczytywanie jego zawartości
-#     try:
-#         with open(file_name, 'r', encoding='utf-8') as file:
-#             file_content = file.read()  # Odczytanie całej zawartości pliku do zmiennej
-#
-#         # Policz tokeny w zawartości pliku
-#         file_tokens = count_tokens(file_content)
-#         print(f"Liczba tokenów w pliku: {file_tokens}")
-#
-#         # Przygotowanie promptu
-#         prompt = (
-#             "Utwórz streszczenie tekstu z pliku. Streszczenie nie może zawierać żadnych "
-#             "dodatkowych informacji, które nie są zawarte w tekście:\n\n"
-#             f"{file_content}"
-#         )
-#
-#         # Policz tokeny w prompt
-#         prompt_tokens = count_tokens(prompt)
-#         print(f"Liczba tokenów w prompt: {prompt_tokens}")
-#
-#         # Wysłanie zapytania do modelu
-#         reply = send_gpt3_5_prompt(prompt)
-#     except FileNotFoundError:
-#         print(f"Plik {file_name} nie został znaleziony.")
-#     except Exception as e:
-#         print(f"Wystąpił błąd: {e}")
