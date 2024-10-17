@@ -4,9 +4,13 @@ import requests
 import PIL.Image
 from io import BytesIO
 
-# Mój osobisty klucz API
-MY_API_KEY = "sk-dUeOCCtcjrcBJyuZ9GKGLsV8fZyS99GFWG0_FxcfBzT3BlbkFJKjap0jGwXzRMlw1FEEZZHuROU4c5EN7nFrGUTjU0UA"
+def get_api_key():
+    with open("api_key.txt", "r", encoding="utf-8") as f:
+        api_key = f.read()
+        return api_key
 
+# Mój osobisty klucz API
+MY_API_KEY = get_api_key()
 
 # Klasa do obsługi API dla GPT-3.5
 class GPTPrompt:
@@ -31,7 +35,7 @@ class GPTPrompt:
         )
 
     # Funkcja odbierająca odpowiedź i generująca informacje o zapytaniu
-    def get_gpt_response(self, save_to, save_info=False, save_response=False, save_prompt=False):
+    def get_gpt(self, save_to="./output_data/gpt/zapytanie", save_info=False, save_response=False, save_prompt=False):
         self.response = self.__send_prompt()
         self.output_tokens = self.count_tokens(self.response)
         self.cost = self.__cost()
@@ -48,23 +52,26 @@ class GPTPrompt:
 
     # Funkcja zapisująca odpowiedź do pliku (aktualnie nieużywana z uwagi na save_info)
     def __save_response(self, save_to, save_prompt=False):
-        with open(f"{save_to}.txt", "a", encoding="utf-8") as file:
+        with open(f"{save_to}_response.txt", "a", encoding="utf-8") as file:
             file.write(f"Prompt: {self.prompt}\n")
             file.write(f"Response: {self.response}\n")
             file.write("\n" + "-" * 50 + "\n\n")
+            print(f"Zapisano odpowiedź do {save_to}.response.txt")
 
     # Funkcja zapisująca odpowiedź i informacje o zapytaniu do pliku
     def __save_response_info(self, save_to):
-        with open(f"{save_to}.txt", "a", encoding="utf-8") as file:
+        with open(f"{save_to}_info.txt", "a", encoding="utf-8") as file:
             file.write(f"Response: {self.response}\n")
             file.write(f"Cost: {self.cost}\n")
             file.write(f"Input tokens: {self.input_tokens}\n")
             file.write(f"Output tokens: {self.output_tokens}\n")
             file.write("\n" + "-" * 50 + "\n\n")
+            print(f"Zapisano informacje w {save_to}.info.txt")
 
     # Funkcja do wysłania zapytania do API
-    def __send_prompt(self):
+    def __send_prompt(self, save_debug_to='./debug_data/dalle/debug_data'):
         try:
+            print(f"Wysyłanie zapytania do {self.model}...")
             response = openai.ChatCompletion.create(
                 model=self.model,
                 messages=[
@@ -76,6 +83,15 @@ class GPTPrompt:
                 stop=None,
                 temperature=0.7
             )
+            if response:
+                print("Odebrano odpowiedź...")
+
+            # Zapisanie informacji debugowania
+            with open(f"{save_debug_to}.txt", "a", encoding="utf-8") as file:
+                # Zapis response z funkcji __send_prompt
+                file.write(f"Response: {response}\n")
+                file.write("\n" + "-" * 50 + "\n\n")
+                print(f"Zapisano odpowiedź w {save_debug_to}.txt")
 
             response = response['choices'][0]['message']['content'].strip()
             return response
@@ -144,11 +160,14 @@ class DALLEPrompt:
     # Funkcja do wysłania zapytania do API
     def __send_prompt(self, save_debug_to='./debug_data/dalle/debug_data') -> dict:
         try:
+            print(f"Wysyłanie zapytania do {self.model}...")
             response = openai.Image.create(
                 prompt=self.prompt,
                 n=1,
                 size=self.size,
             )
+            if response:
+                print("Odebrano odpowiedź...")
 
             # Jeśli odpowiedź nie jest słownikiem to zwróć komunikat-przydatne do debugowania
             if not isinstance(response, dict):
@@ -159,6 +178,7 @@ class DALLEPrompt:
                 # Zapis response z funkcji __send_prompt
                 file.write(f"Response: {response}\n")
                 file.write("\n" + "-" * 50 + "\n\n")
+                print(f"Zapisano odpowiedź w {save_debug_to}.txt")
 
             return response
         except Exception as e:

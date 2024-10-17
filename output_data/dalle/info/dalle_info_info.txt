@@ -102,3 +102,16 @@ Cost: None
 
 --------------------------------------------------
 
+Prompt: Titanic at night
+Response URL: {
+  "created": 1729178058,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-AbgysnANDwGnXtzKz9yFeVKA.png?st=2024-10-17T14%3A14%3A18Z&se=2024-10-17T16%3A14%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A45%3A30Z&ske=2024-10-17T23%3A45%3A30Z&sks=b&skv=2024-08-04&sig=abnLcfZkuO5xvIWers9Ml0Y1Z/0lg4grl16qfwgfFQ8%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+

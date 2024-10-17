@@ -1,8 +1,8 @@
 Response: {
-  "created": 1727979664,
+  "created": 1729177957,
   "data": [
     {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-2IlBXoDyybBh0KT7jxKpyBnM.png?st=2024-10-03T17%3A21%3A04Z&se=2024-10-03T19%3A21%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T15%3A56%3A03Z&ske=2024-10-04T15%3A56%3A03Z&sks=b&skv=2024-08-04&sig=qFBcsxfnPJVZNxxe%2BSnz2WS9CCymo8%2BMnrrTvDQcNM8%3D"
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-sE3kVzCb6RkiSGq0JQlqV4j3.png?st=2024-10-17T14%3A12%3A37Z&se=2024-10-17T16%3A12%3A37Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A20%3A33Z&ske=2024-10-17T23%3A20%3A33Z&sks=b&skv=2024-08-04&sig=dppcQMlSO3x/FGCg3u3kFak0jUFwbMuxSjruokXp2aQ%3D"
     }
   ]
 }
@@ -10,10 +10,10 @@ Response: {
 --------------------------------------------------
 
 Response: {
-  "created": 1727979746,
+  "created": 1729178058,
   "data": [
     {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-k4AXxvvO29xxyPbz76EzyzlX.png?st=2024-10-03T17%3A22%3A26Z&se=2024-10-03T19%3A22%3A26Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A30%3A17Z&ske=2024-10-04T16%3A30%3A17Z&sks=b&skv=2024-08-04&sig=GLcUOUBAVfNg0kiDd5OQUlf2szbL2qSONbWxvRX23Is%3D"
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-AbgysnANDwGnXtzKz9yFeVKA.png?st=2024-10-17T14%3A14%3A18Z&se=2024-10-17T16%3A14%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A45%3A30Z&ske=2024-10-17T23%3A45%3A30Z&sks=b&skv=2024-08-04&sig=abnLcfZkuO5xvIWers9Ml0Y1Z/0lg4grl16qfwgfFQ8%3D"
     }
   ]
 }
@@ -21,10 +21,10 @@ Response: {
 --------------------------------------------------
 
 Response: {
-  "created": 1727979780,
+  "created": 1729178510,
   "data": [
     {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-7oCTcHAnW0HlQpIxF9scE3cz.png?st=2024-10-03T17%3A23%3A00Z&se=2024-10-03T19%3A23%3A00Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T11%3A28%3A39Z&ske=2024-10-04T11%3A28%3A39Z&sks=b&skv=2024-08-04&sig=glbIT20KWFLNHEU8sMrwBK4ZzEP51rKxHsijfN4okb0%3D"
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-SeB4SXc2XgjIcDXkZIWJM8zv.png?st=2024-10-17T14%3A21%3A50Z&se=2024-10-17T16%3A21%3A50Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A38%3A04Z&ske=2024-10-17T23%3A38%3A04Z&sks=b&skv=2024-08-04&sig=btHrPRiTGyPjv6YmlADfrNvJ53wBp50uQ/H8hwMJaLg%3D"
     }
   ]
 }
@@ -32,10 +32,10 @@ Response: {
 --------------------------------------------------
 
 Response: {
-  "created": 1727979803,
+  "created": 1729178580,
   "data": [
     {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-j4wbvl0TD8lm331trTzTy84L.png?st=2024-10-03T17%3A23%3A23Z&se=2024-10-03T19%3A23%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T12%3A35%3A34Z&ske=2024-10-04T12%3A35%3A34Z&sks=b&skv=2024-08-04&sig=At5Y6s9Wpe9JKnv4e8a0bFe8AnaoSnK%2Bb5SyS8HWj2w%3D"
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-8j9zYXhurUFZxkC8E6L6YDv1.png?st=2024-10-17T14%3A23%3A00Z&se=2024-10-17T16%3A23%3A00Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A55%3A48Z&ske=2024-10-17T23%3A55%3A48Z&sks=b&skv=2024-08-04&sig=p6ZBCe7oZs4gzKAFRtXDkiUY4qtklDtB3%2BGi6NlhFv8%3D"
     }
   ]
 }
@@ -43,10 +43,10 @@ Response: {
 --------------------------------------------------
 
 Response: {
-  "created": 1727980003,
+  "created": 1729178936,
   "data": [
     {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-30IIGKvLqwbQy1dWGvKY2MIq.png?st=2024-10-03T17%3A26%3A43Z&se=2024-10-03T19%3A26%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T01%3A38%3A52Z&ske=2024-10-04T01%3A38%3A52Z&sks=b&skv=2024-08-04&sig=BKtyOjw7wS/6vNAdUltmiQFu85kuJtbNO1wtPEQmL14%3D"
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-q8CqYlQv442kxm65oxOAL0pJ.png?st=2024-10-17T14%3A28%3A56Z&se=2024-10-17T16%3A28%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A19%3A40Z&ske=2024-10-17T23%3A19%3A40Z&sks=b&skv=2024-08-04&sig=%2B6vmbJaLfldqRG2wcSGD9YxS9lnBn2yUQOHha9rHHIw%3D"
     }
   ]
 }
@@ -54,221 +54,34 @@ Response: {
 --------------------------------------------------
 
 Response: {
-  "created": 1727980187,
-  "data": [
+  "id": "chatcmpl-AJMptdUvO0BWxjSISy3BQHmtWGuCq",
+  "object": "chat.completion",
+  "created": 1729179377,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
     {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-iybu90eu1SN8pwwNGQB1vKQ8.png?st=2024-10-03T17%3A29%3A47Z&se=2024-10-03T19%3A29%3A47Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-02T20%3A55%3A18Z&ske=2024-10-03T20%3A55%3A18Z&sks=b&skv=2024-08-04&sig=KEaGz6GA0GGEeUr931ZGpB3fMRjVDDFbsKinBwInKGM%3D"
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"W\u0142adca Pier\u015bcieni\" to epicka trylogia autorstwa J.R.R. Tolkiena, sk\u0142adaj\u0105ca si\u0119 z ksi\u0105\u017cek \"Dru\u017cyna Pier\u015bcienia\", \"Dwie Wie\u017ce\" i \"Powr\u00f3t Kr\u00f3la\". Opowiada ona histori\u0119 fantastycznego \u015bwiata \u015ar\u00f3dziemia, gdzie grupa bohater\u00f3w wyrusza w podr\u00f3\u017c, by zniszczy\u0107 pot\u0119\u017cny pier\u015bcie\u0144, kt\u00f3ry daje w\u0142adz\u0119 nad \u015bwiatem.\n\nG\u0142\u00f3wnym bohaterem jest hobbit Frodo Baggins, kt\u00f3ry zostaje wybrany do zaniechania Pier\u015bcienia w G\u00f3rach Przeznaczenia. Towarzysz\u0105 mu bracia hobbit\u00f3w Sam, Merry i Pippin, a tak\u017ce elf Legolas, krasnolud Gimli, cz\u0142owiek Aragorn i czarodziej Gandalf. Podczas podr\u00f3\u017cy musz\u0105 stawi\u0107 czo\u0142a r\u00f3\u017cnym niebezpiecze\u0144stwom, w tym Sauronowi - Czarnemu W\u0142adczy, kt\u00f3ry pragnie odzyska\u0107 Pier\u015bcie\u0144.\n\nW trakcie swojej misji bohaterowie spotykaj\u0105 wiele postaci, takich jak z\u0142owrogi Gollum czy tajemnicza Galadriela. Ostatecznie, po wielu trudach i po\u015bwi\u0119ceniach, Frodo udaje si\u0119 dotrze\u0107 do G\u00f3ry Przeznaczenia, gdzie niszczy Pier\u015bcie\u0144, pokonuj\u0105c w ten spos\u00f3b Saurona i przywracaj\u0105c pok\u00f3j do \u015ar\u00f3dziemia.\n\n\"W\u0142adca Pier\u015bcieni\" to opowie\u015b\u0107 o przyja\u017ani, odwadze, po\u015bwi\u0119ceniu i walce dobra ze z\u0142em, kt\u00f3ra sta\u0142a si\u0119 jednym z najwa\u017cniejszych dzie\u0142 literatury fantastycznej.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
     }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980389,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-eTTL5D91OZnt86dxz8bKE3JD.png?st=2024-10-03T17%3A33%3A09Z&se=2024-10-03T19%3A33%3A09Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-02T20%3A44%3A16Z&ske=2024-10-03T20%3A44%3A16Z&sks=b&skv=2024-08-04&sig=jgf6Nuo5ta2wKkIwi2%2B8%2BU9gk6khMA8IT236JSvFMAY%3D"
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 429,
+    "total_tokens": 459,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
     }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980518,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-Ye7dW63QW482RRJpOaE170PH.png?st=2024-10-03T17%3A35%3A18Z&se=2024-10-03T19%3A35%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A47%3A58Z&ske=2024-10-04T16%3A47%3A58Z&sks=b&skv=2024-08-04&sig=kYdBoflFk%2Bw1pcRpXUEhCUXhjFxAmU2BkYSoAxJoLvo%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980541,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-rLi3raAFJT3gjICUDZcaCLrk.png?st=2024-10-03T17%3A35%3A41Z&se=2024-10-03T19%3A35%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T14%3A50%3A48Z&ske=2024-10-04T14%3A50%3A48Z&sks=b&skv=2024-08-04&sig=thMMAuC5GKBYpcmkYGwmbQEaGj%2BfNIAAQKJExCZeVxs%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980596,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-ttPu9Syo5L2c2jXhnKpccNAQ.png?st=2024-10-03T17%3A36%3A36Z&se=2024-10-03T19%3A36%3A36Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T15%3A06%3A45Z&ske=2024-10-04T15%3A06%3A45Z&sks=b&skv=2024-08-04&sig=lBAQ7ADG9ZnxJddDiYOL6Cu8A6ijWR/A4lYo50ufC8k%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980627,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-fvZmwBrQJFcje07KCZj2k8Tg.png?st=2024-10-03T17%3A37%3A07Z&se=2024-10-03T19%3A37%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T14%3A03%3A11Z&ske=2024-10-04T14%3A03%3A11Z&sks=b&skv=2024-08-04&sig=47/spKO6MdtyD0jblvB4OHJxvjCGefdwaVFKxrBRkNE%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980853,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-rneIpi6HdAka5We5ix3MQjwH.png?st=2024-10-03T17%3A40%3A53Z&se=2024-10-03T19%3A40%3A53Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T14%3A33%3A43Z&ske=2024-10-04T14%3A33%3A43Z&sks=b&skv=2024-08-04&sig=ispIuxqQQrI7TSeigE8XePjivG/zFnyCSlN%2B8fbJhBI%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980936,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-b6EQuKxGXhlZt1yTPoWoeemu.png?st=2024-10-03T17%3A42%3A16Z&se=2024-10-03T19%3A42%3A16Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T02%3A20%3A11Z&ske=2024-10-04T02%3A20%3A11Z&sks=b&skv=2024-08-04&sig=Rdhuethl65BHYXi5WTdBlokUVnylUofmZ%2BLjAHdY4Zc%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727980976,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-qQNIkLTfmz4oanE3RgHcNlMQ.png?st=2024-10-03T17%3A42%3A56Z&se=2024-10-03T19%3A42%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T14%3A24%3A48Z&ske=2024-10-04T14%3A24%3A48Z&sks=b&skv=2024-08-04&sig=/sm75j8n4Zd0vuxIUgT4Canz5lUhNwTHOc9E1Rgkkds%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981077,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-CPjlvgIgc3VWwoJe0bs0Zchu.png?st=2024-10-03T17%3A44%3A37Z&se=2024-10-03T19%3A44%3A37Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-02T19%3A15%3A18Z&ske=2024-10-03T19%3A15%3A18Z&sks=b&skv=2024-08-04&sig=%2BZ/GMiF/lFh0/bB7zZhHEy5o3yRSQZNmplUFJzLAhHU%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981160,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-HGgkKTHbXN2MeMO3mVyJ4jVA.png?st=2024-10-03T17%3A46%3A00Z&se=2024-10-03T19%3A46%3A00Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A47%3A18Z&ske=2024-10-04T16%3A47%3A18Z&sks=b&skv=2024-08-04&sig=2PIM3Yh2xjyrkmJze6Ezjfp/YQZ1Z9wX%2Bv5Pa5ShPyM%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981223,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-ijiIiznqxKXiiLrYXKLT9IbR.png?st=2024-10-03T17%3A47%3A03Z&se=2024-10-03T19%3A47%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A42%3A33Z&ske=2024-10-04T16%3A42%3A33Z&sks=b&skv=2024-08-04&sig=c05pCs7qgJ36HKZFSMfI4829okE%2BF4W4M1WnpHXCdao%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981258,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-UDri4E5zBzm6iFN4refCWPHE.png?st=2024-10-03T17%3A47%3A38Z&se=2024-10-03T19%3A47%3A38Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A20%3A57Z&ske=2024-10-04T16%3A20%3A57Z&sks=b&skv=2024-08-04&sig=zNix41F2lRSDRsM619SSooz3I1MSv4OYxFpafIr/yqg%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981357,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-31vXU0uxkoLtQ4K1s7VghEdX.png?st=2024-10-03T17%3A49%3A17Z&se=2024-10-03T19%3A49%3A17Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T15%3A55%3A04Z&ske=2024-10-04T15%3A55%3A04Z&sks=b&skv=2024-08-04&sig=RicrqhDjohfdlA8bmquE9zkCRWNeWR/%2BdLWXiMDJ8OE%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981424,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-Im2eMlTKHZPX0isSr65VNzlv.png?st=2024-10-03T17%3A50%3A24Z&se=2024-10-03T19%3A50%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T12%3A45%3A38Z&ske=2024-10-04T12%3A45%3A38Z&sks=b&skv=2024-08-04&sig=4101jMGlcTRZeKwUnYcqx31mqkWfpGC/rW33HQgYbQY%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981582,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-6aBs1iITDqwQ5zjQ5bCNxOLm.png?st=2024-10-03T17%3A53%3A02Z&se=2024-10-03T19%3A53%3A02Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T14%3A51%3A29Z&ske=2024-10-04T14%3A51%3A29Z&sks=b&skv=2024-08-04&sig=JIYb5i47rZosD0zTdnjyNvjqORHqzXT0rVoz1Kfoa1s%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981831,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-vtcGA4bMIq2bF6vzMXBS6zI0.png?st=2024-10-03T17%3A57%3A11Z&se=2024-10-03T19%3A57%3A11Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T00%3A43%3A03Z&ske=2024-10-04T00%3A43%3A03Z&sks=b&skv=2024-08-04&sig=1d5bNakSmE6mfWL8BZZfHiz/ICwIuMZ8oUQe2YShiNI%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727981949,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-88puad4MAKBd45nwBCo0KlkI.png?st=2024-10-03T17%3A59%3A09Z&se=2024-10-03T19%3A59%3A09Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A55%3A03Z&ske=2024-10-04T16%3A55%3A03Z&sks=b&skv=2024-08-04&sig=8YvJ4cXuwNkDI7d%2BnHBf53ShZ4Pf6OQBwcqgIIY95ZY%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727982025,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-3XWaVKpbtLXJiOsneaoT1emN.png?st=2024-10-03T18%3A00%3A25Z&se=2024-10-03T20%3A00%3A25Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-02T19%3A32%3A09Z&ske=2024-10-03T19%3A32%3A09Z&sks=b&skv=2024-08-04&sig=XJhAcdi/dUE10YJkGFxxUl45XLWT4iyjU8InroQGy5Y%3D"
-    }
-  ]
-}
-
---------------------------------------------------
-
-Response: {
-  "created": 1727982485,
-  "data": [
-    {
-      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-kapc86Pl2ONrH0DGJujaNDOz.png?st=2024-10-03T18%3A08%3A05Z&se=2024-10-03T20%3A08%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-03T16%3A41%3A34Z&ske=2024-10-04T16%3A41%3A34Z&sks=b&skv=2024-08-04&sig=6ziwlJD/sfmb9yPzSgahjbECxzF1dX6Nox8fLlgOgXI%3D"
-    }
-  ]
+  },
+  "system_fingerprint": null
 }
 
 --------------------------------------------------
