@@ -1,0 +1,165 @@
+2024-10-17 23:19:54.123492
+Prompt: więzienie, zieleń, film, drzewa, więźniowie, światło, niebieskie chodniki, więzienne ogrodzenie
+Response: {
+  "created": 1729199994,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-9VZZjeeNMBC6omJ3UCiTSOnc.png?st=2024-10-17T20%3A19%3A54Z&se=2024-10-17T22%3A19%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A32%3A20Z&ske=2024-10-17T23%3A32%3A20Z&sks=b&skv=2024-08-04&sig=dHg9HbPnfqwGtQrNYQR6Sv2o4w9Wej877N4EPusnDWE%3D"
+    }
+  ]
+}2024-10-17 23:22:48.079874
+Prompt: więzienie, zielony, mila, okładka, książka
+Response: {
+  "created": 1729200168,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-0hlzsGg4IGaRLWPRMsqfNony.png?st=2024-10-17T20%3A22%3A48Z&se=2024-10-17T22%3A22%3A48Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A22%3A38Z&ske=2024-10-17T23%3A22%3A38Z&sks=b&skv=2024-08-04&sig=PdUx06cG2vlpC4IiVZW4YOkUWAiqBItA8RAVH4duKZs%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:10:05.463650
+Prompt: książka, więzienie, zieleń, długa droga, noc, latarnia, więzień, strażnik, emocje, nadzieja
+Response: {
+  "created": 1729203005,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-YQA96nBaas1ZMYm9tzD7Dige.png?st=2024-10-17T21%3A10%3A05Z&se=2024-10-17T23%3A10%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A16%3A51Z&ske=2024-10-17T23%3A16%3A51Z&sks=b&skv=2024-08-04&sig=q/lp2wj79R0j236gVyJNQ52hqfxe9b7tGr6Mt3f4wq8%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:22:22.057750
+Prompt: więzienie, zielony, droga, noc, latarnia
+Response: {
+  "created": 1729203742,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-1mhZP4BF9I4v9DNVeGBqHle4.png?st=2024-10-17T21%3A22%3A22Z&se=2024-10-17T23%3A22%3A22Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A26%3A54Z&ske=2024-10-17T23%3A26%3A54Z&sks=b&skv=2024-08-04&sig=6p9zxcMBg%2BJLbTKzBt0iBSWVlb064UUqyLpi2TbdLXQ%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:24:08.455668
+Prompt: książka, więzienie, zielony, droga, nadzieja, nieskończoność
+Response: {
+  "created": 1729203848,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-cpTn6XpU5iWDKG9DFiKqmMkh.png?st=2024-10-17T21%3A24%3A08Z&se=2024-10-17T23%3A24%3A08Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A11%3A59Z&ske=2024-10-17T23%3A11%3A59Z&sks=b&skv=2024-08-04&sig=AG1ECzBVEj/R9lnazC5EfNWknR0OcNrXFJzBp9VYK0Q%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:26:10.477379
+Prompt: książka, więzienie, zieleń, nieskończoność, emocje
+Response: {
+  "created": 1729203970,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-ZjJKHQ3Hm6Ir2qKyNBBab6W1.png?st=2024-10-17T21%3A26%3A10Z&se=2024-10-17T23%3A26%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A14%3A48Z&ske=2024-10-17T23%3A14%3A48Z&sks=b&skv=2024-08-04&sig=2l7zL6RsKxGuzR%2B4SRX1ch0ieAabD3CgUYblAyld%2BO0%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:27:11.936460
+Prompt: książka, zieleń, więzienie, światło, emocje
+Response: {
+  "created": 1729204032,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-4yiPdwbEwD7rTaaZWt85dDP1.png?st=2024-10-17T21%3A27%3A12Z&se=2024-10-17T23%3A27%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A14%3A58Z&ske=2024-10-17T23%3A14%3A58Z&sks=b&skv=2024-08-04&sig=S5E6nhxTqlCCbgugOm18TlgpS4D8cl7Sv/vpUqHdhYU%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:28:30.142201
+Prompt: więzienie, zieleń, skazańcy, nadzieja, więzień, cierpienie, męczennik, kara, czarna dziewczyna, afroamerykanin
+Response: {
+  "created": 1729204110,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-4rMH8IsFfVCHOY8wqHTl97BX.png?st=2024-10-17T21%3A28%3A30Z&se=2024-10-17T23%3A28%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T18%3A41%3A46Z&ske=2024-10-18T18%3A41%3A46Z&sks=b&skv=2024-08-04&sig=gAAuDgpUEtd8FN7bbSUDc1g4ey6tR0H%2BimPLlxkHMhU%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:30:07.292853
+Prompt: więzienie, zieleń, mila, książka, nieskończoność, dramat
+Response: {
+  "created": 1729204207,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-AxHi5YiKVRwjkXQneQm3uIoo.png?st=2024-10-17T21%3A30%3A07Z&se=2024-10-17T23%3A30%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A20%3A53Z&ske=2024-10-17T23%3A20%3A53Z&sks=b&skv=2024-08-04&sig=f8auWgS1EHpOAZv1Svdpl4X5HeQ5aUCR1OkAfZTyDvQ%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:32:42.831250
+Prompt: książka, więzienie, zieleń, droga, nieskończoność
+Response: {
+  "created": 1729204362,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-A2lVrdyPO0HRsrCN4us0LYqC.png?st=2024-10-17T21%3A32%3A42Z&se=2024-10-17T23%3A32%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A20%3A09Z&ske=2024-10-17T23%3A20%3A09Z&sks=b&skv=2024-08-04&sig=uka0DJANFLiRwkZ0W3rkBkxQCV2HE2JTeBo2COSfUAU%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:33:52.431819
+Prompt: literatura, książka, więzienie, zieleń, natura
+Response: {
+  "created": 1729204432,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-I19TXegWW0pDH6CPfiB7TGik.png?st=2024-10-17T21%3A33%3A52Z&se=2024-10-17T23%3A33%3A52Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T18%3A17%3A05Z&ske=2024-10-18T18%3A17%3A05Z&sks=b&skv=2024-08-04&sig=ImTLoddH%2BefFvt9Wyk0oWYo0ECR1wPg75Ow4SQjFh1Q%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:35:05.396977
+Prompt: książka, więzienie, zielony, droga, noc, latarnia, emocje
+Response: {
+  "created": 1729204505,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-kFV9OCkd7A7fCIcnBACFVpI3.png?st=2024-10-17T21%3A35%3A05Z&se=2024-10-17T23%3A35%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A16%3A59Z&ske=2024-10-17T23%3A16%3A59Z&sks=b&skv=2024-08-04&sig=wReL4QnAPvkOHgSYVRRdIw258jsSOTTA6RhotneS08Q%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:36:28.419538
+Prompt: magia, czarodziej, Hogwarts, książka, fantasy, magiczny, wiedźma, eliksir
+Response: {
+  "created": 1729204588,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-C6W4kutIuFlJ8iMzsL5vA5P4.png?st=2024-10-17T21%3A36%3A28Z&se=2024-10-17T23%3A36%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A09%3A14Z&ske=2024-10-17T23%3A09%3A14Z&sks=b&skv=2024-08-04&sig=tp9mXTYJTKkStxJv5gpN%2Bkj1gBaCnmYRq1ggIVKI1zA%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 00:39:32.301198
+Prompt: magia, czarodziej, książka, fantasy, czarodziejska szkoła, różdżka, hogwart, magia, czarny kocioł
+Response: {
+  "created": 1729204772,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-zBG4sz87McCRaknMHxA4hXYu.png?st=2024-10-17T21%3A39%3A32Z&se=2024-10-17T23%3A39%3A32Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A08%3A26Z&ske=2024-10-17T23%3A08%3A26Z&sks=b&skv=2024-08-04&sig=3Xyw2xu8hrZzbhM8Opfim9%2BQQdkHUTaULUPV/LzOQFI%3D"
+    }
+  ]
+}
+--------------------------------------------------
+

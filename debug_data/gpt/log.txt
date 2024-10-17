@@ -1,0 +1,953 @@
+2024-10-17 23:19:41.741626
+2024-10-17 23:22:34.896809
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJSEyPhzkbeGiCBJsvskFMikWgaiO",
+  "object": "chat.completion",
+  "created": 1729200152,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o wi\u0119\u017aniu imieniem Paul Edgecombe, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddziale pojawia si\u0119 olbrzym o imieniu John Coffey, skazany za gwa\u0142t i morderstwo dw\u00f3ch dziewczynek. Paul z czasem przekonuje si\u0119, \u017ce John jest niewinny i posiada niezwyk\u0142e zdolno\u015bci uzdrawiania innych. W miar\u0119 jak przyja\u017a\u0144 mi\u0119dzy nimi kwitnie, Paul zaczyna kwestionowa\u0107 etyk\u0119 i sprawiedliwo\u015b\u0107 systemu wi\u0119zienniczego. Ostatecznie historia ta prowadzi do wzruszaj\u0105cego i nieoczekiwanego zako\u0144czenia, kt\u00f3re pozostawia czytelnika z refleksj\u0105 na temat dobra i z\u0142a, przeznaczenia i mi\u0142o\u015bci.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 225,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-17 23:22:35.439434
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJSF1tO5XxVPISpcOyGrYWRDC7L12",
+  "object": "chat.completion",
+  "created": 1729200155,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "wi\u0119zienie, zielony, mila, ok\u0142adka, ksi\u0105\u017cka",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 18,
+    "total_tokens": 108,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:09:49.315733
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJSyhrdT7eGq6IZWAhM1AX232NCl3",
+  "object": "chat.completion",
+  "created": 1729202987,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o wi\u0119\u017aniu imieniem Paul Edgecombe, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddziale pojawia si\u0119 John Coffey - skazany na \u015bmier\u0107 za gwa\u0142t i morderstwo dw\u00f3ch ma\u0142ych dziewczynek. Paul odkrywa, \u017ce John posiada niezwyk\u0142e zdolno\u015bci uzdrawiania innych os\u00f3b i stopniowo zaczyna w niego wierzy\u0107. W miar\u0119 jak historia si\u0119 rozwija, Paul staje przed trudnym wyborem moralnym, gdy\u017c wie, \u017ce John jest niewinny. Ksi\u0105\u017cka porusza tematy takie jak dobro i z\u0142o, sprawiedliwo\u015b\u0107 i przebaczenie, a tak\u017ce ludzk\u0105 natur\u0119 i si\u0142\u0119 wsp\u00f3\u0142czucia.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 208,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:09:50.040697
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJSyjRUpvcOVpQVsMyhKccp7e2akr",
+  "object": "chat.completion",
+  "created": 1729202989,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ksi\u0105\u017cka, wi\u0119zienie, ziele\u0144, d\u0142uga droga, noc, latarnia, wi\u0119zie\u0144, stra\u017cnik, emocje, nadzieja",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 38,
+    "total_tokens": 128,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:22:08.495842
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTAcLuZ0OXhzFaswe5EsCiqO3NxI",
+  "object": "chat.completion",
+  "created": 1729203726,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o m\u0119\u017cczy\u017anie o imieniu Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddziale pojawia si\u0119 wi\u0119zie\u0144 o imieniu John Coffey, skazany za gwa\u0142t i morderstwo dw\u00f3ch ma\u0142ych dziewczynek. W miar\u0119 jak Paul poznaje Johna, zaczyna wierzy\u0107 w jego niewinno\u015b\u0107, poniewa\u017c odkrywa, \u017ce m\u0119\u017cczyzna posiada niezwyk\u0142e zdolno\u015bci uzdrawiania. Historia skupia si\u0119 na relacji mi\u0119dzy stra\u017cnikiem a skaza\u0144cem oraz na tematach dobra, z\u0142a, sprawiedliwo\u015bci i przeznaczenia.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 190,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:22:08.994387
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTAfBgLzNlLEu5alQ09uVs2g18DT",
+  "object": "chat.completion",
+  "created": 1729203729,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "wi\u0119zienie, zielony, droga, noc, latarnia",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 16,
+    "total_tokens": 106,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:23:57.665223
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTCNP0XQVu8v9MjGpiMaOFPn2xQL",
+  "object": "chat.completion",
+  "created": 1729203835,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o wi\u0119\u017aniu imieniem Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddziale pojawia si\u0119 olbrzym o imieniu John Coffey, skazany za gwa\u0142t i morderstwo dw\u00f3ch dziewczynek. Paul stopniowo odkrywa, \u017ce John posiada niezwyk\u0142e zdolno\u015bci uzdrawiania innych ludzi. W miar\u0119 jak wi\u0119\u017aniowie oraz personel wi\u0119zienny poznaj\u0105 Johna, zaczynaj\u0105 wierzy\u0107 w jego niewinno\u015b\u0107 i dobro\u0107. Jednak, pomimo pr\u00f3b ratowania Johna przed \u015bmierci\u0105 na krze\u015ble elektrycznym, ostatecznie zostaje stracony. Historia ta porusza tematy dobra i z\u0142a, niesprawiedliwo\u015bci oraz si\u0142y ludzkiego wsp\u00f3\u0142czucia.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 226,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:23:58.250848
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTCQ8nNW5KCdcwJuJ0OIQUf7gVHe",
+  "object": "chat.completion",
+  "created": 1729203838,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ksi\u0105\u017cka, wi\u0119zienie, zielony, droga, nadzieja, niesko\u0144czono\u015b\u0107",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 26,
+    "total_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:25:57.166711
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTEJp6DE0ZuhgZEg6mVlB1Bj8iGk",
+  "object": "chat.completion",
+  "created": 1729203955,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o m\u0119\u017cczy\u017anie o imieniu Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddziale pojawia si\u0119 olbrzymi czarnosk\u00f3ry skazaniec o imieniu John Coffey, skazany za gwa\u0142t i morderstwo dw\u00f3ch ma\u0142ych dziewczynek. Paul z czasem odkrywa, \u017ce John posiada niezwyk\u0142e zdolno\u015bci uzdrawiania i ma dar cudownego leczenia innych ludzi. W miar\u0119 jak wi\u0119\u017a mi\u0119dzy nimi si\u0119 pog\u0142\u0119bia, Paul zaczyna w\u0105tpi\u0107 w win\u0119 Johna i staje wobec trudnego wyboru mi\u0119dzy moralno\u015bci\u0105 a lojalno\u015bci\u0105 wobec prawa. Ksi\u0105\u017cka porusza tematyk\u0119 dobra i z\u0142a, sprawiedliwo\u015bci i przeznaczenia, oraz si\u0142y mi\u0142o\u015bci i wybaczania.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 241,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:25:57.924973
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTELjzQFj0YC3XCgfccVuhICxRJ1",
+  "object": "chat.completion",
+  "created": 1729203957,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ksi\u0105\u017cka, wi\u0119zienie, ziele\u0144, niesko\u0144czono\u015b\u0107, emocje",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 22,
+    "total_tokens": 112,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:26:59.717988
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTFJEzw7ap5BDzrHfPVhf6UJ6tbw",
+  "object": "chat.completion",
+  "created": 1729204017,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o m\u0119\u017cczy\u017anie o imieniu Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddzia\u0142 trafia olbrzym o imieniu John Coffey, skazany za gwa\u0142t i morderstwo dw\u00f3ch ma\u0142ych dziewczynek. Stopniowo Paul zaczyna w\u0105tpi\u0107 w win\u0119 Johna i odkrywa, \u017ce ma on niezwyk\u0142e zdolno\u015bci uzdrawiania innych ludzi. W miar\u0119 jak historia si\u0119 rozwija, Paul staje w obliczu trudnych decyzji moralnych i musi zmierzy\u0107 si\u0119 z w\u0142asnymi przekonaniami. \"Zielona mila\" porusza tematy takie jak dobro, z\u0142o, sprawiedliwo\u015b\u0107 i ludzka natura.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 208,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:27:00.191099
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTFM0vX9VM1XfPHoznAmgD62n3ir",
+  "object": "chat.completion",
+  "created": 1729204020,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ksi\u0105\u017cka, ziele\u0144, wi\u0119zienie, \u015bwiat\u0142o, emocje",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 18,
+    "total_tokens": 108,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:28:15.646987
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTGXMXcabqMhPpLUKSJenSatfMEu",
+  "object": "chat.completion",
+  "created": 1729204093,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o m\u0119\u017cczy\u017anie o imieniu Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na korytarz \u015bmierci trafia olbrzymi czarnosk\u00f3ry skazaniec John Coffey, oskar\u017cony o brutalne morderstwo dw\u00f3ch ma\u0142ych dziewczynek. Paul z czasem dowiaduje si\u0119, \u017ce John posiada niezwyk\u0142e zdolno\u015bci uzdrawiania i ma dar pomagania innym. Wkr\u00f3tce okazuje si\u0119, \u017ce John jest niewinny i zosta\u0142 skazany za zbrodni\u0119, kt\u00f3rej nie pope\u0142ni\u0142. Paul postanawia pom\u00f3c Johnowi dowiedzie\u0107 si\u0119 prawdy i zmieni\u0107 jego los. Historia porusza tematy takie jak dobro, z\u0142o, sprawiedliwo\u015b\u0107 i mi\u0142osierdzie, pozostawiaj\u0105c czytelnikowi wiele refleksji na temat ludzkiej natury.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 249,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:28:16.449768
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTGaIEdj1Wk9U1Yx3z5YT1WgniaH",
+  "object": "chat.completion",
+  "created": 1729204096,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "wi\u0119zienie, ziele\u0144, skaza\u0144cy, nadzieja, wi\u0119zie\u0144, cierpienie, m\u0119czennik, kara, czarna dziewczyna, afroamerykanin",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 46,
+    "total_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:29:53.326848
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTI67oPEyrjgzk9qfN7zCWnSi9zC",
+  "object": "chat.completion",
+  "created": 1729204190,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o wi\u0119\u017aniu o imieniu Paul Edgecombe, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu stanowym Cold Mountain. Pewnego dnia na skazanego za gwa\u0142t i morderstwo trafia olbrzym o imieniu John Coffey, kt\u00f3ry okazuje si\u0119 by\u0107 niewinnie skazany. Paul zaczyna w\u0105tpi\u0107 w win\u0119 Johna i odkrywa, \u017ce ten posiada niezwyk\u0142e uzdrowicielskie moce. W miar\u0119 jak historia Johna si\u0119 rozwija, Paul staje si\u0119 \u015bwiadkiem niesprawiedliwo\u015bci i okrucie\u0144stwa systemu wi\u0119ziennego. Ksi\u0105\u017cka porusza tematy takie jak dobro, z\u0142o, nadzieja i ludzkie relacje.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 194,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:29:54.169287
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTIAknRD8uBFNoFQXL2g3liwUiae",
+  "object": "chat.completion",
+  "created": 1729204194,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "wi\u0119zienie, ziele\u0144, mila, ksi\u0105\u017cka, niesko\u0144czono\u015b\u0107, dramat",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 25,
+    "total_tokens": 115,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:32:30.602316
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTKdxgIFbta0fzajDEXfhqcyYIex",
+  "object": "chat.completion",
+  "created": 1729204347,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o wi\u0119\u017aniu o imieniu Paul Edgecombe, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. G\u0142\u00f3wny bohater staje w obliczu moralnego dylematu, gdy na jego oddziale pojawia si\u0119 olbrzym o imieniu John Coffey, skazany na \u015bmier\u0107 za gwa\u0142t i morderstwo dw\u00f3ch ma\u0142ych dziewczynek. Paul stopniowo przekonuje si\u0119, \u017ce John jest niewinny i posiada nadnaturalne zdolno\u015bci uzdrawiania. W miar\u0119 jak przyja\u017a\u0144 mi\u0119dzy stra\u017cnikiem a skaza\u0144cem si\u0119 pog\u0142\u0119bia, Paul musi zmierzy\u0107 si\u0119 z systemem karnym i wybra\u0107 mi\u0119dzy wykonaniem kary \u015bmierci a walcz\u0105c z niesprawiedliwo\u015bci\u0105. \"Zielona mila\" porusza tematyk\u0119 dobra i z\u0142a, kary \u015bmierci, nadziei i przeznaczenia.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 246,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:32:31.552025
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTKhJd8783FAs2BnLSdun6yK21My",
+  "object": "chat.completion",
+  "created": 1729204351,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ksi\u0105\u017cka, wi\u0119zienie, ziele\u0144, droga, niesko\u0144czono\u015b\u0107",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 22,
+    "total_tokens": 112,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:33:38.969382
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTLkj10jlq3Y8JEpew4beGPKeVmH",
+  "object": "chat.completion",
+  "created": 1729204416,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to powie\u015b\u0107 autorstwa Stephena Kinga, opowiadaj\u0105ca histori\u0119 wi\u0119\u017ania o imieniu Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. G\u0142\u00f3wnym tematem ksi\u0105\u017cki jest relacja mi\u0119dzy Paul'em a wi\u0119\u017aniem o nadprzyrodzonych zdolno\u015bciach, Johnem Coffey'em, skazanym na \u015bmier\u0107 za gwa\u0142t i morderstwo dw\u00f3ch dziewczynek. W miar\u0119 jak Paul poznaje Johna i jego niewinno\u015b\u0107, zaczyna si\u0119 zastanawia\u0107 nad moralno\u015bci\u0105 kary \u015bmierci i sprawiedliwo\u015bci\u0105 systemu wi\u0119ziennictwa. Powie\u015b\u0107 porusza g\u0142\u0119bokie tematy, takie jak dobro, z\u0142o, przebaczenie i nadzieja, pozostawiaj\u0105c czytelnika z refleksj\u0105 nad ludzk\u0105 natur\u0105 i warto\u015bciami.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 229,
+    "total_tokens": 271,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:33:39.736064
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTLnwd519dBK5wYaouUDhC1fXHDp",
+  "object": "chat.completion",
+  "created": 1729204419,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "literatura, ksi\u0105\u017cka, wi\u0119zienie, ziele\u0144, natura",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 17,
+    "total_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:34:52.320583
+Prompt: Zielona mila
+Response: {
+  "id": "chatcmpl-AJTMwSCuZE6qNb8iySAcafFTbd7Ku",
+  "object": "chat.completion",
+  "created": 1729204490,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Zielona mila\" to opowie\u015b\u0107 o m\u0119\u017cczy\u017anie o imieniu Paul Edgecomb, kt\u00f3ry pracuje jako stra\u017cnik w wi\u0119zieniu Cold Mountain. Jego \u017cycie zmienia si\u0119, gdy na jego oddziale pojawia si\u0119 niesamowity wi\u0119zie\u0144 o imieniu John Coffey, skazany za gwa\u0142t i morderstwo dw\u00f3ch ma\u0142ych dziewczynek. Paul stopniowo odkrywa, \u017ce John posiada niezwyk\u0142e zdolno\u015bci uzdrawiania i ma dobro\u0107 w swoim sercu. W miar\u0119 jak relacje mi\u0119dzy stra\u017cnikiem a wi\u0119\u017aniem si\u0119 rozwijaj\u0105, Paul zaczyna kwestionowa\u0107 sprawiedliwo\u015b\u0107 systemu karania i musi podj\u0105\u0107 trudne decyzje dotycz\u0105ce przysz\u0142o\u015bci Johna. \"Zielona mila\" porusza tematy moralno\u015bci, dobroci i przeznaczenia, pozostawiaj\u0105c czytelnika z g\u0142\u0119bokimi refleksjami na temat ludzkiej natury.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 254,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:34:53.008168
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Zielona milaW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTMyW11hEYukiFT5jj5wwQCO4Vkg",
+  "object": "chat.completion",
+  "created": 1729204492,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ksi\u0105\u017cka, wi\u0119zienie, zielony, droga, noc, latarnia, emocje",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 23,
+    "total_tokens": 113,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:35:52.326043
+Prompt: Mein Kampf
+Response: {
+  "id": "chatcmpl-AJTNvqM0avhH3j6IqId9J9REgNlvF",
+  "object": "chat.completion",
+  "created": 1729204551,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Mein Kampf\" to autobiograficzna ksi\u0105\u017cka napisana przez Adolfa Hitlera, lidera nazistowskich Niemiec. Ksi\u0105\u017cka ta zawiera zar\u00f3wno autobiografi\u0119 Hitlera, jak i jego ideologie polityczne, rasistowskie przekonania oraz plany dotycz\u0105ce ekspansji terytorialnej i przej\u0119cia kontroli nad Europ\u0105. \"Mein Kampf\" odegra\u0142a istotn\u0105 rol\u0119 w propagowaniu ideologii nazistowskiej oraz przygotowaniu spo\u0142ecze\u0144stwa niemieckiego do przyj\u0119cia rz\u0105d\u00f3w Hitlera.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 147,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:35:52.845403
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Mein KampfW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTNwkQoq3sqF7obgoQbito206D0c",
+  "object": "chat.completion",
+  "created": 1729204552,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- ksi\u0105\u017cka\n- nazizm\n- historia\n- polityka\n- Adolf Hitler",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 21,
+    "total_tokens": 110,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:36:17.588000
+Prompt: Harry Potter
+Response: {
+  "id": "chatcmpl-AJTOKDCo9S4nleShBftWgql2qDb6v",
+  "object": "chat.completion",
+  "created": 1729204576,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Harry Potter\" to seria ksi\u0105\u017cek autorstwa J.K. Rowling, sk\u0142adaj\u0105ca si\u0119 z siedmiu tom\u00f3w. Opowiada ona histori\u0119 m\u0142odego czarodzieja, Harry'ego Pottera, kt\u00f3ry odkrywa, \u017ce jest czarodziejem i zostaje przyj\u0119ty do Szko\u0142y Magii i Czarodziejstwa Hogwart. Harry wraz z przyjaci\u00f3\u0142mi, Hermion\u0105 i Ronem, prze\u017cywa liczne przygody, walcz\u0105c ze z\u0142ym czarnoksi\u0119\u017cnikiem Lordem Voldemortem. Seria opowiada o przyja\u017ani, odwadze i sile mi\u0142o\u015bci oraz o walce dobra ze z\u0142em.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 165,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:36:18.192305
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Harry PotterW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTOMmhuqBBZH7HwDSdyMEp9gN335",
+  "object": "chat.completion",
+  "created": 1729204578,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "magia, czarodziej, Hogwarts, ksi\u0105\u017cka, fantasy, magiczny, wied\u017ama, eliksir",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 28,
+    "total_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:39:20.547039
+Prompt: Harry Potter
+Response: {
+  "id": "chatcmpl-AJTRGXSIDwx058t9N35xI0v7hV53g",
+  "object": "chat.completion",
+  "created": 1729204758,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Harry Potter\" to seria siedmiu ksi\u0105\u017cek autorstwa J.K. Rowling, opowiadaj\u0105ca histori\u0119 m\u0142odego czarodzieja Harry'ego Pottera. G\u0142\u00f3wny bohater dowiaduje si\u0119 w swoich jedenastych urodzinach, \u017ce jest czarodziejem i zostaje zaproszony do Szko\u0142y Magii i Czarodziejstwa Hogwart. Tam poznaje przyjaci\u00f3\u0142 Ronalda Weasleya i Hermion\u0119 Granger, a tak\u017ce walczy z Lordem Voldemortem, czarnoksi\u0119\u017cnikiem, kt\u00f3ry zabi\u0142 jego rodzic\u00f3w. Seria ksi\u0105\u017cek opowiada o przygodach Harry'ego, jego rozwoju jako czarodzieja oraz o walce dobra ze z\u0142em.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 181,
+    "total_tokens": 220,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 00:39:21.491007
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Harry PotterW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJTRJOAAm53Uontk6cO47PLWCLBhu",
+  "object": "chat.completion",
+  "created": 1729204761,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "magia, czarodziej, ksi\u0105\u017cka, fantasy, czarodziejska szko\u0142a, r\u00f3\u017cd\u017cka, hogwart, magia, czarny kocio\u0142",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 41,
+    "total_tokens": 129,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+

@@ -20,7 +20,10 @@ if __name__ == '__main__':
     # Tworzymy prompt do API DALL-E
     # prompt = "Władca Pierścieni"
     # prompt = "Titanic at night"
-    title = "Kaczor Donald"
+    # title = "Kaczor Donald"
+    # title = "Zielona mila"
+    # title = "Mein Kampf" # ma blokadę :)
+    title = "Harry Potter"
     gpt_to_dalle_prompt = (f"Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: {title}"
                            f"W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.")
 

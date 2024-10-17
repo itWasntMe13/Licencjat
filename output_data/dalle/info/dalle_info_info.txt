@@ -193,3 +193,294 @@ Cost: 0.01
 
 --------------------------------------------------
 
+Prompt: Kaczor Donald, komiks, Disney, postać fikcyjna, animowany
+Response URL: {
+  "created": 1729195995,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-zqqxh9bWvLtSLcGKpqsamX6q.png?st=2024-10-17T19%3A13%3A15Z&se=2024-10-17T21%3A13%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A47%3A45Z&ske=2024-10-17T23%3A47%3A45Z&sks=b&skv=2024-08-04&sig=T1l6cWge9edDAghHiZxlW3v6dZovEex9%2BRKPss9Unvw%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: cartoon, comedy, animated, characters, television, satire
+Response URL: {
+  "created": 1729197804,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-tQZeYrchqme9aU6d8uqTZqeG.png?st=2024-10-17T19%3A43%3A24Z&se=2024-10-17T21%3A43%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A58%3A24Z&ske=2024-10-17T23%3A58%3A24Z&sks=b&skv=2024-08-04&sig=DQAQH459wHy8uPQFOvMDBzMo%2BoN4K18cU%2BIz6GUZ7ZM%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+Prompt: Batman, superbohater, ciemność, mroczny, Gotham City, maska, kryptonim, obrońca, wieżowiec, noc
+Response URL: {
+  "created": 1729198030,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-k1vM9V1LJOb99CXxFhgh29QY.png?st=2024-10-17T19%3A47%3A10Z&se=2024-10-17T21%3A47%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A14%3A05Z&ske=2024-10-17T23%3A14%3A05Z&sks=b&skv=2024-08-04&sig=K0ZBywo23awAGgSg2vmXRJnMOCZseBkvG9xCyfzF89Y%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-17 23:04:17.914187
+Prompt: superbohater, komiks, mroczny, Gotham City, maska, potwór, noc, wieżowiec, dynamiczny, akcja
+Response URL: {
+  "created": 1729199055,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-nFMJbGoKQRbZJm0bXvlft9q3.png?st=2024-10-17T20%3A04%3A15Z&se=2024-10-17T22%3A04%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A08%3A13Z&ske=2024-10-17T23%3A08%3A13Z&sks=b&skv=2024-08-04&sig=cgeaKwKP/YMg9Bh6R30dLltk3RtkoJbZtKrQQ4ajKSw%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-17 23:13:46.418895
+Prompt: superbohater, Batman, mroczne, Gotham City, znak, sylwetka, niesamowity, komiks, maska, karta graficzna
+Response URL: {
+  "created": 1729199623,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-DjLafc914xxBEPTg486PVqX8.png?st=2024-10-17T20%3A13%3A43Z&se=2024-10-17T22%3A13%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A14%3A58Z&ske=2024-10-17T23%3A14%3A58Z&sks=b&skv=2024-08-04&sig=CWWFeaAWL%2BpXtFjYFr/SplUl9%2B8G%2BUKNbwFjLeCqYcY%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-17 23:15:33.642182
+Prompt: superhero, DC Comics, vigilante, Gotham City, night, mask, cape, symbol, dark, justice
+Response URL: {
+  "created": 1729199730,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-J0s6Gt1VzWKNsoYBtzM4r20h.png?st=2024-10-17T20%3A15%3A30Z&se=2024-10-17T22%3A15%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A15%3A27Z&ske=2024-10-17T23%3A15%3A27Z&sks=b&skv=2024-08-04&sig=QUnPRkQCDAz5Snxib1%2Bi85E1LRrWx8mE7wh6WhOvBzs%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-17 23:16:53.899557
+Prompt: superbohater, mroczny, maska, miasto, samochód, niesamowity, noc, dynamiczny, silny, tajemniczy
+Response URL: {
+  "created": 1729199810,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-EvTutAftVW4iSpCeuL814aZ8.png?st=2024-10-17T20%3A16%3A50Z&se=2024-10-17T22%3A16%3A50Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T18%3A15%3A29Z&ske=2024-10-18T18%3A15%3A29Z&sks=b&skv=2024-08-04&sig=aE%2BJBt/C7GTlUVtDbw0FMOnycSKWUil19ZrOnbvvl1k%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-17 23:20:01.606765
+Prompt: więzienie, zieleń, film, drzewa, więźniowie, światło, niebieskie chodniki, więzienne ogrodzenie
+Response URL: {
+  "created": 1729199994,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-9VZZjeeNMBC6omJ3UCiTSOnc.png?st=2024-10-17T20%3A19%3A54Z&se=2024-10-17T22%3A19%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A32%3A20Z&ske=2024-10-17T23%3A32%3A20Z&sks=b&skv=2024-08-04&sig=dHg9HbPnfqwGtQrNYQR6Sv2o4w9Wej877N4EPusnDWE%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-17 23:22:49.782801
+Prompt: więzienie, zielony, mila, okładka, książka
+Response URL: {
+  "created": 1729200168,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-0hlzsGg4IGaRLWPRMsqfNony.png?st=2024-10-17T20%3A22%3A48Z&se=2024-10-17T22%3A22%3A48Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A22%3A38Z&ske=2024-10-17T23%3A22%3A38Z&sks=b&skv=2024-08-04&sig=PdUx06cG2vlpC4IiVZW4YOkUWAiqBItA8RAVH4duKZs%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:10:09.063878
+Prompt: książka, więzienie, zieleń, długa droga, noc, latarnia, więzień, strażnik, emocje, nadzieja
+Response URL: {
+  "created": 1729203005,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-YQA96nBaas1ZMYm9tzD7Dige.png?st=2024-10-17T21%3A10%3A05Z&se=2024-10-17T23%3A10%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A16%3A51Z&ske=2024-10-17T23%3A16%3A51Z&sks=b&skv=2024-08-04&sig=q/lp2wj79R0j236gVyJNQ52hqfxe9b7tGr6Mt3f4wq8%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:22:26.350466
+Prompt: więzienie, zielony, droga, noc, latarnia
+Response URL: {
+  "created": 1729203742,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-1mhZP4BF9I4v9DNVeGBqHle4.png?st=2024-10-17T21%3A22%3A22Z&se=2024-10-17T23%3A22%3A22Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A26%3A54Z&ske=2024-10-17T23%3A26%3A54Z&sks=b&skv=2024-08-04&sig=6p9zxcMBg%2BJLbTKzBt0iBSWVlb064UUqyLpi2TbdLXQ%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:24:10.242510
+Prompt: książka, więzienie, zielony, droga, nadzieja, nieskończoność
+Response URL: {
+  "created": 1729203848,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-cpTn6XpU5iWDKG9DFiKqmMkh.png?st=2024-10-17T21%3A24%3A08Z&se=2024-10-17T23%3A24%3A08Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A11%3A59Z&ske=2024-10-17T23%3A11%3A59Z&sks=b&skv=2024-08-04&sig=AG1ECzBVEj/R9lnazC5EfNWknR0OcNrXFJzBp9VYK0Q%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:26:13.221140
+Prompt: książka, więzienie, zieleń, nieskończoność, emocje
+Response URL: {
+  "created": 1729203970,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-ZjJKHQ3Hm6Ir2qKyNBBab6W1.png?st=2024-10-17T21%3A26%3A10Z&se=2024-10-17T23%3A26%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A14%3A48Z&ske=2024-10-17T23%3A14%3A48Z&sks=b&skv=2024-08-04&sig=2l7zL6RsKxGuzR%2B4SRX1ch0ieAabD3CgUYblAyld%2BO0%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:27:14.471844
+Prompt: książka, zieleń, więzienie, światło, emocje
+Response URL: {
+  "created": 1729204032,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-4yiPdwbEwD7rTaaZWt85dDP1.png?st=2024-10-17T21%3A27%3A12Z&se=2024-10-17T23%3A27%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A14%3A58Z&ske=2024-10-17T23%3A14%3A58Z&sks=b&skv=2024-08-04&sig=S5E6nhxTqlCCbgugOm18TlgpS4D8cl7Sv/vpUqHdhYU%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:28:33.306009
+Prompt: więzienie, zieleń, skazańcy, nadzieja, więzień, cierpienie, męczennik, kara, czarna dziewczyna, afroamerykanin
+Response URL: {
+  "created": 1729204110,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-4rMH8IsFfVCHOY8wqHTl97BX.png?st=2024-10-17T21%3A28%3A30Z&se=2024-10-17T23%3A28%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T18%3A41%3A46Z&ske=2024-10-18T18%3A41%3A46Z&sks=b&skv=2024-08-04&sig=gAAuDgpUEtd8FN7bbSUDc1g4ey6tR0H%2BimPLlxkHMhU%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:30:10.944910
+Prompt: więzienie, zieleń, mila, książka, nieskończoność, dramat
+Response URL: {
+  "created": 1729204207,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-AxHi5YiKVRwjkXQneQm3uIoo.png?st=2024-10-17T21%3A30%3A07Z&se=2024-10-17T23%3A30%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A20%3A53Z&ske=2024-10-17T23%3A20%3A53Z&sks=b&skv=2024-08-04&sig=f8auWgS1EHpOAZv1Svdpl4X5HeQ5aUCR1OkAfZTyDvQ%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:33:00.567732
+Prompt: książka, więzienie, zieleń, droga, nieskończoność
+Response URL: {
+  "created": 1729204362,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-A2lVrdyPO0HRsrCN4us0LYqC.png?st=2024-10-17T21%3A32%3A42Z&se=2024-10-17T23%3A32%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A20%3A09Z&ske=2024-10-17T23%3A20%3A09Z&sks=b&skv=2024-08-04&sig=uka0DJANFLiRwkZ0W3rkBkxQCV2HE2JTeBo2COSfUAU%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:33:54.278570
+Prompt: literatura, książka, więzienie, zieleń, natura
+Response URL: {
+  "created": 1729204432,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-I19TXegWW0pDH6CPfiB7TGik.png?st=2024-10-17T21%3A33%3A52Z&se=2024-10-17T23%3A33%3A52Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T18%3A17%3A05Z&ske=2024-10-18T18%3A17%3A05Z&sks=b&skv=2024-08-04&sig=ImTLoddH%2BefFvt9Wyk0oWYo0ECR1wPg75Ow4SQjFh1Q%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:35:07.332621
+Prompt: książka, więzienie, zielony, droga, noc, latarnia, emocje
+Response URL: {
+  "created": 1729204505,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-kFV9OCkd7A7fCIcnBACFVpI3.png?st=2024-10-17T21%3A35%3A05Z&se=2024-10-17T23%3A35%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A16%3A59Z&ske=2024-10-17T23%3A16%3A59Z&sks=b&skv=2024-08-04&sig=wReL4QnAPvkOHgSYVRRdIw258jsSOTTA6RhotneS08Q%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:36:36.135758
+Prompt: magia, czarodziej, Hogwarts, książka, fantasy, magiczny, wiedźma, eliksir
+Response URL: {
+  "created": 1729204588,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-C6W4kutIuFlJ8iMzsL5vA5P4.png?st=2024-10-17T21%3A36%3A28Z&se=2024-10-17T23%3A36%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A09%3A14Z&ske=2024-10-17T23%3A09%3A14Z&sks=b&skv=2024-08-04&sig=tp9mXTYJTKkStxJv5gpN%2Bkj1gBaCnmYRq1ggIVKI1zA%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
+2024-10-18 00:39:36.324805
+Prompt: magia, czarodziej, książka, fantasy, czarodziejska szkoła, różdżka, hogwart, magia, czarny kocioł
+Response URL: {
+  "created": 1729204772,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-zBG4sz87McCRaknMHxA4hXYu.png?st=2024-10-17T21%3A39%3A32Z&se=2024-10-17T23%3A39%3A32Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-16T23%3A08%3A26Z&ske=2024-10-17T23%3A08%3A26Z&sks=b&skv=2024-08-04&sig=3Xyw2xu8hrZzbhM8Opfim9%2BQQdkHUTaULUPV/LzOQFI%3D"
+    }
+  ]
+}
+Cost: 0.01
+
+--------------------------------------------------
+
