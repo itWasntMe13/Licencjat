@@ -163,3 +163,27 @@ Response: {
 }
 --------------------------------------------------
 
+2024-10-18 09:41:13.078756
+Prompt: magia, czarodziej, magiczny, szkoła magii, latarnia, bal, miotła, czar, księga, chłopiec, dziewczyna, czarownica, eliksir, potwór, latarnia, czarodziejski kapelusz
+Response: {
+  "created": 1729237273,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-jsVPEsWkPOhqlMRNqJX9p3lJ.png?st=2024-10-18T06%3A41%3A13Z&se=2024-10-18T08%3A41%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-18T00%3A23%3A23Z&ske=2024-10-19T00%3A23%3A23Z&sks=b&skv=2024-08-04&sig=owDcSHw0cDUnzsn%2BWMaSfIqzx%2BM8sii0cfrEBlhy6mQ%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 10:47:25.804486
+Prompt: magia, czarodziej, książka, szkoła, fantastyka, tajemnica
+Response: {
+  "created": 1729241245,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-XEeDmAHa7BuDrcR05irrgx9M.png?st=2024-10-18T07%3A47%3A25Z&se=2024-10-18T09%3A47%3A25Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-18T00%3A12%3A19Z&ske=2024-10-19T00%3A12%3A19Z&sks=b&skv=2024-08-04&sig=wN3t%2Bw5yl/0MlLEND4KKvk4cfma2pSGDeYjdBgyKKUg%3D"
+    }
+  ]
+}
+--------------------------------------------------
+

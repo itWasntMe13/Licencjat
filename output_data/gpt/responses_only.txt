@@ -78,3 +78,15 @@ Response: "Harry Potter" to seria książek autorstwa J.K. Rowling, składająca
 Response: "Harry Potter" to seria siedmiu książek autorstwa J.K. Rowling, opowiadająca historię młodego czarodzieja Harry'ego Pottera. Główny bohater dowiaduje się w swoich jedenastych urodzinach, że jest czarodziejem i zostaje zaproszony do Szkoły Magii i Czarodziejstwa Hogwart. Tam poznaje przyjaciół Ronalda Weasleya i Hermionę Granger, a także walczy z Lordem Voldemortem, czarnoksiężnikiem, który zabił jego rodziców. Seria książek opowiada o przygodach Harry'ego, jego rozwoju jako czarodzieja oraz o walce dobra ze złem.
 --------------------------------------------------
 
+2024-10-18 09:40:54.752288
+Response: Harry Potter to seria siedmiu powieści fantasy autorstwa J.K. Rowling, opowiadająca historię młodego czarodzieja Harry'ego Pottera i jego przygody w Hogwarcie, szkole magii i czarodziejstwa. Główny bohater dowiaduje się, że jest słynnym czarodziejem i że jego rodzice zostali zabici przez Lorda Voldemorta, potężnego czarnoksiężnika. Harry walczy ze złem, zawiera przyjaźnie i przeżywa wiele przygód, starając się ochronić świat magii przed siłami zła. Seria zyskała ogromną popularność i stała się kultową pozycją w literaturze młodzieżowej.
+--------------------------------------------------
+
+2024-10-18 10:39:46.627338
+Response: "Harry Potter" to seria siedmiu powieści fantasy autorstwa J.K. Rowling, opowiadająca historię młodego czarodzieja Harry'ego Pottera. Główny bohater, który odkrywa, że jest czarodziejem, zostaje przyjęty do Szkoły Magii i Czarodziejstwa Hogwart, gdzie poznaje przyjaciół - Hermionę Granger i Rona Weasleya. Razem przeżywają liczne przygody, walcząc przeciwko Czarnemu Lordowi Voldemortowi i jego poplecznikom. Seria porusza tematy przyjaźni, miłości, odwagi oraz walki dobra ze złem.
+--------------------------------------------------
+
+2024-10-18 10:47:13.320471
+Response: "Harry Potter" to seria książek autorstwa J.K. Rowling, opowiadająca historię młodego czarodzieja o imieniu Harry Potter. Główny bohater odkrywa, że jest czarodziejem i zostaje przyjęty do Szkoły Magii i Czarodziejstwa Hogwart, gdzie przeżywa liczne przygody, poznaje przyjaciół oraz walczy ze złem. Seria składa się z siedmiu tomów, a jej głównym wątkiem jest walka Harry'ego z czarnoksiężnikiem Lordem Voldemortem.
+--------------------------------------------------
+

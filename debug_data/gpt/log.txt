@@ -951,3 +951,207 @@ Response: {
 }
 --------------------------------------------------
 
+2024-10-18 09:40:54.751290
+Prompt: Harry Potter
+Response: {
+  "id": "chatcmpl-AJbtMZXFRZc5k0pK1NbzPadnhPPpJ",
+  "object": "chat.completion",
+  "created": 1729237252,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Harry Potter to seria siedmiu powie\u015bci fantasy autorstwa J.K. Rowling, opowiadaj\u0105ca histori\u0119 m\u0142odego czarodzieja Harry'ego Pottera i jego przygody w Hogwarcie, szkole magii i czarodziejstwa. G\u0142\u00f3wny bohater dowiaduje si\u0119, \u017ce jest s\u0142ynnym czarodziejem i \u017ce jego rodzice zostali zabici przez Lorda Voldemorta, pot\u0119\u017cnego czarnoksi\u0119\u017cnika. Harry walczy ze z\u0142em, zawiera przyja\u017anie i prze\u017cywa wiele przyg\u00f3d, staraj\u0105c si\u0119 ochroni\u0107 \u015bwiat magii przed si\u0142ami z\u0142a. Seria zyska\u0142a ogromn\u0105 popularno\u015b\u0107 i sta\u0142a si\u0119 kultow\u0105 pozycj\u0105 w literaturze m\u0142odzie\u017cowej.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 186,
+    "total_tokens": 225,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 09:40:59.242125
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Harry PotterW odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJbtP1Pqea1Pj2CWKgG8albjeADxV",
+  "object": "chat.completion",
+  "created": 1729237255,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "magia, czarodziej, magiczny, szko\u0142a magii, latarnia, bal, miot\u0142a, czar, ksi\u0119ga, ch\u0142opiec, dziewczyna, czarownica, eliksir, potw\u00f3r, latarnia, czarodziejski kapelusz",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 69,
+    "total_tokens": 157,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 10:39:46.624337
+Prompt: Harry Potter
+Response: {
+  "id": "chatcmpl-AJcoKRlaenMG2zfWhqfLuxCvVX7YD",
+  "object": "chat.completion",
+  "created": 1729240784,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Harry Potter\" to seria siedmiu powie\u015bci fantasy autorstwa J.K. Rowling, opowiadaj\u0105ca histori\u0119 m\u0142odego czarodzieja Harry'ego Pottera. G\u0142\u00f3wny bohater, kt\u00f3ry odkrywa, \u017ce jest czarodziejem, zostaje przyj\u0119ty do Szko\u0142y Magii i Czarodziejstwa Hogwart, gdzie poznaje przyjaci\u00f3\u0142 - Hermion\u0119 Granger i Rona Weasleya. Razem prze\u017cywaj\u0105 liczne przygody, walcz\u0105c przeciwko Czarnemu Lordowi Voldemortowi i jego poplecznikom. Seria porusza tematy przyja\u017ani, mi\u0142o\u015bci, odwagi oraz walki dobra ze z\u0142em.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 172,
+    "total_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 10:39:47.706933
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Harry Potter W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJcoMezN6nJ84w6n6t9lQ8r8xg4yI",
+  "object": "chat.completion",
+  "created": 1729240786,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Magia, czarodziej, szko\u0142a magii, miot\u0142a, czarna kocia, lataj\u0105cy klucz, Wielka Sala, kapelusz, r\u00f3\u017cd\u017cka, poci\u0105g, pergamin, magiczne stworzenie, latarka.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 64,
+    "total_tokens": 152,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 10:47:13.317470
+Prompt: Harry Potter
+Response: {
+  "id": "chatcmpl-AJcvXGo11NEHpX6bOSvi6V5YtPBaY",
+  "object": "chat.completion",
+  "created": 1729241231,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Harry Potter\" to seria ksi\u0105\u017cek autorstwa J.K. Rowling, opowiadaj\u0105ca histori\u0119 m\u0142odego czarodzieja o imieniu Harry Potter. G\u0142\u00f3wny bohater odkrywa, \u017ce jest czarodziejem i zostaje przyj\u0119ty do Szko\u0142y Magii i Czarodziejstwa Hogwart, gdzie prze\u017cywa liczne przygody, poznaje przyjaci\u00f3\u0142 oraz walczy ze z\u0142em. Seria sk\u0142ada si\u0119 z siedmiu tom\u00f3w, a jej g\u0142\u00f3wnym w\u0105tkiem jest walka Harry'ego z czarnoksi\u0119\u017cnikiem Lordem Voldemortem.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 149,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 10:47:13.990428
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Harry Potter W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJcvZ06ddDzSJ5bvMT8BHQWmfgmbu",
+  "object": "chat.completion",
+  "created": 1729241233,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "magia, czarodziej, ksi\u0105\u017cka, szko\u0142a, fantastyka, tajemnica",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 25,
+    "total_tokens": 113,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+

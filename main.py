@@ -23,27 +23,33 @@ if __name__ == '__main__':
     # title = "Kaczor Donald"
     # title = "Zielona mila"
     # title = "Mein Kampf" # ma blokadę :)
+    # PROMPTY
     title = "Harry Potter"
-    gpt_to_dalle_prompt = (f"Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: {title}"
-                           f"W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.")
+    tag_generation_prompt = (f"Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: {title}"
+                           f" W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.")
 
-    gpt_prompt = api_manager.GPTPrompt(title)
-    gpt_to_dalle_prompt = api_manager.GPTPrompt(gpt_to_dalle_prompt)
+    # ROLE SYSTEMU
+    summary_system_role = "Jesteś pisarzem streszczeń. Tworzysz streszczenia dla podanych tytułów."
+    tag_generation_role = "Jesteś asystentem w obsłudze DALL-E."
 
-    gpt_prompt.get_gpt(save_response=True, system_role = "Jesteś pisarzem streszczeń. Tworzysz streszczenia dla podanych tytułów.")
-    gpt_to_dalle_prompt.get_gpt(system_role = "Jesteś asystentem w obsłudze DALL-E.")
+    gpt_summary_obj = api_manager.GPTPrompt(title)
+    gpt_tag_generation_obj = api_manager.GPTPrompt(tag_generation_prompt)
 
-    print(gpt_prompt)
-    print(gpt_to_dalle_prompt.response)
+    gpt_summary_obj.get_gpt(save_response=True, system_role = summary_system_role)
+    gpt_tag_generation_obj.get_gpt(system_role = tag_generation_role)
+
+    dalle_prompt = gpt_tag_generation_obj.response
+
+    print(dalle_prompt)
     # Dodać obsługę generowania większej ilości zdjęć
 
-    # Przy generowaniu większej ilości zdjęć seryjnie,
+    # Przy generowaniu większej ilości zdjęć seryjnie,dalle
     # każdy błąd w zapytaniu może spowodować przerwanie działania programu
     # # W związku z tym, trzeba będzie zaimplementować obsługę błędów
 
-    dalle_prompt = api_manager.DALLEPrompt(gpt_to_dalle_prompt.response)
+    dalle_gen_img_obj = api_manager.DALLEPrompt(dalle_prompt)
 
-    dalle_prompt.get_dalle()
-    dalle_prompt.show_response_img()
+    dalle_gen_img_obj.get_dalle()
+    dalle_gen_img_obj.show_response_img()
     # print(dalle_prompt)
     # print(dalle_prompt.__str__())

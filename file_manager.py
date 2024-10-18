@@ -122,6 +122,7 @@ def save_image(image):
         path = f"{path}.{extension}"  # Dodaj rozszerzenie do ścieżki
         print(f"Próba zapisania obrazu do pliku: {path}")
         image.save(path)  # Zapisz obraz przy użyciu PIL
+
     except Exception as e:
         return f"An error occurred while saving an image: {e}"
 

@@ -220,12 +220,13 @@ class DALLEPrompt:
 
     # Funkcja pobierająca images z odpowiedzi
     def __download_img(self) -> PIL.Image:
-        print(self.URL) # Do debugowania
+        # print("URL: " + self.URL) # Do debugowania-wyświetla URL z pliku
+        print("Pobieranie obrazka...") # Komunikat dla użytkownika
         response = requests.get(self.URL)
-        print(response)  # Do debugowania
+        # print(response)  # Do debugowania - przy poprawnym działaniu zwraca <Response [200]>
         response.raise_for_status()  # Sprawdza, czy odpowiedź HTTP jest błędem
         img = PIL.Image.open(BytesIO(response.content))
-        print("Image downloaded successfully.")  # Do debugowania
+        print("Udało się pobrać obrazek.")  # Do debugowania
         return img  # Zwracamy pobrany obraz
 
     # Funkcja zapisująca image z odpowiedzi do pliku
