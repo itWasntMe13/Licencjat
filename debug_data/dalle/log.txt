@@ -187,3 +187,39 @@ Response: {
 }
 --------------------------------------------------
 
+2024-10-18 11:00:40.250200
+Prompt: magia, czarodziej, książka, czar, chochliki, szkoła, latający miotacz, mgła, latarnia, kowal
+Response: {
+  "created": 1729242040,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-7PpVIB54tn1gJvTVPHt0pNKP.png?st=2024-10-18T08%3A00%3A40Z&se=2024-10-18T10%3A00%3A40Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T23%3A42%3A40Z&ske=2024-10-18T23%3A42%3A40Z&sks=b&skv=2024-08-04&sig=4WOBMTKOKkgwd4kJTYepY8CDJEZDpYKYqhSDUyhdpC8%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 13:54:49.815671
+Prompt: Reksio, pies, animacja, dzieciństwo, przygoda, bohater, maskotka
+Response: {
+  "created": 1729252490,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-J7cToSItbiDg1Cmr5pEmI5aq.png?st=2024-10-18T10%3A54%3A50Z&se=2024-10-18T12%3A54%3A50Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T23%3A23%3A58Z&ske=2024-10-18T23%3A23%3A58Z&sks=b&skv=2024-08-04&sig=8RlCpnTSt6ra4U8PHYBoGwtbgLbWbEFjc4eIzh/BBgM%3D"
+    }
+  ]
+}
+--------------------------------------------------
+
+2024-10-18 13:57:42.374486
+Prompt: Reksio, pies, animowany, bohater, dzieciństwo, przygoda
+Response: {
+  "created": 1729252663,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YxlKG7zkSASPgwbb3t3r30Ts/user-QvFcv6IH4yL8TO04KLkFKPQk/img-Y7cT3E5nf99BwQvVWHnfY0zo.png?st=2024-10-18T10%3A57%3A43Z&se=2024-10-18T12%3A57%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-17T23%3A27%3A59Z&ske=2024-10-18T23%3A27%3A59Z&sks=b&skv=2024-08-04&sig=KhM8vqo6h3S1C7POjoqY0JgAb/BlchGt9dNMQVL8JOE%3D"
+    }
+  ]
+}
+--------------------------------------------------
+

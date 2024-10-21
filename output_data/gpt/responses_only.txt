@@ -90,3 +90,15 @@ Response: "Harry Potter" to seria siedmiu powieści fantasy autorstwa J.K. Rowli
 Response: "Harry Potter" to seria książek autorstwa J.K. Rowling, opowiadająca historię młodego czarodzieja o imieniu Harry Potter. Główny bohater odkrywa, że jest czarodziejem i zostaje przyjęty do Szkoły Magii i Czarodziejstwa Hogwart, gdzie przeżywa liczne przygody, poznaje przyjaciół oraz walczy ze złem. Seria składa się z siedmiu tomów, a jej głównym wątkiem jest walka Harry'ego z czarnoksiężnikiem Lordem Voldemortem.
 --------------------------------------------------
 
+2024-10-18 11:00:27.213631
+Response: "Harry Potter" to seria siedmiu książek autorstwa J.K. Rowling, opowiadających historię młodego czarodzieja Harry'ego Pottera. Akcja rozpoczyna się, gdy Harry dowiaduje się, że jest czarodziejem i zostaje przyjęty do Szkoły Magii i Czarodziejstwa Hogwart. Razem z przyjaciółmi, Hermioną Granger i Ronem Weasleyem, Harry staje w obliczu różnych wyzwań, w tym walki z Czarnym Panem, Lordem Voldemortem. Seria opowiada o przygodach Harry'ego, jego rozwoju jako czarodzieja i walce dobra ze złem.
+--------------------------------------------------
+
+2024-10-18 13:54:35.499021
+Response: "Reksio" to polski serial animowany dla dzieci opowiadający o przygodach tytułowego bohatera - sympatycznego psa rasy bokser. Reksio mieszka w domu z opiekunem, ale uwielbia wyprawy na zewnątrz, gdzie poznaje nowych przyjaciół i rozwiązuje różne problemy. Akcja serialu skupia się na humorystycznych sytuacjach i przygodach Reksia, który zawsze okazuje się sprytniejszy od przeciwności losu. Każdy odcinek to nowa historia, pełna ciekawych zdarzeń i pouczających morałów. "Reksio" to klasyczna i uwielbiana przez dzieci animacja, która bawi i uczy jednocześnie.
+--------------------------------------------------
+
+2024-10-18 13:57:28.868637
+Response: Reksio to polski serial animowany opowiadający o przygodach tytułowego bohatera - sympatycznego psa rasy bokser. Reksio mieszka w miasteczku, gdzie wraz z innymi zwierzętami przeżywa wiele ciekawych przygód. Głównym wątkiem serialu są przygody Reksia, które zazwyczaj kończą się happy endem. Bohater jest bardzo inteligentny i pomysłowy, co pozwala mu rozwiązywać problemy, w jakie się wplątuje. Serial cieszy się dużą popularnością wśród dzieci i dorosłych.
+--------------------------------------------------
+

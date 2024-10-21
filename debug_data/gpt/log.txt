@@ -1155,3 +1155,207 @@ Response: {
 }
 --------------------------------------------------
 
+2024-10-18 11:00:27.210633
+Prompt: Harry Potter
+Response: {
+  "id": "chatcmpl-AJd8K9TTvsvb7ezeHsg8jMs5lKODR",
+  "object": "chat.completion",
+  "created": 1729242024,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Harry Potter\" to seria siedmiu ksi\u0105\u017cek autorstwa J.K. Rowling, opowiadaj\u0105cych histori\u0119 m\u0142odego czarodzieja Harry'ego Pottera. Akcja rozpoczyna si\u0119, gdy Harry dowiaduje si\u0119, \u017ce jest czarodziejem i zostaje przyj\u0119ty do Szko\u0142y Magii i Czarodziejstwa Hogwart. Razem z przyjaci\u00f3\u0142mi, Hermion\u0105 Granger i Ronem Weasleyem, Harry staje w obliczu r\u00f3\u017cnych wyzwa\u0144, w tym walki z Czarnym Panem, Lordem Voldemortem. Seria opowiada o przygodach Harry'ego, jego rozwoju jako czarodzieja i walce dobra ze z\u0142em.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 172,
+    "total_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 11:00:28.244682
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Harry Potter W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJd8N6NuWZhWKb7nMuUeERoKZmROd",
+  "object": "chat.completion",
+  "created": 1729242027,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "magia, czarodziej, ksi\u0105\u017cka, czar, chochliki, szko\u0142a, lataj\u0105cy miotacz, mg\u0142a, latarnia, kowal",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 42,
+    "total_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 13:54:35.495021
+Prompt: Reksio
+Response: {
+  "id": "chatcmpl-AJfqrRiPCFGYrAoj0vgRQaE4gmMH8",
+  "object": "chat.completion",
+  "created": 1729252473,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Reksio\" to polski serial animowany dla dzieci opowiadaj\u0105cy o przygodach tytu\u0142owego bohatera - sympatycznego psa rasy bokser. Reksio mieszka w domu z opiekunem, ale uwielbia wyprawy na zewn\u0105trz, gdzie poznaje nowych przyjaci\u00f3\u0142 i rozwi\u0105zuje r\u00f3\u017cne problemy. Akcja serialu skupia si\u0119 na humorystycznych sytuacjach i przygodach Reksia, kt\u00f3ry zawsze okazuje si\u0119 sprytniejszy od przeciwno\u015bci losu. Ka\u017cdy odcinek to nowa historia, pe\u0142na ciekawych zdarze\u0144 i pouczaj\u0105cych mora\u0142\u00f3w. \"Reksio\" to klasyczna i uwielbiana przez dzieci animacja, kt\u00f3ra bawi i uczy jednocze\u015bnie.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 204,
+    "total_tokens": 244,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 13:54:36.358390
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Reksio W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJfquK9OT3wAJglO70Q04kU7Mo9Yj",
+  "object": "chat.completion",
+  "created": 1729252476,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Reksio, pies, animacja, dzieci\u0144stwo, przygoda, bohater, maskotka",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 24,
+    "total_tokens": 113,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 13:57:28.865678
+Prompt: Reksio
+Response: {
+  "id": "chatcmpl-AJftfGaOOFK5XTYThTWIx85NXqDMi",
+  "object": "chat.completion",
+  "created": 1729252647,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Reksio to polski serial animowany opowiadaj\u0105cy o przygodach tytu\u0142owego bohatera - sympatycznego psa rasy bokser. Reksio mieszka w miasteczku, gdzie wraz z innymi zwierz\u0119tami prze\u017cywa wiele ciekawych przyg\u00f3d. G\u0142\u00f3wnym w\u0105tkiem serialu s\u0105 przygody Reksia, kt\u00f3re zazwyczaj ko\u0144cz\u0105 si\u0119 happy endem. Bohater jest bardzo inteligentny i pomys\u0142owy, co pozwala mu rozwi\u0105zywa\u0107 problemy, w jakie si\u0119 wpl\u0105tuje. Serial cieszy si\u0119 du\u017c\u0105 popularno\u015bci\u0105 w\u015br\u00f3d dzieci i doros\u0142ych.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 164,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+
+2024-10-18 13:57:29.466081
+Prompt: Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: Reksio W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.
+Response: {
+  "id": "chatcmpl-AJfthwPqGwdnFa6HrnPGc8QiUQCJR",
+  "object": "chat.completion",
+  "created": 1729252649,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Reksio, pies, animowany, bohater, dzieci\u0144stwo, przygoda",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 20,
+    "total_tokens": 109,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "system_fingerprint": null
+}
+--------------------------------------------------
+

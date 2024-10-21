@@ -120,9 +120,13 @@ def save_image(image):
         content_type = image.format  # Pobierz format obrazu
         extension = content_type.lower() # Przekonwertuj format na małe litery
         path = f"{path}.{extension}"  # Dodaj rozszerzenie do ścieżki
-        print(f"Próba zapisania obrazu do pliku: {path}")
+        print(f"Próba zapisania obrazu do pliku: {path}...")
         image.save(path)  # Zapisz obraz przy użyciu PIL
-
+        # Jeśli obraz został zapisany, powiadom użytkownika
+        if os.path.exists(path):
+            print(f"Obraz zapisany pomyślnie jako {path}")
+        else:
+            print(f"Nie udało się zapisać obrazu jako {path}")
     except Exception as e:
         return f"An error occurred while saving an image: {e}"
 

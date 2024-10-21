@@ -24,7 +24,8 @@ if __name__ == '__main__':
     # title = "Zielona mila"
     # title = "Mein Kampf" # ma blokadę :)
     # PROMPTY
-    title = "Harry Potter"
+    # title = "Harry Potter"
+    title = "Reksio"
     tag_generation_prompt = (f"Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: {title}"
                            f" W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.")
 
@@ -43,7 +44,7 @@ if __name__ == '__main__':
     print(dalle_prompt)
     # Dodać obsługę generowania większej ilości zdjęć
 
-    # Przy generowaniu większej ilości zdjęć seryjnie,dalle
+    # Przy generowaniu większej ilości zdjęć seryjnie dalle
     # każdy błąd w zapytaniu może spowodować przerwanie działania programu
     # # W związku z tym, trzeba będzie zaimplementować obsługę błędów
 
