@@ -1,12 +1,12 @@
-from normalization import (
+from wolnelektury.normalization import (
     normalize_title,
     normalize_word,
     normalize_text
 )
-from API_handling import (
+from wolnelektury.API_handling import (
     download_book
 )
-from classes import (
+from wolnelektury.classes import (
     create_books_list,
     create_normalized_titles_list,
     create_titles_list,

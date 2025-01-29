@@ -1,8 +1,6 @@
-import file_manager
-import summary_creator
-import text_manager
-import api_manager
-
+from ai import api_manager
+from ai.api_manager import MY_API_KEY
+from wolnelektury import wolnelektury_handler
 # WAŻNE - PROGRAM KORZYSTA Z BIBLIOTEKI OPENAI==0.28
 
 if __name__ == '__main__':
@@ -25,6 +23,9 @@ if __name__ == '__main__':
     # title = "Mein Kampf" # ma blokadę :)
     # PROMPTY
     # title = "Harry Potter"
+
+    wolnelektury_handler.download_requsted_book()
+
     title = "Reksio"
     tag_generation_prompt = (f"Wskaż tagi na podstawie których DALL-E utworzy obraz mający być okładką tekstu: {title}"
                            f" W odpowiedzi którą mi przekażesz mają znaleźć się tylko te tagi, bez dodatkowego komentarza.")

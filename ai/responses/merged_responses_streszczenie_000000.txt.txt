@@ -1,0 +1,18 @@
+Response: Mieszkańcy miasteczka Zapiecek cieszą się z narodzin bliźniaków, chłopców Jacka i Placka, ale ich głośny płacz wywołuje strach w mieście. Chłopcy dorastając sprawiają kłopoty, a ich nieokiełznane zachowanie przynosi chaos i zaniepokojenie. Ostatecznie, uciekając ze swojej przeszłości, spotykają mądrego osła i wyruszają w podróż, w której uczą się ważnych życiowych lekcji.
+Cost: 0.006955
+Input tokens: 4450
+Output tokens: 140
+
+--------------------------------------------------
+
+Response: W miasteczku Zapiecek narodzili się bliźniacy, Jacek i Placek, co wywołało strach i chaos wśród mieszkańców. Nawet zwierzęta były niepokojone, a obłąkany baran przyniósł dodatkowe zamieszanie. Chłopcy dorastając, sprawiali kłopoty, nie chcąc się uczyć i zmieniać. Wyrzuceni ze szkoły za oszustwo, nie pomagali matce i uciekli, wyśmiewając ją. Spotykają mądrego osła, który zadaje im filozoficzne pytania, a następnie spotykają tajemniczego mężczyznę, który pomaga zwierzętom i oferuje im schronienie.
+
+Podążając dalej, chłopcy spotykają czarownika, zbójców i starca, a ostatecznie docierają do matki Nieboraka. Kontynuując podróż, ratują ludzi w potrzebie i odkrywają, że księżyc został ukradziony. Wędrując przez dzikie pustkowia, spotykają czarownika i hrabiego Mortadellę, a także otrzymują błogosławieństwo od starca. W końcu wracają do matki Jacka i Placeka, zanosząc się radością i odkrywając, że nie ma winy tak głębokiej, której nie można zmyć łzami żalu i skruchy.
+
+W międzyczasie, chłopcy doświadczają niesamowitych przygód, spotykając pszczołę, pelikany i tajemniczego młodego mężczyznę. Pomagają też Niewidzialnemu odnaleźć spokój i zdobyć jedzenie. W swojej podróży, próbują ukraść księżyc, spotykają złotego człowieka i w końcu trafiają do magicznego zamku, gdzie ludzie są zamienieni w złote istoty. Ostatecznie, po wielu przygodach i naukach, chłopcy wracają do domu, bogato ubrani, pełni radości i mądrości, gotowi do dalszych wyzwań i przygód.
+Cost: 0.007817000000000001
+Input tokens: 4442
+Output tokens: 577
+
+--------------------------------------------------
+

@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from exceptions import TooLongName, HTMLResponse
+from wolnelektury.exceptions import TooLongName, HTMLResponse
 
 
 def download_book(file_name, file_type, url):

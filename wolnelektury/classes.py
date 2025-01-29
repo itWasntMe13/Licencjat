@@ -1,5 +1,5 @@
-from API_handling import download_json_books_file, download_book
-from normalization import normalize_title
+from wolnelektury.API_handling import download_json_books_file, download_book
+from wolnelektury.normalization import normalize_title
 import json
 import os
 import glob

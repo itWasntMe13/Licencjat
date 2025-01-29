@@ -1,2 +1,0 @@
-# Licencjat
-Wykorzystanie API GPT
