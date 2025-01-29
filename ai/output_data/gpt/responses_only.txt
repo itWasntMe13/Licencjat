@@ -102,3 +102,7 @@ Response: "Reksio" to polski serial animowany dla dzieci opowiadający o przygod
 Response: Reksio to polski serial animowany opowiadający o przygodach tytułowego bohatera - sympatycznego psa rasy bokser. Reksio mieszka w miasteczku, gdzie wraz z innymi zwierzętami przeżywa wiele ciekawych przygód. Głównym wątkiem serialu są przygody Reksia, które zazwyczaj kończą się happy endem. Bohater jest bardzo inteligentny i pomysłowy, co pozwala mu rozwiązywać problemy, w jakie się wplątuje. Serial cieszy się dużą popularnością wśród dzieci i dorosłych.
 --------------------------------------------------
 
+2025-01-29 23:47:09.407646
+Response: "Powiązani" to opowieść o dwóch rodzinach, których losy splatają się ze sobą na przestrzeni lat. Głównymi bohaterami są Kate i Peter, którzy po latach przypadkowego spotkania odkrywają, że są ze sobą spokrewnieni. Ich drogi krzyżują się w niespodziewany sposób, prowadząc do odkrycia rodzinnych tajemnic i zakopanych emocji. Powieść porusza tematy związane z więzami rodzinny, lojalnością oraz miłością, ukazując skomplikowane relacje między bohaterami.
+--------------------------------------------------
+

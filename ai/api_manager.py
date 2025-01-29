@@ -4,8 +4,11 @@ import requests
 import PIL.Image
 from io import BytesIO
 from importlib.metadata import version, PackageNotFoundError
+import os
 
 from ai.file_manager import load_file, append_file, save_file, save_image
+
+
 
 # Funkcje pomocnicze
 
@@ -31,6 +34,7 @@ def check_openai_version():
 # Zmienne globalne
 MY_API_KEY = get_api_key() # Przypisanie klucza API do zmiennej globalnej
 OPENAI_VERSION = check_openai_version() # Przypisanie wersji openai do zmiennej globalnej
+WORKING_DIRECTORY = os.path.dirname(os.path.abspath(__file__)) # Pobranie ściezki do working directory
 
 # Klasa do obsługi API dla GPT-3.5
 class GPTPrompt:
@@ -55,7 +59,7 @@ class GPTPrompt:
         )
 
     # Funkcja odbierająca odpowiedź i generująca informacje o zapytaniu
-    def get_gpt(self, system_role="", save_to="./output_data/gpt", save_info=False, save_response=False):
+    def get_gpt(self, system_role="", save_to=f"{WORKING_DIRECTORY}/output_data/gpt", save_info=False, save_response=False):
         self.response = self.__send_prompt(system_role)
         self.output_tokens = self.count_tokens(self.response)
         self.cost = self.__cost()
@@ -88,7 +92,7 @@ class GPTPrompt:
         print(f"Zapisano informacje zapytania/odpowiedzi w {save_to}")
 
     # Funkcja do wysłania zapytania do API
-    def __send_prompt(self, system_role, save_debug_to='./debug_data/gpt'):
+    def __send_prompt(self, system_role, save_debug_to=f"{WORKING_DIRECTORY}/debug_data/gpt"):
         try:
             print(f"Wysyłanie zapytania do {self.model}...")
             # Jeśli wersja openai jest starsza niż 1.0.0

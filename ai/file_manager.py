@@ -7,32 +7,36 @@ def check_file_structure():
     # Tworzymy listę, do której będziemy dodawać informacje o brakujących folderach
     missing_folders = []
 
-    if not os.path.exists("./output_data"):
-        missing_folders.append("./output_data")
+    # Wczytujemy ścieżkę do folderu, w którym znajduje się plik file_manager.py
+    current_folder = os.path.dirname(os.path.abspath(__file__))
 
-    if not os.path.exists("./output_data/dalle"):
-        missing_folders.append("./output_data/dalle")
+    # Sprawdzamy, czy w folderze, w którym znajduje się plik file_manager.py, istnieją foldery ./output_data, ./output_data/dalle, ./output_data/dalle/images, ./output_data/dalle/info, ./output_data/gpt, ./input_data, ./debug_data, ./debug_data/dalle, ./debug_data/gpt
+    if not os.path.exists(f"{current_folder}/output_data"):
+        missing_folders.append(f"{current_folder}/output_data")
 
-    if not os.path.exists("./output_data/dalle/images"):
-        missing_folders.append("./output_data/dalle/images")
+    if not os.path.exists(f"{current_folder}/output_data/dalle"):
+        missing_folders.append(f"{current_folder}/output_data/dalle")
 
-    if not os.path.exists("./output_data/dalle/info"):
-        missing_folders.append("./output_data/dalle/info")
+    if not os.path.exists(f"{current_folder}/output_data/dalle/images"):
+        missing_folders.append(f"{current_folder}/output_data/dalle/images")
 
-    if not os.path.exists("./output_data/gpt"):
-        missing_folders.append("./output_data/gpt")
+    if not os.path.exists(f"{current_folder}/output_data/dalle/info"):
+        missing_folders.append(f"{current_folder}/output_data/dalle/info")
 
-    if not os.path.exists("./input_data"):
-        missing_folders.append("./input_data")
+    if not os.path.exists(f"{current_folder}/output_data/gpt"):
+        missing_folders.append(f"{current_folder}/output_data/gpt")
 
-    if not os.path.exists("./debug_data"):
-        missing_folders.append("./debug_data")
+    if not os.path.exists(f"{current_folder}/input_data"):
+        missing_folders.append(f"{current_folder}/input_data")
 
-    if not os.path.exists("./debug_data/dalle"):
-        missing_folders.append("./debug_data/dalle")
+    if not os.path.exists(f"{current_folder}/debug_data"):
+        missing_folders.append(f"{current_folder}/debug_data")
 
-    if not os.path.exists("./debug_data/gpt"):
-        missing_folders.append("./debug_data/gpt")
+    if not os.path.exists(f"{current_folder}/debug_data/dalle"):
+        missing_folders.append(f"{current_folder}/debug_data/dalle")
+
+    if not os.path.exists(f"{current_folder}/debug_data/gpt"):
+        missing_folders.append(f"{current_folder}/debug_data/gpt")
 
     # Jeśli brakujące foldery istnieją, to pytamy użytkownika, czy chce je utworzyć
     if missing_folders:

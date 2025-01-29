@@ -22,11 +22,11 @@ def download_book(file_name, file_type, url):
             and os.path.exists(f".\\api_errors\\{file_type}")):
         raise Exception("Failed to create directories. Aborting download.")
 
-    # Checking for files that were already downloaded
-    if os.path.exists(f".\\books\\{file_type}\\{file_name}.{file_type}"):
-        raise Exception(f"File '{file_name}' already exists. Aborting download.")
-    if os.path.exists(f".\\api_errors\\{file_type}\\{file_name}.{file_type}"):
-        raise Exception(f"File '{file_name}' error file already exists. Aborting download.")
+    # # Checking for files that were already downloaded
+    # if os.path.exists(f".\\books\\{file_type}\\{file_name}.{file_type}"):
+    #     raise Exception(f"File '{file_name}' already exists. Aborting download.")
+    # if os.path.exists(f".\\api_errors\\{file_type}\\{file_name}.{file_type}"):
+    #     raise Exception(f"File '{file_name}' error file already exists. Aborting download.")
     # Checking if Windows will be able to save the file
     if len(file_name) > 200:
         raise TooLongName

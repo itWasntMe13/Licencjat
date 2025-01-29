@@ -83,7 +83,7 @@ unique_books_list = create_unique_books_list()
 # From now on every function below uses unique_books_list
 
 
-# Creates a list of unique titles
+# Creates a list of titles
 def create_titles_list() -> list:
     titles_list = []
 
@@ -96,6 +96,19 @@ def create_titles_list() -> list:
 
     return titles_list
 
+# Creates a list of unique titles
+def create_unique_titles_list() -> list:
+    unique_titles_list = []
+
+    # Creating lists of titles and normalized titles
+    try:
+        for book in unique_books_list:
+            if book.title not in unique_titles_list:
+                unique_titles_list.append(book.title)
+    except Exception as e:
+        raise Exception(f"Exception raised while creating unique titles list: {e}")
+
+    return unique_titles_list
 
 # Creates a list of normalized, unique titles
 def create_normalized_titles_list() -> list:

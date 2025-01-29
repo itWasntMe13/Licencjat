@@ -3,9 +3,9 @@ from wolnelektury.classes import *
 from thefuzz import process
 
 # Funkcja pozwalająca użytkownikowi wybrać tytuł książki z listy do pobrania
-def download_requsted_book():
+def download_requsted_book() -> str:
     # Pobieramy listę tytułów książek
-    titles_list = create_titles_list()
+    titles_list = create_unique_titles_list()
 
     # Dopóki użytkownik nie wybierze dostępnego tytułu, powtarzamy zapytanie
     while True:
@@ -63,6 +63,8 @@ def download_requsted_book():
     # Pobieramy książkę o wybranym tytule
     download_book(normalized_chosen_title, "txt", create_download_url(requested_book_object, "txt"))
     print(f"Pobrano książkę o tytule {chosen_title}.")
+
+    return chosen_title
 
 # Funkcja zlecająca pobranie książki o podanym tytule
 def dasdownload_book(title) -> None:
