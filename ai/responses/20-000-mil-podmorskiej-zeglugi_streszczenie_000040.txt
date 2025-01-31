@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Profesor i kapitan Nemo dyskutują nad możliwością dotarcia do bieguna południowego, gdzie morze mogłoby być wolne od lodów. Kapitan w końcu decyduje się na zuchwałą podróż, a "Nautilus" zaczyna się zagłębiać w lodowate wody. Po wielu nieudanych próbach dotarcia do powierzchni, statek w końcu uderza o spód lodowej ławicy. Jednak w końcu udaje im się dotrzeć do bieguna południowego, gdzie odkrywają morze wolne od lodów, pełne ptaków i ryb. Kapitan Nemo pierwszy staje na tej ziemi, a naukowcy obserwują bogactwo przyrody polarnego krajobrazu. Następnego dnia, w trakcie burzy śnieżnej, statek przesuwa się dalej na południe, a po ustaniu nawałnicy, profesor nadal zapisuje swoje wrażenia z podróży na biegun południowy.
+--------------------------------------------------
+

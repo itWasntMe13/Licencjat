@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Kapitan Nemo postanowił zgnieść warstwę lodu dzielącą ich od morza, aby uwolnić statek. Po skutecznym manewrze "Nautilusa" udaje im się przedrzeć przez lód i wypłynąć na powierzchnię. Podczas tego wydarzenia profesor zostaje uratowany przez Neda i Conseila, którzy poświęcają swoje zasoby powietrza, aby go ocalić. Po powrocie na powierzchnię morza, statek kieruje się w kierunku Przylądka Horn, a potem wzdłuż wybrzeży Ameryki Południowej. Kapitan Nemo unika zbliżania się do zamieszkanych brzegów, prowadząc ich w kierunku pustych mórz. Następnie "Nautilus" eksploruje podmorskie doliny i góry, a profesor opisuje mapy stworzone przez kapitana Nemo.
+--------------------------------------------------
+

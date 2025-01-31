@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Lina "Nautilusa" zapewnia mu stabilność pod wodą, nawet na głębokości 4431 metrów. Statek podwodny zbliżał się do miejsca zatonięcia okrętu "Mściciel", który zatonął po heroicznej walce w 1781 roku. Kapitan Nemo opowiada historię okrętu i wyjawia swoje plany zemsty na okrętach wojennych. Gdy okręt wojenny zbliża się do "Nautilusa" i zaczyna strzelać, kapitan Nemo grozi zatopieniem. Mimo strzałów, "Nautilus" unika zranienia i oddala się. Kapitan Nemo trzyma okręt w odległości, nie atakując go.
+--------------------------------------------------
+

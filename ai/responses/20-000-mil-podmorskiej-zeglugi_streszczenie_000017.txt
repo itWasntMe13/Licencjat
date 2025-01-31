@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Na wyspach odkrytych na Oceanie Spokojnym ziemia urodziła się z pomieszanych skał wapiennych, kokosowy orzech zaczął kiełkować, przyciągając życie zwierzęce. Na pokładzie Nautilusa podróżnicy docierają do Archipelagu Viti, gdzie poznają historię rozbicia okrętów La Perouse'a. Następnie płyną do Archipelagu Nowych Hebryd, a potem kierują się ku Vanikoro, gdzie odnajdują ślady zginionych okrętów. Wreszcie, przepływając przez Cieśninę Torresa, statek posuwa się ostrożnie między wyspami, dbając o bezpieczeństwo podróżujących.
+--------------------------------------------------
+

@@ -1,0 +1,8 @@
+<built-in method now of type object at 0x00007FF9A0B99330>
+Response: Wystąpił błąd podczas ładowania pliku „20 000 mil podmorskiej żeglugi.txt”. Plik o podanej ścieżce nie został znaleziony w folderze z książkami.
+--------------------------------------------------
+
+2025-01-31 16:43:13.442497
+Response: Wystąpił błąd podczas ładowania pliku "20 000 mil podmorskiej żeglugi.txt", ponieważ nie ma takiego pliku ani katalogu.
+--------------------------------------------------
+

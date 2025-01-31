@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Podczas wycieczki podwodnej z kapitanem Nemo i jego towarzyszem, narrator doświadcza chwili wytchnienia podczas obserwacji morskiej fauny. Po przechadzce zauważa, że nie odczuwa głodu, ale jest bardzo zmęczony i chce spać. Podczas snu zostaje obudzony przez potwornego pająka morskiego, a następnie kapitan Nemo prowadzi ich dalej w głąb oceanu, gdzie odkrywają nowe gatunki roślin i zwierząt. Podczas powrotu do "Nautilusa" dochodzi do spotkania z groźnymi rekinami, które ledwo unikają ataku. Po odnalezieniu się na pokładzie, załoga wyciąga bogate połowy ryb z sieci, co pozwala na zaopatrzenie w świeże pożywienie. Kapitan Nemo zaczyna rozmyślać na temat oceanu, jego krążenia i życia, wyjaśniając zjawiska przyrodnicze związane z wodnym ekosystemem.
+--------------------------------------------------
+

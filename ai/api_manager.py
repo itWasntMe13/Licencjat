@@ -77,7 +77,7 @@ class GPTPrompt:
     # Funkcja zapisująca do pliku tylko odpowiedź
     def __save_response(self, save_to):
         content = f"Response: {self.response}"
-        save_to = f"{save_to}/responses_only.txt"
+        # save_to = f"{save_to}/responses_only.txt"
         append_file(save_to, content)
         print(f"Zapisano odpowiedź w {save_to}")
 

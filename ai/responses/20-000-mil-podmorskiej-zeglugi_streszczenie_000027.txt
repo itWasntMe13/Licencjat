@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Topielec odzyskuje przytomność dzięki pomocy Conseila i kapitana Nemo. Kapitan Nemo daje mu torebkę z perłami w podziękowaniu. Następnie wracają do ławicy perłowej, gdzie ponownie zbierają perły. Po powrocie na Nautilusa odbywa się krótka rozmowa, a następnie udają się na dno morza. Profesor Aronnax cieszy się podróżą i fascynuje się podmorskim światem. Odkrywają różnorodne gąbki, meduzy, ryby i inne stworzenia. Podczas eksploracji Morza Czerwonego poznają różnorodność flory i fauny, a także odwiedzają miasta nadbrzeżne. Następnie wyruszają w kierunku Zatoki Perskiej, kontynuując swoją podróż po tajemniczych wodach.
+--------------------------------------------------
+

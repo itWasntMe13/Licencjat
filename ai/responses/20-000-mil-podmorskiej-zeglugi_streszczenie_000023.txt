@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Na koralowym cmentarzu kapitan Nemo i jego towarzysze przygotowują grób dla zmarłego członka załogi. Po ceremonii pogrzebowej wracają na statek podwodny „Nautilus”. Narrator zastanawia się nad tajemniczym charakterem kapitana i jego ewentualnymi motywami zemsty. Statek kontynuuje podróż po Oceanie Indyjskim, gdzie załoga obserwuje różnorodne gatunki ryb i ptaków morskich. Po mijaniu wyspy Keeling, „Nautilus” zmierza w stronę cywilizowanych ziem Indostanu, co budzi nadzieję u więźniów na odzyskanie wolności. Ned Land zauważa, że zbliżają się do miejsc znanym z cywilizacji europejskiej.
+--------------------------------------------------
+

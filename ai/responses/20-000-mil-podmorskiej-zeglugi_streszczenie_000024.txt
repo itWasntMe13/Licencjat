@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Podczas podróży na "Nautilusie" kapitan Nemo zaproponował profesorowi Aronnaxowi i jego towarzyszom polowanie na rekiny w Zatoce Manaar na Cejlonie. Profesor z początku niechętnie zgodził się na tę propozycję, obawiając się spotkania z tymi drapieżnikami. Kapitan Nemo opowiedział im o tradycyjnych metodach połowu pereł przy Cejlonie, gdzie nurkowie zbierają ostrygi zawierające perły. Następnego dnia "Nautilus" wypłynął w kierunku zatoki Manaar, gdzie planowano obserwować polowania na perły. Profesor Aronnax jednak zaczął się zastanawiać nad ryzykiem, jakie niesie ze sobą polowanie na rekiny, obawiając się konfrontacji z tymi strasznymi zwierzętami.
+--------------------------------------------------
+

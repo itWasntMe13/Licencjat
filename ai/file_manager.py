@@ -137,8 +137,8 @@ def save_image(image):
 # Funkcja łącząca powstałe teksty z katalogu responses w jeden plik .txt
 def merge_responses():
     try:
-        with open("./output_data/merged_responses.txt", "w", encoding="utf-8") as file:
-            for file_name in glob.glob("./responses/*.txt"):
+        with open("./ai/output_data/gpt/merged_responses.txt", "a", encoding="utf-8") as file:
+            for file_name in glob.glob("./ai/responses/*.txt"):
                 with open(file_name, "r", encoding="utf-8") as file_to_read:
                     file.write(file_to_read.read())
     except Exception as e:

@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Kapitan Nemo prezentuje profesorowi Aronnaxowi swoje muzeum na pokładzie Nautilusa, zawierające dzieła sztuki, skarby natury i okazy oceaniczne. Następnie kapitan wyjaśnia profesorowi, że statek jest napędzany przez elektryczność, którą produkuje poprzez wydobycie sodu z wody morskiej. Kapitan Nemo prezentuje również narzędzia nawigacyjne i wyjaśnia ich funkcje. Profesor Aronnax jest pod wrażeniem i prosi o więcej informacji na temat źródła mocy statku. Kapitan tajemniczo wspomina o kopalniach metali w głębinach mórz, które dostarczają mu potrzebnych surowców.
+--------------------------------------------------
+

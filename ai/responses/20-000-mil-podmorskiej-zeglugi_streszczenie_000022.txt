@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Ned Land, Conseil i narrator zostali zaprowadzeni do tej samej celi, w której spędzili pierwszą noc na pokładzie "Nautilusa". Ned Land próbował protestować, ale drzwi zostały zamknięte za nimi. Kapitan zorganizował śniadanie, po którym wszyscy zaczęli odczuwać senność. Okazało się, że zostali uśpiani. Następnego dnia kapitan poprosił narratora, by pomógł rannemu członkowi załogi, który zmarł na jego oczach. Po tym wydarzeniu, kapitan zaprosił narratora, Neda i Conseila na podmorską wycieczkę do państwa koralowego, gdzie obserwowali niezwykłą roślinność morską. Dochodząc do obszernej polany, zauważyli grupę ludzi kapitana, którzy przynieśli tajemniczy przedmiot.
+--------------------------------------------------
+

@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Manometr wskazywał jednostajną głębokość, busola kierunek na południe, a log szybkość „Nautilusa”. Kapitan Nemo wiedział, że muszą działać szybko, gdyż byli uwięzieni pod lodowiskiem. Po kolejnym wstrząśnieniu dowiadują się, że lodowiec zablokował im drogę. Kapitan postanawia przebić ścianę lodową za pomocą wody wrzącej z pomp statku. Po trzech godzinach temperatura wody wzrasta, opóźniając zamarzanie. Następnego dnia udaje im się wydrążyć do głębokości sześciu metrów, pozostawiając cztery metry do wyrąbania. Brakujące powietrze sprawia, że sytuacja staje się coraz bardziej dramatyczna, jednak dzięki pracy w przyrządach nurkowych udaje im się odetchnąć.
+--------------------------------------------------
+

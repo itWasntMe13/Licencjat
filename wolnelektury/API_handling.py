@@ -35,6 +35,9 @@ def download_book(file_name, file_type, url):
     response_api = requests.get(url)
     book = response_api.content
 
+    # Save book in working directory
+    current_folder = os.path.dirname(os.path.abspath(__file__))
+
     # Check if book was downloaded correctly (if it's not an HTML)
     if book.split()[0] == b'<html>':
         # Save HTML file

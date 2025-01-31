@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Ned Land chciał polować na diugonia, ale kapitan Nemo ostrzegł go, żeby nie chybił. Po długiej pogoni i walkach z diugoniem, Kanadyjczyk wreszcie go pokonał. Następnie statek dotarł do tunelu Arabian Tunnel, przechodząc z Morza Czerwonego do Morza Śródziemnego w niespełna dwadzieścia minut. Następnego dnia, o świcie, „Nautilus” wypłynął na powierzchnię morza, co było zaskoczeniem dla Ned'a i Conseila. Ned Land początkowo nie chciał w to uwierzyć, ale po zobaczeniu brzegów Egiptu potwierdził, że znajdują się na Morzu Śródziemnym. W końcu postanowili porozmawiać o swoich interesach, usunięci od reszty załogi na platformie statku.
+--------------------------------------------------
+

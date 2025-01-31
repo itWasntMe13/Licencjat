@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Fragment opisuje jak statek podwodny „Nautilus” płynie przez Ocean Spokojny, a bohaterowie podziwiają podwodny świat ryb. Ned Land i Conseil zaczynają dyskusję na temat klasyfikacji ryb, a następnie obserwują różnorodność gatunków ryb wokół statku. Po pewnym czasie światło w sali gaśnie, a ściany salonu zasuwają się, kończąc magiczne doświadczenie. Bohaterowie udają się na posiłek, a następnie na spoczynek. Następnego dnia bohater budzi się i rozmawia z Conseilem, który oferuje mu swoją pomoc. Ned Land śpi spokojnie.
+--------------------------------------------------
+

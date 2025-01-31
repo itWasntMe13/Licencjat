@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: W jaskini na wyspie odkryto roślinność mieszaną z minerałami, a Ned Land zebrał miód ze spłoszonych pszczół. Podczas dalszej podróży "Nautilus" odwiedził Morze Sargasowe, gdzie obserwowano bogactwo fauny i flory morskiej. Kapitan Nemo nie zmienił kursu statku, prowadząc go na południe Oceanu Atlantyckiego. Podróż trwała bez incydentów, a kapitan Nemo zanurzył statek, gdy statek wielorybniczy zaczął ich gonić. Codzienne obserwacje ryb, delfinów i żarłaczy urozmaicały monotonię podróży. Naukowy zainteresowanie kapitana Nemo wyrażało się w przeglądaniu książek o przyrodzie. Planował on okrążenie Przylądka Horn, by powrócić na południe Oceanu Spokojnego. Ned Land myślał o ucieczce, ale obawy o tajemnicę "Nautilusa" skutecznie go powstrzymywały. Ostatecznie podróż kontynuowano na południe z ustaloną szybkością.
+--------------------------------------------------
+

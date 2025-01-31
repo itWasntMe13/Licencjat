@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Nasi bohaterowie znajdują się w tajemniczym więzieniu, gdzie spotykają dwóch nieznajomych. Pierwszy z nich jest prowansalskiego pochodzenia, a drugi emanuje pewnością siebie i energią. Mimo prób porozumienia się w różnych językach, nie udaje im się zrozumieć. Po smacznym posiłku i krótkim śnie, Aronnax zastanawia się, jak statek podmorski utrzymuje zapas powietrza. Czuje się przytłoczony brakiem świeżego powietrza. Czy uda im się dowiedzieć, gdzie się znajdują i jak wydostać się z tej sytuacji?
+--------------------------------------------------
+

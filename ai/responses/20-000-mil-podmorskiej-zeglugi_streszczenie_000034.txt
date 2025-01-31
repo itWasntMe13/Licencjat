@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Ned, z niepohamowanym gniewem, próbował przebić mglisty widnokrąg wzrokiem, marząc o ujrzeniu ziemi. Słońce pojawiło się na chwilę, pozwalając oznaczyć położenie statku, który znajdował się 150 mil od najbliższego lądu. Kapitan Nemo zaprosił narratora na nocną wycieczkę podwodną, podczas której dotarli na dno oceanu, gdzie odkryli ruiny starożytnego miasta, które okazało się być mityczną Atlantydą. Obaj eksploratorzy kontynuowali swoją podróż, odkrywając coraz to nowe tajemnice podmorskiego świata.
+--------------------------------------------------
+

@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Kapitan Nemo, profesor i towarzyszowie ubrali się w specjalne ciężkie suknie nurkowe. Wyposażeni w broń i przyrządy do nurkowania, ze sporym zachwytem zanurzyli się w oceanie. Pod wodą odkryli niezwykłe zjawiska, takie jak kolorowe rafy korali, bogactwo fauny i flory morskiej, oraz podmorski las. Flora podmorska wydała im się kompletna i bogata, a rośliny trzymały się gruntu powierzchownie. Po wyczerpującej wędrówce pod wodą, kapitan Nemo zaprosił załogę do odpoczynku w altance na dnie oceanu.
+--------------------------------------------------
+

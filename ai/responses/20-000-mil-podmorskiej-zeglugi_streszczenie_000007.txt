@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Dwadzieścia cztery godziny? Jakiejkolwiek używał metody, to użyć jej powinien co prędzej. Narrator, Conseil i Ned Land znajdują się w celi na podmorskim statku, gdzie zaczyna brakować świeżego powietrza. Po chwili odkrywają sposób na odświeżenie powietrza na okręcie. Nagle słyszą szmer z zewnątrz i dowiadują się, że zostali odnalezieni przez dowódcę statku, który nie uznaje społecznych norm i nie wahają się zniszczyć ich, gdyby zechcieli. Dowódca stawia sobie ponad prawa społeczne i nie uznaje się za człowieka cywilizowanego. Oczom narratora ukazuje się straszny obraz tego człowieka, który zerwał z ludzkością i jest niezależny oraz niedosiężny dla jakichkolwiek prób przeciwstawienia się mu.
+--------------------------------------------------
+

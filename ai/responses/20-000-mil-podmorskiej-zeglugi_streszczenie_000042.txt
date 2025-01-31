@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Kapitan Nemo opowiada o swoich odkryciach na biegunie południowym, a następnie statek Nautilus uderza o dno morskie pośród lodowych zatok. Po trudnych chwilach próbują się uwolnić, a po odzyskaniu równowagi kontynuują podróż przez lodowy tunel. W końcu udaje im się wydostać, choć niebezpieczeństwo nie minęło. Ned Land, Conseil i narrator są pod wrażeniem piękna lodowych formacji, ale także zdają sobie sprawę z ogromu zagrożeń czyhających na nich w tej surowej, lodowej scenerii.
+--------------------------------------------------
+

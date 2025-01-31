@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Conseil i narrator szykują się do podróży, podczas której mają zamiar spotkać potwora morskiego. Po opuszczeniu hotelu udają się na fregatę "Abraham Lincoln", gdzie zostają przywitani przez kapitana Farraguta. Fregata wyrusza w morze w poszukiwaniu potwora, a załoga, w tym Ned Land, jest pełna entuzjazmu i gotowa na walkę. Ned Land wyraża wątpliwości co do istnienia potwora, argumentując, że dotąd nie spotkał morskiego stworzenia zdolnego uszkodzić okręt. Jednak narrator przekonuje go, że istnienie tak potężnego organizmu morskiego jest możliwe ze względu na specyficzne warunki głębin oceanu. Ned Land, chociaż sceptyczny, wciąż towarzyszy narratorowi w wyprawie.
+--------------------------------------------------
+

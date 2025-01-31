@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Stwierdzono, że ryby latające są ciekawymi istotami, zwłaszcza w kontekście polowania delfinów. Kapitan Nemo postanawia opuścić się na dno oceanu, docierając na głębokość 16 000 metrów. Po wykonaniu zdjęć podmorskich formacji skalnych, „Nautilus” powraca na powierzchnię, gdzie Ned Land wyraża swoje niezadowolenie z życia na statku. Następnie statek wpada między stado wielorybów, co wywołuje ekscytację, szczególnie u Kanadyjczyka.
+--------------------------------------------------
+

@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Kanadyjczyk ogłasza swoją decyzję o opuszczeniu Nautilusa podczas rozmowy z kapitanem Nemo i narrator. Podczas dyskusji nad ucieczką z okrętu, Ned Land proponuje plan ucieczki, który zostaje zaakceptowany. Później narrator obserwuje tajemnicze zachowanie kapitana Nemo, który wypuszcza kuferek z złotem na brzeg. Następnie nurkowie, w tym znajomy kapitana, pojawiają się przed oknem. Kapitan Nemo przekazuje złoto i odcina się od reszty załogi. Narrator jest zaintrygowany, ale nie otrzymuje odpowiedzi na swoje pytania. W końcu kapitan Nemo informuje go, że płyną w gorącym prądzie wodnym, co wyjaśnia nagłe wzrost temperatury na pokładzie.
+--------------------------------------------------
+

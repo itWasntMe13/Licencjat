@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: W roku 1866 na morzu zaczęły pojawiać się dziwne zjawiska, które zaniepokoiły marynarzy i ludność portów. Okręty napotykały na ogromną rzecz o nieznanym kształcie i świecącym wyglądzie, poruszającą się szybciej od wieloryba. Wielu obserwatorów potwierdzało istnienie tego fenomenu, przekazując szczegółowe opisy. Wkrótce potwór zaczął być obwiniany za liczne rozbicia statków na morzu. Wszystkie wypadki bez wyraźnej przyczyny były przypisywane potworowi, co zwiększało niebezpieczeństwo podróży morskich. W czasie gdy te wydarzenia miały miejsce, narrator wracał z wycieczki naukowej do Stanów Zjednoczonych, zafascynowany tajemnicą potwora morskiego. Aby rozwiązać tę zagadkę, pozostawały tylko dwa możliwe wyjaśnienia.
+--------------------------------------------------
+

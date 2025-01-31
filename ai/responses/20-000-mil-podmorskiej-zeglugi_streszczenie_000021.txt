@@ -1,0 +1,4 @@
+<built-in method now of type object at 0x00007FF9AF079330>
+Response: Następnego dnia, 10 stycznia, „Nautilus” zapuścił się pod powierzchnię morza i płynął z dużą szybkością. Kapitan Nemo przeprowadzał badania głębokości i temperatury wód morskich, zaskakując profesora swoją wiedzą. Podczas podróży obserwowali różnorodne zjawiska morskie, w tym niesamowite światło fosforyzacyjne wywołane przez mikroorganizmy. Nagle kapitan Nemo, wskazując na coś w oddali, pokazał oznaki niepokoju, co wywarło duże wrażenie na załodze. Po chwili kapitan zażądał, aby Profesor Aronnax, Conseil i Ned Land zostali zamknięci w swojej kajucie, przerywając tym samym ich podróż.
+--------------------------------------------------
+
