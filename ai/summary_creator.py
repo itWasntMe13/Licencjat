@@ -2,13 +2,26 @@ from ai import api_manager, file_manager, text_manager
 from wolnelektury.normalization import normalize_title
 from config import *
 
-def get_summary(title, save_summary) -> str:
+def get_summary(title, _save_summary) -> str:
+    # Tworzymy listę części streszczenia
     summary_parts_list = create_summary_parts_list(title)
-    summary = merge_summary(summary_parts_list)
 
-    # Jeśli save_summary == True, zapisujemy streszczenie
-    if save_summary:
-        save_summary(title, summary)
+    # Jeśli lista ma tylko jeden indeks, to znaczy, że całość książki zmieściła się w jednym zapytaniu, czyli nie trzeba łączyć streszczeń.
+    if len(summary_parts_list) == 1:
+        summary = summary_parts_list[0]
+
+        # Jeśli save_summary == True, zapisujemy streszczenie
+        if _save_summary:
+            save_summary(title, summary)
+
+        return summary_parts_list[0]
+    else:
+        summary = merge_summary(summary_parts_list)
+
+        # Jeśli save_summary == True, zapisujemy streszczenie
+        if _save_summary:
+            save_summary(title, summary)
+
 
     return summary
 
@@ -17,7 +30,7 @@ def save_summary(title, summary):
     normalized_title = normalize_title(title)
 
     # Określamy ścieżkę do pliku
-    summary_path = f"{GLOBAL_PATH}\\files\\wolne_lektury\\summaries\\{normalized_title}.txt"
+    summary_path = f"{GLOBAL_PATH}\\files\\ai\\summaries\\{normalized_title}.txt"
 
     # Zapisujemy streszczenie
     file_manager.save_file(summary_path, summary)
