@@ -67,7 +67,7 @@ def download_requsted_book() -> str:
     return chosen_title
 
 # Funkcja zlecająca pobranie książki o podanym tytule
-def dasdownload_book(title) -> None:
+def download_book(title) -> None:
     # Clearing the project
     clear_the_project()
 
@@ -90,11 +90,3 @@ def dasdownload_book(title) -> None:
         print(len(downloadable_books_list))
     except Exception as e:
         print(f"Exception raised while creating list of downloadable books: {e}")
-
-    # wanted_word = input("Podaj szukane słowo: ")
-    # text_title = input("Podaj nazwę tekstu w którym chcesz wyszukać wybrane słowo: ")
-    # print(count_word_repetitions("chleb", "Dziady", book_list))
-    # print(count_word_repetitions("chleb", "Lalka"))
-    # print(count_word_repetitions("chleb", "Dziady"))
-    # print(count_word_repetitions("wino", "Lalka"))
-    # print(count_word_repetitions("chleb", "Zbrodnia i kara"))

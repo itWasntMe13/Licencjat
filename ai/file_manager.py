@@ -6,12 +6,13 @@ from config import GLOBAL_PATH
 
 # Funkcja budująca strukturę folderów
 def check_file_structure():
-    # Wczytujemy zmienną globalną z ścieżką projektu
+    # Wczytujemy zmienną globalną ze ścieżką projektu
     global_path = GLOBAL_PATH
 
     # Lista wszystkich ścieżek programu
     required_paths = [
         "files/ai/summary_parts",
+        "files/ai/summaries",
         "files/ai/debug_data",
         "files/ai/debug_data/dalle",
         "files/ai/debug_data/gpt",
@@ -87,12 +88,12 @@ def create_folder(path):
         return f"An error occurred while creating a folder: {e}"
 
 # Funkcja do generowania nazwy pliku w formacie img_XXXX.png, przy czym XXXX to niepowtarzalne ID pliku
-def gen_img_name():
+def gen_img_name(path):
     # Pobieramy aktualną datę i godzinę
     now = datetime.datetime.now()
 
     # Tworzymy nazwę folderu na podstawie daty
-    folder_path = f"output_data/dalle/images/dalle_img_{now.year}-{now.month:02d}-{now.day:02d}"
+    folder_path = f"{path}/dalle_img_{now.year}-{now.month:02d}-{now.day:02d}"
 
     # Jeśli folder jeszcze nie istnieje to tworzymy go
     if not os.path.exists(folder_path):
@@ -128,10 +129,10 @@ def save_image(image):
         return f"An error occurred while saving an image: {e}"
 
 # Funkcja łącząca powstałe teksty z katalogu responses w jeden plik .txt
-def merge_responses():
+def merge_responses(summary_parts_path, save_summary_to):
     try:
-        with open("./ai/output_data/gpt/merged_responses.txt", "a", encoding="utf-8") as file:
-            for file_name in glob.glob("./ai/responses/*.txt"):
+        with open(save_summary_to, "a", encoding="utf-8") as file:
+            for file_name in glob.glob(f"{summary_parts_path}/*.txt"):
                 with open(file_name, "r", encoding="utf-8") as file_to_read:
                     file.write(file_to_read.read())
     except Exception as e:

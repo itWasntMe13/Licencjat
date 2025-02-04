@@ -1,5 +1,4 @@
 from ai import api_manager, file_manager, text_manager
-import os
 from wolnelektury.normalization import normalize_title
 from ai.api_manager import WORKING_DIRECTORY
 from ai.file_manager import merge_responses
@@ -72,13 +71,3 @@ def create_summary_files(title):
         # Wysyłamy zapytanie do API z włączonym zapisem informacji
         gpt_summary_obj.get_gpt(save_response=True, system_role=summary_system_role, save_to=save_response_path)
         print(f"Response saved in {save_response_path}")
-
-    # Tworzymy obiekt, który jest zapytaniem do API i określamy treść zapytania
-    # prompt_object = api_manager.GPTPrompt(prompt)
-    #
-    # # Wysyłamy zapytanie do API
-    # prompt_object.get_response(save_info=True, save_info_path=save_response_path)
-    #
-    # # Wyświetlamy dane z obiektu
-    # print(prompt_object)
-    # print(f"Response saved in {save_response_path}")

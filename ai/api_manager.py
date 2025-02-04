@@ -4,11 +4,9 @@ import requests
 import PIL.Image
 from io import BytesIO
 from importlib.metadata import version, PackageNotFoundError
-import os
+from config import MY_API_KEY, GLOBAL_PATH, OPENAI_VERSION
 
 from ai.file_manager import load_file, append_file, save_file, save_image
-
-
 
 # Funkcje pomocnicze
 
@@ -31,14 +29,9 @@ def check_openai_version():
         print("Biblioteka openai nie jest zainstalowana.")
         return None
 
-# Zmienne globalne
-MY_API_KEY = get_api_key() # Przypisanie klucza API do zmiennej globalnej
-OPENAI_VERSION = check_openai_version() # Przypisanie wersji openai do zmiennej globalnej
-WORKING_DIRECTORY = os.path.dirname(os.path.abspath(__file__)) # Pobranie ściezki do working directory
-
 # Klasa do obsługi API dla GPT-3.5
 class GPTPrompt:
-    def __init__(self, prompt, api_key=MY_API_KEY, model="gpt-3.5-turbo", token_limit=4096):
+    def __init__(self, prompt, api_key, model, token_limit):
         openai.api_key = api_key  # Ustawienie klucza API dla openai
         self.model = model  # Model AI, w projekcie używamy GPT-3.5 Turbo
         self.token_limit = token_limit  # Limit tokenów na odpowiedź
@@ -59,7 +52,7 @@ class GPTPrompt:
         )
 
     # Funkcja odbierająca odpowiedź i generująca informacje o zapytaniu
-    def get_gpt(self, system_role="", save_to=f"{WORKING_DIRECTORY}/output_data/gpt", save_info=False, save_response=False):
+    def get_gpt(self, system_role, save_to, save_info, save_response):
         self.response = self.__send_prompt(system_role)
         self.output_tokens = self.count_tokens(self.response)
         self.cost = self.__cost()
@@ -92,7 +85,7 @@ class GPTPrompt:
         print(f"Zapisano informacje zapytania/odpowiedzi w {save_to}")
 
     # Funkcja do wysłania zapytania do API
-    def __send_prompt(self, system_role, save_debug_to=f"{WORKING_DIRECTORY}/debug_data/gpt"):
+    def __send_prompt(self, system_role, save_debug_to):
         try:
             print(f"Wysyłanie zapytania do {self.model}...")
             # Jeśli wersja openai jest starsza niż 1.0.0
@@ -148,9 +141,7 @@ class GPTPrompt:
 
 # Klasa do obsługi API dla DALL-E
 class DALLEPrompt:
-    def __init__(self, prompt, api_key=MY_API_KEY, model="dall-e-2.0", size="1024x1024", n=1,
-                 save_info_to="./output_data/dalle/info/dalle_info",
-                 save_img=True, save_info=True, save_url=False, save_prompt=True):
+    def __init__(self, prompt, api_key, model, size, n, save_info_to, save_img, save_info, save_url, save_prompt):
         openai.api_key = api_key  # Ustawienie klucza API dla openai
         self.model = model  # Model AI, w projekcie używamy DALL-E 2.0
         self.prompt = prompt  # Zapytanie do API
@@ -190,7 +181,7 @@ class DALLEPrompt:
         self.img.show()
 
     # Funkcja do wysłania zapytania do API
-    def __send_prompt(self, save_debug_to='./debug_data/dalle') -> dict:
+    def __send_prompt(self, save_debug_to) -> dict:
         try:
             print(f"Wysyłanie zapytania do {self.model}...")
             response = openai.Image.create(
@@ -253,7 +244,7 @@ class DALLEPrompt:
         append_file(save_info_to, content)
 
     # Funkcja zapisująca informacje o zapytaniu i odpowiedzi do pliku
-    def __save_response_info(self, save_info_to, save_prompt=True):
+    def __save_response_info(self, save_info_to):
         # Dopisanie informacji do pliku
         content = (f"Prompt: {self.prompt}\n"
                    f"Response URL: {self.response}\n"

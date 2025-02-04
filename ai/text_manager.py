@@ -1,5 +1,5 @@
 # Funkcja dzieląca teksty wczytane z input_data na 3000 znakowe fragmenty
-def split_text(text, fragment_length=5000):
+def split_text(text, fragment_length):
     # Lista fragmentów
     fragments = []
     # Długość tekstu
