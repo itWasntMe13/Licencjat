@@ -1,11 +1,14 @@
 from ai import api_manager, file_manager, text_manager
 from wolnelektury.normalization import normalize_title
-from ai.api_manager import WORKING_DIRECTORY
 from ai.file_manager import merge_responses
+from config import GLOBAL_PATH
 
 def get_final_summary():
 
-    merge_responses()
+    summary_parts_path = f"{GLOBAL_PATH}\\files\\ai\\summary_parts"
+    summaries_path = f"{GLOBAL_PATH}\\files\\ai\\summaries"
+
+    merge_responses(summary_parts_path, summaries_path, "final_summary.txt")
 
     text_name = "merged_responses"
     extension = "txt"

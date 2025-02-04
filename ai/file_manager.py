@@ -129,11 +129,5 @@ def save_image(image):
         return f"An error occurred while saving an image: {e}"
 
 # Funkcja łącząca powstałe teksty z katalogu responses w jeden plik .txt
-def merge_responses(summary_parts_path, save_summary_to):
-    try:
-        with open(save_summary_to, "a", encoding="utf-8") as file:
-            for file_name in glob.glob(f"{summary_parts_path}/*.txt"):
-                with open(file_name, "r", encoding="utf-8") as file_to_read:
-                    file.write(file_to_read.read())
-    except Exception as e:
-        return f"An error occurred while merging responses: {e}"
+def m():
+
