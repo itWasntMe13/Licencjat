@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Potwór, zanurzony pod wodą, emitował silne światło elektryczne, które prowadziło do niebezpiecznej pogońi przez załogę fregaty. Kapitan Farragut próbował się zbliżyć do stworzenia, ale potwór unikał go z przerażającą szybkością. Po wielu próbach, w końcu kapitan postanowił użyć armaty do trafienia potwora, ale kula odbiła się od jego pancerza. Po kolejnych nieudanych próbach, potwór niespodziewanie wydał dwa potężne strumienie wody na fregatę, powodując zamieszanie i wstrząs. W rezultacie, narrator został wtrącony do morza, gdy fregata została porwana przez gwałtowne wstrząsy wody.
---------------------------------------------------
-

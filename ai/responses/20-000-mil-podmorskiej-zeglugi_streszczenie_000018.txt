@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Podczas podróży "Nautilusa" kapitan Nemo wprowadza załogę, składającą się z profesora Aronnaxa, Ned Landu i Conseila, na wyspę Gueboroar. Kanadyjczyk entuzjastycznie planuje polowanie, podczas gdy grupa odkrywa drzewo chlebowe, które stanowi doskonałe źródło pożywienia. Ned Land zapewnia, że potrafi przyrządzić owoc chlebowy, który smakuje jak delikatne ciasto. Po zbiorze owoców, postanawiają udać się w poszukiwaniu innych jarzyn na obiad.
---------------------------------------------------
-

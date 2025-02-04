@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Profesor Aronnax wraz z kapitanem Nemo oraz towarzyszami przygotowują się do wyprawy na wyspę Crespo, gdzie planowane jest polowanie. Kapitan Nemo wyjaśnia profesorowi, że posiada podmorskie lasy, do których można dotrzeć za pomocą specjalnych przyrządów. Następnie kapitan omawia technologię, jaką używa do oddychania i oświetlania pod wodą, a także swoją broń do polowania, która składa się z szklanych kapsułek z elektrycznością. Aronnax, Ned i Conseil zostają ubrani w specjalne stroje spacerowe i przygotowują się do przechadzki po dnie oceanu.
---------------------------------------------------
-

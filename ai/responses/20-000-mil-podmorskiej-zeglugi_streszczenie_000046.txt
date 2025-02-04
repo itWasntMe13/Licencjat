@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Narrator rozmawia z Conseilem, Nedem i kapitanem Nemo o olbrzymich roślinach i zwierzętach morskich. W trakcie obserwacji morskich stworzeń, zostaje zauważona ogromna kałamarnica, która atakuje statek. W wyniku walki z potworami, jeden z marynarzy, rodak narratora, ginie w straszliwy sposób. Kapitan Nemo zdecydowany jest pozbyć się mątw i wkracza do walki. Po zakończonej bitwie, kapitan Nemo płacze patrząc na morze, a narrator i towarzysze są głęboko poruszeni tragicznym wydarzeniem.
---------------------------------------------------
-

@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Po odłączeniu się od „Nautilusa”, narrator zaczyna snuć różne domysły na temat kapitana Nemo, podejrzewając, że może on mieć tajemnicze kontakty z lądem. Niepokój narratora rośnie, gdy czeka na spotkanie z Nedem Landem. W końcu kapitan Nemo zaprasza go do zatoki Vigo, gdzie okazuje się, że zbiera bogactwa z zatopionych galionów. Narrator dowiaduje się, że kapitan Nemo wykorzystuje te skarby na pomoc potrzebującym. Ned Land jest zawiedziony, że nie udało im się opuścić statku, ale wciąż nie traci nadziei na powodzenie przyszłych prób ucieczki. W końcu, narrator obserwuje, że „Nautilus” zmienia kierunek i płynie na południowy zachód, co zwiastuje nowe przygody.
---------------------------------------------------
-

@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo, wracając do swojego pokoju, ukazywał objawy smutku i niezdecydowania, widoczne w ruchach statku "Nautilusa", który płynął bez określonego kierunku. Po dotarciu do Golf-Streamu, opisuje jego powstanie i trasę, po czym opowiada o różnorodności ryb i zjawisk związanych z tym prądem morskim. Podczas dyskusji z Nedem Landem, Kapitan Nemo odmawia zwolnienia załogi z "Nautilusa" i podkreśla swoją decyzję. Aronnax stara się przekonać kapitana do zmiany zdania, ale bezskutecznie. Nemo kończy rozmowę, zaznaczając, że nie ma już nic więcej do powiedzenia w tej sprawie.
---------------------------------------------------
-

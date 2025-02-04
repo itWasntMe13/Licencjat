@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo zabiera profesora Aronnaxa oraz dwóch towarzyszy na wyprawę nurkową, aby zbadać zatokę pełną ostryg perłowych. Nurkowcy wdziewają ciężkie skafandry morskie i wyruszają pod wodę, gdzie obserwują różnorodne gatunki ryb i mięczaków. Podczas eksploracji odkrywają olbrzymią ostrygę, w której kapitan Nemo hoduje perłę. Nagle dostrzegają rybaka Indusa, który atakowany jest przez potężnego rekina. Kapitan Nemo rusza mu z pomocą, dochodzi do zaciętej walki, a ostatecznie dzięki interwencji Ned Landa udaje im się ocalić rybaka i pokonać rekina. Wszyscy wracają na powierzchnię morza, gdzie udzielana jest pomoc rannym.
---------------------------------------------------
-

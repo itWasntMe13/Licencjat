@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Podczas poszukiwań po wyspie odkrywają różne owoce, a Conseil zapatruje się na Neda Landa, który zbiera jedzenie. Ned Land obiecuje kotlety, ale Conseil sugeruje powrót do łodzi przed zmrokiem. Ned jednak chce kontynuować polowanie, przekonując, że prędzej czy później spotkają zwierzęta. Zbierający żywność wracają do łodzi, gdzie Ned Land przypadkowo odkrywa drzewa sagowe, z których zaczyna pozyskiwać sago. Następnego dnia wyruszają na kolejne polowanie, gdzie Conseil łapie pijanego rajskiego ptaka, a Ned Land udaje się upolować dzika. Po powrocie na łódź, zaczynają gotować obiad, gdy nagle zostają zaatakowani przez dzikich mieszkańców wyspy. Szybko uciekają na pokład Nautilusa, gdzie Kapitan Nemo nie przejmuje się obecnością dzikich, twierdząc, że ich obecność na lądzie jest naturalna.
---------------------------------------------------
-

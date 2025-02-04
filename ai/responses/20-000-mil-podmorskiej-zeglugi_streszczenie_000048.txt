@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo stawił czoło nadchodzącej burzy na powierzchni morza, mimo coraz groźniejszych warunków atmosferycznych. Huragan rozpętał się, a "Nautilus" musiał zmagać się z olbrzymimi falami i gwałtownym wiatrem. Burza osiągnęła szczyt intensywności, zagrażając statkowi. Niestety, próby ucieczki do portu zostały pokrzyżowane, a "Nautilus" został odrzucony na wschód. W międzyczasie, podczas podróży nad ławicą nowofundlandzką, załoga obserwowała bogactwo życia morskiego, w tym liczne rodzaje ryb. Wreszcie, statek natrafił na zatopioną linię telegraficzną, która miała kluczowe znaczenie dla komunikacji między Ameryką a Europą.
---------------------------------------------------
-

@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo wyjaśnia profesorowi, jak steruje statkiem Nautilus na różnych głębokościach i kierunkach za pomocą specjalnych mechanizmów. Opowiada o jego niezawodności i bezpieczeństwie w podróży podwodnej. Kapitan Nemo opisuje także, jak zbudował statek w tajemnicy na bezludnej wyspie i jakie koszty to wymagało. Następnie profesor Aronnax dowiaduje się, że kapitan Nemo jest bogaty i mógłby spokojnie spłacić długi Francji. Po dokonaniu obserwacji na powierzchni morza, kapitan Nemo informuje profesora o rozpoczęciu podróży podmorskiej na wschód. Profesor pozostaje sam, zastanawiając się nad tajemnicą kapitana Nemo i jego motywacjami. W końcu zwraca uwagę na mapę i zastanawia się nad prądami morskimi na Ziemi.
---------------------------------------------------
-

@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Po opuszczeniu okolic Amazonki, "Nautilus" zbliżył się do wybrzeży Gujany holenderskiej, gdzie polowano na manaty i złowiono wiele ryb. Podczas dalszej podróży, statek oddalił się od brzegów amerykańskich, omijając Zatokę Meksykańską i morze Antyli. Ned Land planował ucieczkę, ale nie mógł jej zrealizować. Podróżni zastanawiali się, czy kapitan Nemo zamierza trzymać ich na statku na zawsze. W trakcie obserwacji podmorskiego świata wodach antylskich, odkrywano nowe gatunki zwierząt morskich. Statek "Nautilus" zanurzał się na głębokościach, gdzie można było obserwować lilie morskie, gwiazdy morskie oraz inne niezwykłe stworzenia.
---------------------------------------------------
-

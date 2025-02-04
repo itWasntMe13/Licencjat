@@ -2,43 +2,36 @@ import glob
 import datetime
 import os
 import PIL.Image
+from config import GLOBAL_PATH
 
+# Funkcja budująca strukturę folderów
 def check_file_structure():
-    # Tworzymy listę, do której będziemy dodawać informacje o brakujących folderach
+    # Wczytujemy zmienną globalną z ścieżką projektu
+    global_path = GLOBAL_PATH
+
+    # Lista wszystkich ścieżek programu
+    required_paths = [
+        "files/ai/summary_parts",
+        "files/ai/debug_data",
+        "files/ai/debug_data/dalle",
+        "files/ai/debug_data/gpt",
+        "files/ai/output_data/dalle",
+        "files/ai/output_data/dalle/images",
+        "files/ai/output_data/dalle/info",
+        "files/ai/output_data/gpt",
+        "files/wolne_lektury/books",
+        "files/wolne_lektury/api_errors",
+        "files/wolne_lektury/json_files",
+    ]
+
+    # Sprawdzamy, które foldery nie istnieją
     missing_folders = []
+    for rel_path in required_paths:
+        full_path = os.path.join(global_path, rel_path)
+        if not os.path.exists(full_path):
+            missing_folders.append(full_path)
 
-    # Wczytujemy ścieżkę do folderu, w którym znajduje się plik file_manager.py
-    current_folder = os.path.dirname(os.path.abspath(__file__))
-
-    # Sprawdzamy, czy w folderze, w którym znajduje się plik file_manager.py, istnieją foldery ./output_data, ./output_data/dalle, ./output_data/dalle/images, ./output_data/dalle/info, ./output_data/gpt, ./input_data, ./debug_data, ./debug_data/dalle, ./debug_data/gpt
-    if not os.path.exists(f"{current_folder}/output_data"):
-        missing_folders.append(f"{current_folder}/output_data")
-
-    if not os.path.exists(f"{current_folder}/output_data/dalle"):
-        missing_folders.append(f"{current_folder}/output_data/dalle")
-
-    if not os.path.exists(f"{current_folder}/output_data/dalle/images"):
-        missing_folders.append(f"{current_folder}/output_data/dalle/images")
-
-    if not os.path.exists(f"{current_folder}/output_data/dalle/info"):
-        missing_folders.append(f"{current_folder}/output_data/dalle/info")
-
-    if not os.path.exists(f"{current_folder}/output_data/gpt"):
-        missing_folders.append(f"{current_folder}/output_data/gpt")
-
-    if not os.path.exists(f"{current_folder}/input_data"):
-        missing_folders.append(f"{current_folder}/input_data")
-
-    if not os.path.exists(f"{current_folder}/debug_data"):
-        missing_folders.append(f"{current_folder}/debug_data")
-
-    if not os.path.exists(f"{current_folder}/debug_data/dalle"):
-        missing_folders.append(f"{current_folder}/debug_data/dalle")
-
-    if not os.path.exists(f"{current_folder}/debug_data/gpt"):
-        missing_folders.append(f"{current_folder}/debug_data/gpt")
-
-    # Jeśli brakujące foldery istnieją, to pytamy użytkownika, czy chce je utworzyć
+    # Jeśli brakuje jakichś folderów, wyświetlamy je i pytamy użytkownika o utworzenie
     if missing_folders:
         print("Brakujące foldery:")
         for folder in missing_folders:
@@ -143,28 +136,3 @@ def merge_responses():
                     file.write(file_to_read.read())
     except Exception as e:
         return f"An error occurred while merging responses: {e}"
-
-# Funkcja usuwająca ostatnie 6 linii z każdego pliku .txt w ./responses
-# Funkcja pozwala usunąć zbędne informacje o zapytaniu
-# def remove_last_6_lines():
-#     try:
-#         for file_name in glob.glob("./responses/*.txt"):
-#             with open(file_name, "r", encoding="utf-8") as file:
-#                 lines = file.readlines()
-#             with open(file_name, "w", encoding="utf-8") as file:
-#                 file.writelines(lines[:-6])
-#     except Exception as e:
-#         return f"An error occurred while removing last 6 lines: {e}"
-#
-# # Funkcja usuwająca pierwsze 10 znaków z każdego pliku .txt w ./responses
-# # Funkcja pozwala usunąć zbędne informacje o zapytaniu
-# def remove_first_10_chars():
-#     try:
-#         for file_name in glob.glob("./responses/*.txt"):
-#             with open(file_name, "r", encoding="utf-8") as file:
-#                 lines = file.readlines()
-#             with open(file_name, "w", encoding="utf-8") as file:
-#                 for line in lines:
-#                     file.write(line[10:])
-#     except Exception as e:
-#         return f"An error occurred while removing first 10 characters: {e}"

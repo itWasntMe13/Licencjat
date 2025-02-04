@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Tekst opisuje przemówienie kapitana Nemo na temat gęstości wody, soli morskich i życia podmorskiego. Następnie opisuje spotkanie z zatopionym statkiem na dnie oceanu oraz podróż „Nautilusa” przez Archipelag Pomotu, wyspę Clermont-Tonnerre i obserwacje dotyczące budowy raf koralowych. Ostatecznie statek wraca na powierzchnię oceanu, gdzie bohaterowie mogą przyjrzeć się bliżej wyspie Clermont-Tonnerre.
---------------------------------------------------
-

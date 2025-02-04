@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Ned Land tłumaczy Nedowi Landowi, jakie siły muszą wytrzymać zwierzęta przebywające na dużych głębokościach pod wodą. Ned Land wątpi w istnienie narwala, ale w końcu udaje mu się złowić dwa wieloryby. Po długich poszukiwaniach okręt decyduje się zawrócić, ale w ostatniej chwili Ned Land dostrzega potwora i krzyczy o jego obecności. Wszyscy na pokładzie widzą narwala i fregata rusza w pościg, zatrzymując się tylko siłą rozpędu, gdy potwór zostaje zauważony.
---------------------------------------------------
-

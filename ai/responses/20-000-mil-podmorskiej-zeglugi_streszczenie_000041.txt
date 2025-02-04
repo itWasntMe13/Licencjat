@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo oznaczył wysokość cypla za pomocą barometru, a następnie przy użyciu lunety obserwował zachodzącą gwiazdę, szukając znaku bieguna południowego. Kiedy słońce zniknęło o południu pod widnokręgiem, potwierdzając ich położenie, Nemo wspominał inne wyprawy, które dotarły w okolice bieguna południowego.
---------------------------------------------------
-

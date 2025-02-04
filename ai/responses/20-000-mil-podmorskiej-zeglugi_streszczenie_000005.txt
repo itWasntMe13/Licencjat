@@ -1,5 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Streszczenie:
-Po próbie ratowania się, Profesor Aronnax, Conseil i Ned Land w końcu zostają wyciągnięci z morza przez tajemnicze istoty i wciągnięci do wnętrza statku podwodnego. Po szybkim porwaniu, zostają zamknięci w ciemnej celi, gdzie nie potrafią dostrzec niczego. Ned wyraża złość, ale Conseil próbuje go uspokoić. Ned grozi użyciem swojego noża, ale Conseil radzi zachować spokój, sugerując, że mogą być podsłuchiwani.
---------------------------------------------------
-

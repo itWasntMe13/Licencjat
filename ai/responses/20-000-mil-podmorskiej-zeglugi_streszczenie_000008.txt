@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo informuje bohaterów, że będą mogli przebywać na jego statku, ale pod warunkiem biernego posłuszeństwa. Nemo tłumaczy, że morze dostarcza im jedzenia, ubrań i innych potrzeb. Następnie zaprasza profesora na zwiedzanie biblioteki Nautilusa, która zawiera tysiące książek na różne tematy. Profesor podziwia bogactwo zbiorów i zauważa, że książki są ustawione niezależnie od języka, co świadczy o wszechstronności kapitana. W bibliotece znajdują się dzieła literackie, naukowe i techniczne, co wskazuje na zainteresowania i wiedzę kapitana.
---------------------------------------------------
-

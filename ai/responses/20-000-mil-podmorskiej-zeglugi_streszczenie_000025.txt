@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Conseil, Kanadyjczyk i narrator zastanawiają się nad propozycją kapitana Nemo dotyczącą wizyty na ławicy pereł przy Cejlonie. Ned Land wykazuje entuzjazm, podczas gdy narrator stara się ostrzec towarzyszy przed niebezpieczeństwami związanymi z rekinami. Następnego dnia wyruszają łodzią na ławicę perłową, gdzie zaczynają obserwować przybrzeżną ziemię. Po dotarciu na miejsce kapitan Nemo daje znak do zrzucenia kotwicy, wskazując na jedno z najwyższych miejsc w okolicy, gdzie znajduje się ławica perłowa.
---------------------------------------------------
-

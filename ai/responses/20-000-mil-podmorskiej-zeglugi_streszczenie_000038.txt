@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kanadyjczyk Ned Land rozpoczęli dyskusję na temat wielorybów południowych, z którymi nie mieli jeszcze doświadczenia. Profesor tłumaczył, że różne gatunki wielorybów żyją tylko w określonych morzach. W trakcie dyskusji dostrzegli gromadę potwornych kaszalotów atakujących stado wielorybów. Kapitan Nemo postanowił interweniować i rozpoczął walkę z potworami morskimi, korzystając z mocy „Nautilusa” jako broni. Po zakończonej walce, kapitan Nemo wyciągnął z zabitych potworów cenne surowce, takie jak tran. Jednak Ned Land, myśliwy, nie podzielał entuzjazmu kapitana, co wywołało jego niezadowolenie. Następnie statek skierował się w stronę ławicy lodowej, gdzie profesor zauważył, że „Nautilus” zmierza ku południowemu biegunowi.
---------------------------------------------------
-

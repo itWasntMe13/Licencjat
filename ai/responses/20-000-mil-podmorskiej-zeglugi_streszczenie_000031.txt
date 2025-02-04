@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Profesor Aronnax i kapitan Nemo obserwują podmorski wulkan w okolicach wyspy Santoryn. Kapitan opowiada o nowo powstałych wyspach w wyniku działalności wulkanicznej i prognozuje złączenie dwóch wysp Nea i Palea. Następnie opuszczają Morze Śródziemne, płynąc w stronę Cieśniny Gibraltarskiej. Podczas podróży pod wodą obserwują różnorodne gatunki ryb i ssaków morskich, a także podmorskie formacje roślinne. Dochodzi do incydentu z podmorską rafą, co zmusza ich do zmniejszenia szybkości. Profesor Aronnax i Conseil dyskutują na temat ewentualnych zmian w geologii Ziemi, a profesor przewiduje, że nasza planeta stanie się niezamieszkana za kilkaset tysięcy lat.
---------------------------------------------------
-

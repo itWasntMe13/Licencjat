@@ -1,5 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Streszczenie:
-Conseil zajmuje się badaniem mięczaków i stawonogów, wyliczając liczne gatunki i klasy, takie jak muszle złożone, piersiokształtne, spondyle ostrygowate czy skorupiaste, śrubowate i obrączkowate. Ned Land informuje kapitana o swoim planie ucieczki z "Nautilusa", który ma się odbyć wieczorem, gdy statek zbliży się do brzegów hiszpańskich. Profesor Aronnax, zaniepokojony i rozdarty między chęcią odzyskania wolności a zakończeniem swoich badań podmorskich, nie potrafi zdecydować, czy poprzeć ucieczkę. W końcu, gdy "Nautilus" zbliża się do brzegów Portugalii, Aronnax przygotowuje się do ucieczki, zastanawiając się nad reakcją kapitana Nemo.
---------------------------------------------------
-

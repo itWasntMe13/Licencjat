@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo zatopił okręt wojenny, który prześladował go, a następnie udał się na pokład „Nautilusa”. Planując ucieczkę z okrętu pod wodą, narrator dowiaduje się, że Ned i Conseil mają już wszystko przygotowane. Gdy zbliża się noc, decydują się na ucieczkę. Jednak przed planowanym wyjściem zauważają ląd w oddali. W trakcie przygotowań do ucieczki narrator odkrywa w sobie wstręt do kapitana, a Ned informuje, że ucieczka zostanie opóźniona. Zaniepokojony narrator udaje się do kapitana, a następnie przygotowuje się do ucieczki. W ostatniej chwili, gdy przywdziewa marynarskie odzienie i zbiera swoje notatki, czuje silne bicie serca, obawiając się reakcji kapitana.
---------------------------------------------------
-

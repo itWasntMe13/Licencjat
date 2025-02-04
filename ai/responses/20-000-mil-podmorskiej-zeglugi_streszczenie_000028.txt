@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo opowiada profesorowi Aronnaxowi, że odkrył podmorski tunel łączący Morze Czerwone z Morzem Śródziemnym. Następnego dnia, podczas podróży „Nautilusem”, załoga dostrzega dziwne zwierzę morskie poruszające się po powierzchni wody, przypominające legendarną syrenę. Profesor Aronnax, Ned Land i Conseil obserwują to zjawisko z zaciekawieniem.
---------------------------------------------------
-

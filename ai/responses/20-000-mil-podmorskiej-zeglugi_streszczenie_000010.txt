@@ -1,4 +1,0 @@
-<built-in method now of type object at 0x00007FF9AF079330>
-Response: Kapitan Nemo wyjaśnia profesorowi, że używa sodu z rtęcią do tworzenia amalgamatu, który zastępuje cynk w ogniwach stosu Bunsena. Opowiada również, że wytwarza sod za pomocą ciepła węgla ziemnego lub morskiego. Następnie zaprasza profesora do zwiedzenia tyłu "Nautilusa", gdzie opisuje budowę i zastosowanie statku, w tym zbiorników wodnych umożliwiających zanurzanie się i wynurzanie. Kapitan Nemo przedstawia również szczegółowe obliczenia dotyczące wagi statku i jego zdolności do zanurzania się na różne głębokości.
---------------------------------------------------
-
