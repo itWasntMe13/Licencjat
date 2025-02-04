@@ -128,6 +128,20 @@ def save_image(image):
     except Exception as e:
         return f"An error occurred while saving an image: {e}"
 
-# Funkcja łącząca powstałe teksty z katalogu responses w jeden plik .txt
-def m():
+# Funkcja łącząca kawałki streszczeń w jeden string
+def merge_txt_files(path) -> str:
+    # Pobieramy listę plików z podanego katalogu
+    files = glob.glob(f"{path}/*.txt")
 
+    # Tworzymy pusty string, do którego będziemy dodawać treść plików
+    merged_text = ""
+
+    # Dla każdego pliku w katalogu
+    for file in files:
+        # Wczytujemy treść pliku
+        text = load_file(file)
+        # Dodajemy treść pliku do stringa
+        merged_text += text
+
+    # Zwracamy połączony tekst
+    return merged_text

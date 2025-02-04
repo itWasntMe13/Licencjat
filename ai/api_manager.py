@@ -3,31 +3,8 @@ import tiktoken
 import requests
 import PIL.Image
 from io import BytesIO
-from importlib.metadata import version, PackageNotFoundError
-from config import MY_API_KEY, GLOBAL_PATH, OPENAI_VERSION
-
-from ai.file_manager import load_file, append_file, save_file, save_image
-
-# Funkcje pomocnicze
-
-# Pobranie klucza API z pliku
-def get_api_key():
-    # Obsługa braku pliku z kluczem API
-    try:
-        return load_file("./ai/api_key.txt")
-    except FileNotFoundError:
-        print("Brak pliku z kluczem API.")
-        print("Proszę utworzyć plik api_key.txt w głównym folderze projektu i umieścić w nim klucz API.")
-
-# Funkcja do sprawdzenia wersji biblioteki openai
-def check_openai_version():
-    try:
-        version_openai = version("openai")
-        print(f"Zainstalowana wersja openai: {version_openai}")
-        return version_openai
-    except PackageNotFoundError:
-        print("Biblioteka openai nie jest zainstalowana.")
-        return None
+from config import OPENAI_VERSION
+from ai.file_manager import load_file, append_file, save_image
 
 # Klasa do obsługi API dla GPT-3.5
 class GPTPrompt:
@@ -52,10 +29,10 @@ class GPTPrompt:
         )
 
     # Funkcja odbierająca odpowiedź i generująca informacje o zapytaniu
-    def get_gpt(self, system_role, save_to, save_info, save_response):
-        self.response = self.__send_prompt(system_role)
-        self.output_tokens = self.count_tokens(self.response)
-        self.cost = self.__cost()
+    def get_gpt(self, system_role, save_info, save_response, save_debug=False, save_to=None):
+        self.response = self.__send_prompt(system_role, save_debug)
+        # self.output_tokens = self.count_tokens(self.response)
+        # self.cost = self.__cost()
         # Zapisz informacje o zapytaniu/odpowiedzi do pliku, jeśli save_info = True
         self.__save_response_info(save_to) if save_info else None
         # Zapisz odpowiedź do pliku, jeśli save_response = True
@@ -63,7 +40,8 @@ class GPTPrompt:
 
     # Funkcja zliczająca tokeny w tekście
     def count_tokens(self, text):
-        # Przypisanie kodowania tokenów dla modelu
+        print(f"Using model: {self.model}")
+        # Pobranie kodowania dla modelu
         encoding = tiktoken.encoding_for_model(self.model)
         return len(encoding.encode(text))
 
@@ -85,7 +63,7 @@ class GPTPrompt:
         print(f"Zapisano informacje zapytania/odpowiedzi w {save_to}")
 
     # Funkcja do wysłania zapytania do API
-    def __send_prompt(self, system_role, save_debug_to):
+    def __send_prompt(self, system_role, save_debug,save_debug_to=None):
         try:
             print(f"Wysyłanie zapytania do {self.model}...")
             # Jeśli wersja openai jest starsza niż 1.0.0
@@ -116,9 +94,10 @@ class GPTPrompt:
                 print("Odebrano odpowiedź...")
 
             # Zapisanie informacji debugowania
-            content = f"Prompt: {self.prompt}\nResponse: {response}"
-            append_file(f"{save_debug_to}/log.txt", content)
-            print(f"Zapisano dane debug w {save_debug_to}/log.txt")
+            if save_debug:
+                content = f"Prompt: {self.prompt}\nResponse: {response}"
+                append_file(f"{save_debug_to}/log.txt", content)
+                print(f"Zapisano dane debug w {save_debug_to}/log.txt")
 
             response = response['choices'][0]['message']['content'].strip()
             return response

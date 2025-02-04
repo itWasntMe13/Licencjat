@@ -4,30 +4,7 @@ import os
 from wolnelektury.exceptions import TooLongName, HTMLResponse
 
 
-def download_book(file_name, file_type, url):
-    # Creating directories if they don't exist yet
-    if not os.path.exists(".\\books"):
-        os.mkdir(".\\books")
-    if not os.path.exists(".\\api_errors"):
-        os.mkdir(".\\api_errors")
-    if not os.path.exists(f".\\books\\{file_type}"):
-        os.mkdir(f".\\books\\{file_type}")
-    if not os.path.exists(f".\\api_errors\\{file_type}"):
-        os.mkdir(f".\\api_errors\\{file_type}")
-
-    # If directories were not created, raise an exception
-    if not (os.path.exists(".\\books")
-            and os.path.exists(".\\api_errors")
-            and os.path.exists(f".\\books\\{file_type}")
-            and os.path.exists(f".\\api_errors\\{file_type}")):
-        raise Exception("Failed to create directories. Aborting download.")
-
-    # # Checking for files that were already downloaded
-    # if os.path.exists(f".\\books\\{file_type}\\{file_name}.{file_type}"):
-    #     raise Exception(f"File '{file_name}' already exists. Aborting download.")
-    # if os.path.exists(f".\\api_errors\\{file_type}\\{file_name}.{file_type}"):
-    #     raise Exception(f"File '{file_name}' error file already exists. Aborting download.")
-    # Checking if Windows will be able to save the file
+def download_book(file_name, file_type, url, book_save_path):
     if len(file_name) > 200:
         raise TooLongName
 
@@ -35,20 +12,17 @@ def download_book(file_name, file_type, url):
     response_api = requests.get(url)
     book = response_api.content
 
-    # Save book in working directory
-    current_folder = os.path.dirname(os.path.abspath(__file__))
-
     # Check if book was downloaded correctly (if it's not an HTML)
     if book.split()[0] == b'<html>':
         # Save HTML file
         with open(f".\\api_errors\\{file_type}\\{file_name}.{file_type}", "wb") as file_stream:
             file_stream.write(book)
-        raise HTMLResponse
+            raise HTMLResponse
     else:
         # Save book
-        with open(f".\\books\\{file_type}\\{file_name}.{file_type}", "wb") as file_stream:
+        with open(f"{book_save_path}\\{file_type}\\{file_name}.{file_type}", "wb") as file_stream:
             file_stream.write(book)
-
+            print(f"Zapisano książkę pod ściężką: {book_save_path}\\{file_type}\\{file_name}.{file_type}")
 
 def download_json_books_file(file_name="books.json", url="https://wolnelektury.pl/api/books/?format=json") -> None:
     try:

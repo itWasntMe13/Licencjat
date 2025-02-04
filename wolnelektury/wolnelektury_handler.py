@@ -1,3 +1,4 @@
+from config import GLOBAL_PATH
 from wolnelektury.functions import *
 from wolnelektury.classes import *
 from thefuzz import process
@@ -60,14 +61,16 @@ def download_requsted_book() -> str:
     normalized_chosen_title = normalize_title(chosen_title)
     # Pobieramy obiekt książki o wybranym tytule
     requested_book_object = get_book_by_normalized_title(normalized_chosen_title)
+    # Tworzymy scieżkę zapisu książki
+    book_save_path = f"{GLOBAL_PATH}\\files\\wolne_lektury\\books"
     # Pobieramy książkę o wybranym tytule
-    download_book(normalized_chosen_title, "txt", create_download_url(requested_book_object, "txt"))
+    download_book(normalized_chosen_title, "txt", create_download_url(requested_book_object, "txt"),  book_save_path)
     print(f"Pobrano książkę o tytule {chosen_title}.")
 
     return chosen_title
 
 # Funkcja zlecająca pobranie książki o podanym tytule
-def download_book(title) -> None:
+def download_books(title) -> None:
     # Clearing the project
     clear_the_project()
 
