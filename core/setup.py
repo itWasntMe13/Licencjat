@@ -8,3 +8,4 @@ def build_environment():
             print(f"Utworzono katalog: {directory}")
         except Exception as e:
             print(f"Nie udało się utworzyć katalogu: {directory}. Błąd: {e}")
+

@@ -9,4 +9,3 @@ def check_openai_version():
     except PackageNotFoundError:
         print("Biblioteka openai nie jest zainstalowana.")
         return None
-    
