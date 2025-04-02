@@ -1,6 +1,6 @@
 from ai import api_manager, file_manager, text_manager
 from wolnelektury.normalization import normalize_title
-from config import *
+from core.config import *
 
 def get_summary(title, _save_summary) -> str:
     # Tworzymy listę części streszczenia

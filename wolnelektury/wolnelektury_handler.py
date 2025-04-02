@@ -1,4 +1,3 @@
-from config import GLOBAL_PATH
 from wolnelektury.functions import *
 from wolnelektury.classes import *
 from thefuzz import process
