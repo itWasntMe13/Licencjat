@@ -4,7 +4,7 @@ import requests
 import PIL.Image
 from io import BytesIO
 from core.config import OPENAI_VERSION
-from ai.file_manager import append_file, save_image
+from app.ai.file_manager import append_file, save_image
 
 # Klasa do obsługi API dla GPT-3.5
 class GPTPrompt:

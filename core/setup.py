@@ -7,6 +7,4 @@ def build_environment():
             Path(directory).mkdir(parents=True, exist_ok=True)
             print(f"Utworzono katalog: {directory}")
         except Exception as e:
-            print(f"Nie udało się utworzyć katalogu: {directory}. Błąd: {e}")parents=True, exist_ok=True)
-
-
+            print(f"Nie udało się utworzyć katalogu: {directory}. Błąd: {e}")

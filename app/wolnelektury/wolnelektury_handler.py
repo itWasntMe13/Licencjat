@@ -1,5 +1,5 @@
-from wolnelektury.functions import *
-from wolnelektury.classes import *
+from app.wolnelektury.functions import *
+from app.wolnelektury.classes import *
 from thefuzz import process
 
 # Funkcja pozwalająca użytkownikowi wybrać tytuł książki z listy do pobrania

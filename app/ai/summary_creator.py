@@ -1,5 +1,5 @@
-from ai import api_manager, file_manager, text_manager
-from wolnelektury.normalization import normalize_title
+from app.ai import file_manager, api_manager, text_manager
+from app.wolnelektury.normalization import normalize_title
 from core.config import *
 
 def get_summary(title, _save_summary) -> str:
