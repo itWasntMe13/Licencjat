@@ -3,7 +3,7 @@ from app.books.normalization import (
     normalize_word,
     normalize_text
 )
-from app.books.API_handling import (
+from app.books.books_json_handler import (
     download_book
 )
 from app.books.classes import (

@@ -1,4 +1,4 @@
-from app.books.API_handling import download_json_books_file, download_book
+from app.books.books_json_handler import download_json_books_file, download_book
 from app.books.normalization import normalize_title
 import json
 import os

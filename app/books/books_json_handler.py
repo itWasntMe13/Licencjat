@@ -2,22 +2,19 @@ import requests
 import json
 import os
 from app.books.exceptions import TooLongName, HTMLResponse
+from core.config import WL_API_BOOKS_URL, BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH
+from core.utils import get_json_request
 
-def download_json_books_file(file_name="books.json", url="https://wolnelektury.pl/api/books/?format=json") -> None:
-    try:
-        # Download JSON file
-        response_api = requests.get(url)
-        json_file = response_api.content
+def download_books_index_raw_json(save_path=BOOKS_INDEX_RAW_PATH, url=WL_API_BOOKS_URL) -> None:
+    # Download JSON file
+    json_file = get_json_request(url)
 
-        # Create a directory if it doesn't exist
-        if not os.path.exists(".\\json_files"):
-            os.mkdir(".\\json_files")
+    # Save JSON file with JSON module
+    with open(save_path, "w", encoding="utf-8") as file_stream:
+        json.dump(json.loads(json_file), file_stream, ensure_ascii=False, indent=4)
 
-        # Save JSON file with JSON module
-        with open(f".\\json_files\\{file_name}", "w", encoding="utf-8") as file_stream:
-            json.dump(json.loads(json_file), file_stream, ensure_ascii=False, indent=4)
-    except Exception as e:
-        print(f"Exception while downloading JSON file: '{file_name}' error: {e}")
+def create_books_index_json() -> None:
+    
 
 def download_book(file_name, file_type, url, book_save_path):
     if len(file_name) > 200:
