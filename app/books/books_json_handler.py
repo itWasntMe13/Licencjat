@@ -3,7 +3,7 @@ import json
 import os
 from app.books.exceptions import TooLongName, HTMLResponse
 from core.config import WL_API_BOOKS_URL, BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH
-from core.utils import get_json_request
+from core.utils import get_json_request, load_json_file
 
 def download_books_index_raw_json(save_path=BOOKS_INDEX_RAW_PATH, url=WL_API_BOOKS_URL) -> None:
     # Download JSON file
@@ -14,6 +14,8 @@ def download_books_index_raw_json(save_path=BOOKS_INDEX_RAW_PATH, url=WL_API_BOO
         json.dump(json.loads(json_file), file_stream, ensure_ascii=False, indent=4)
 
 def create_books_index_json() -> None:
+    books_index_raw_json = load_json_file(BOOKS_INDEX_RAW_PATH)
+
     
 
 def download_book(file_name, file_type, url, book_save_path):

@@ -11,6 +11,22 @@ def check_openai_version():
         print("Biblioteka openai nie jest zainstalowana.")
         return None
 
+# Zaciągnięcie JSONa
+def load_json_file(file_path):
+    try:
+        with open(file_path, "r", encoding="utf-8") as file_stream:
+            data = json.load(file_stream)
+        return data
+    except FileNotFoundError:
+        print(f"Plik {file_path} nie został znaleziony.")
+        return None
+    except json.JSONDecodeError:
+        print(f"Błąd podczas dekodowania pliku JSON: {file_path}")
+        return None
+    except Exception as e:
+        print(f"Wystąpił nieoczekiwany błąd: {e}")
+        return None
+
 def get_json_request(url):
     try:
         response = requests.get(url)
