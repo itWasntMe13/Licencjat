@@ -1,5 +1,6 @@
 from importlib.metadata import version, PackageNotFoundError
 import requests
+import json
 
 # Funkcja do sprawdzenia wersji biblioteki openai
 def check_openai_version():
