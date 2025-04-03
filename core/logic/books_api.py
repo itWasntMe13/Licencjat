@@ -22,12 +22,31 @@ def create_books_index_json() -> None:
     books_index = [BookIndex.from_raw_dict(book) for book in books_index_raw_json]
 
     # Zamieniamy obiekty na słowniki
-    books_index_dicts = [book.__dict__ for book in books_index]
+    books_index_dicts = [book.to_dict() for book in books_index]
 
     # Zapisujemy do books_index.json
     with open(BOOKS_INDEX_PATH, "w", encoding="utf-8") as file_stream:
         json.dump(books_index_dicts, file_stream, ensure_ascii=False, indent=4)
 
+# def create_book_detail_json(book: BookIndex) -> None:
+#     try:
+#         # Pobranie danych z API
+#         api_data = get_json_request(book.href) # Do zastąpienia funkcją z utils
+#
+#         # Stworzenie obiektu klasy BookDetail
+#         book_detail = BookDetail.from_api_dict(api_data)
+#
+#         # Ścieżka zapisu
+#         save_path = BOOK_DETAILS_DIR / f"{book.slug}.json"
+#
+#         # Serializacja do pliku
+#         with open(save_path, "w", encoding="utf-8") as f:
+#             json.dump(book_detail.__dict__, f, ensure_ascii=False, indent=4) # Do zastąpienia funkcją z utils
+#
+#         print(f"Zapisano dane szczegółowe książki: {book.title}")
+#
+#     except Exception as e:
+#         print(f"Nie udało się pobrać danych dla książki '{book.title}': {e}")
 
 def download_book(file_name, file_type, url, book_save_path):
     if len(file_name) > 200:

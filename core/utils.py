@@ -32,6 +32,9 @@ def get_json_request(url):
     try:
         response = requests.get(url)
         response.raise_for_status()  # Sprawdza, czy odpowiedź nie zawiera błędów
+        print("Pobrano dane z API.")
+        # Print danych z API
+        print(f"Status code: {response.status_code}")
         return response.json()
     except requests.RequestException as e:
         print(f"Wystąpił błąd podczas pobierania danych z API: {e}")
