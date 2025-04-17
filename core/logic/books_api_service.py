@@ -3,7 +3,7 @@ import json
 from app.books.exceptions import TooLongName, HTMLResponse
 from core.config import WL_API_BOOKS_URL, BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH, BOOKS_DETAILS_DIR, BOOKS_DIR
 from core.models.book_detail import BookDetail
-from core.utils import get_json_request, load_json_file
+from core.utils import json_request, txt_request, save_json_file, save_txt_file
 
 def download_books_index_raw_json(save_path=BOOKS_INDEX_RAW_PATH, url=WL_API_BOOKS_URL) -> None:
     """
@@ -12,11 +12,8 @@ def download_books_index_raw_json(save_path=BOOKS_INDEX_RAW_PATH, url=WL_API_BOO
     :param url:
     :return:
     """
-    json_file = get_json_request(url)
-
-    # Zapisz JSONa
-    with open(save_path, "w", encoding="utf-8") as file_stream:
-        json.dump(json_file, file_stream, ensure_ascii=False, indent=4)
+    json_file = json_request(url)
+    save_json_file(json_file, save_path)
 
 def download_book_details_json(book_index, save_dir=BOOKS_DETAILS_DIR) -> None:
     """
@@ -25,23 +22,17 @@ def download_book_details_json(book_index, save_dir=BOOKS_DETAILS_DIR) -> None:
     :param save_dir:
     :return:
     """
-    # Utworzenie adresu URL do pliku JSON
-    url = book_index.href + "?format=json"
-    print(f"Adres URL do pobrania: {url}")
-    # Pobranie danych z API
-    json_file = get_json_request(url)
+    url = book_index.href # book_index.href to URL do detali książki
+    json_file = json_request(url)
 
     # Stworzenie obiektu klasy BookDetail
     book_detail = BookDetail.from_api_dict(json_file)
 
-    # Ścieżka zapisu
+    # Ścieżka zapisu to slug z obiektu BookIndex
     save_path = save_dir / f"{book_index.slug}.json"
 
-    # Serializacja do pliku
-    with open(save_path, "w", encoding="utf-8") as f:
-        json.dump(book_detail.__dict__, f, ensure_ascii=False, indent=4)  # Do zastąpienia funkcją z utils
-
-    print(f"Zapisano dane szczegółowe książki: {book_detail.title}")
+    # Serializacja obiektu BookDetail do JSON-a
+    save_json_file(book_detail.to_dict(), save_path)
 
 # Pobranie txt książki na podstawie pola txt_url z obiektu BookDetail
 def download_book_txt(book_detail, save_dir=BOOKS_DIR) -> None:
@@ -51,23 +42,9 @@ def download_book_txt(book_detail, save_dir=BOOKS_DIR) -> None:
     :param save_dir:
     :return:
     """
-    # Utworzenie adresu URL do pliku TXT
-    url = book_detail.txt_url + "?format=txt"
-    print(f"Adres URL do pobrania: {url}")
+    url = book_detail.txt_url # book_detail.txt_url to URL do książki w formacie TXT
+    book = txt_request(url)
 
-    # Pobranie danych z API
-    response_api = requests.get(url)
-    book = response_api.content
-
-    # Sprawdzenie, czy książka została poprawnie pobrana (czy nie jest HTML-em)
-    if book.split()[0] == b'<html>':
-        print("Nie udało się pobrać książki. Odpowiedź API to HTML.")
-    else:
-        # Sprawdzenie, czy nazwa pliku nie jest za długa
-        file_name = book_detail.title
-        if len(file_name) > 200:
-            raise TooLongName
-
-        # Zapisanie książki
-        with open(f"{save_dir}\\{file_name}.txt", "wb") as file_stream:
-            file_stream.write(book)
+    # Zapisanie książki do pliku TXT
+    save_path = save_dir / f"{book_detail.title}.txt"
+    save_txt_file(book, save_path)
