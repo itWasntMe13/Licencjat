@@ -15,18 +15,7 @@ def download_books_index_raw_json(save_path=BOOKS_INDEX_RAW_PATH, url=WL_API_BOO
     with open(save_path, "w", encoding="utf-8") as file_stream:
         json.dump(json_file, file_stream, ensure_ascii=False, indent=4)
 
-def create_books_index_json() -> None:
-    books_index_raw_json = load_json_file(BOOKS_INDEX_RAW_PATH)
 
-    # Tworzymy obiekty klasy BookIndex
-    books_index = [BookIndex.from_raw_dict(book) for book in books_index_raw_json]
-
-    # Zamieniamy obiekty na słowniki
-    books_index_dicts = [book.to_dict() for book in books_index]
-
-    # Zapisujemy do books_index.json
-    with open(BOOKS_INDEX_PATH, "w", encoding="utf-8") as file_stream:
-        json.dump(books_index_dicts, file_stream, ensure_ascii=False, indent=4)
 
 # def create_book_detail_json(book: BookIndex) -> None:
 #     try:
