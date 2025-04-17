@@ -54,3 +54,8 @@ class BookIndex:
             "path_to_file": self.path_to_file,
         }
 
+    def __repr__(self):
+        return f"BookIndex(title={self.title}, author={self.author}, epoch={self.epoch}, genre={self.genre})"
+
+    def __str__(self):
+        return f"{self.title} – {self.author} ({self.epoch})"
