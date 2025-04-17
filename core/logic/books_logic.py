@@ -1,60 +1,7 @@
-from core.config import BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH, BOOKS_DETAILS_DIR
-from core.models.book_detail import BookDetail
+from core.config import BOOKS_INDEX_PATH
 from core.models.book_index import BookIndex
-from core.utils import load_json_file
-import json
 from rapidfuzz import process, fuzz
-
-def create_books_index_json(save_path=BOOKS_INDEX_PATH, raw_index_path=BOOKS_INDEX_RAW_PATH) -> None:
-    """
-    Tworzy plik JSON z indeksem książek na podstawie surowego indeksu pobranego z API Wolnych Lektur.
-    :param save_path:
-    :param raw_index_path:
-    :return:
-    """
-    # Ładujemy raw JSON-a
-    books_index_raw_json = load_json_file(raw_index_path)
-
-    # Tworzymy obiekty klasy BookIndex
-    books_index = [BookIndex.from_raw_dict(book) for book in books_index_raw_json]
-
-    # Zamieniamy obiekty na słowniki
-    books_index_dicts = [book.to_dict() for book in books_index]
-
-    # Zapisujemy do books_index.json
-    with open(save_path, "w", encoding="utf-8") as file_stream:
-        json.dump(books_index_dicts, file_stream, ensure_ascii=False, indent=4)
-
-def load_books_index_json(path=BOOKS_INDEX_PATH) -> list[BookIndex]:
-    """
-    Wczytuje indeks książek z pliku JSON. Zwraca listę obiektów BookIndex.
-    :param path:
-    :return:
-    """
-    # Wczytujemy indeks książek z pliku JSON
-    raw_data = load_json_file(path)
-
-    # Tworzymy listę obiektów BookIndex
-    books_index = [BookIndex.from_raw_dict(book) for book in raw_data]
-    return books_index
-
-def load_book_details_json(book, load_directory=BOOKS_DETAILS_DIR) -> BookDetail:
-    """
-    Wczytuje szczegóły książki z pliku JSON. Zwraca obiekt BookDetail.
-    :param book: Obiekt BookIndex
-    :param load_directory: Katalog, w którym znajdują się pliki JSON z danymi szczegółowymi książek
-    :return: Obiekt BookIndex z danymi szczegółowymi
-    """
-
-    # Ścieżka do pliku JSON
-    file_path = load_directory / f"{book.slug}.json"
-
-    # Wczytujemy dane z pliku JSON
-    book_detail = load_json_file(file_path)
-
-    # Tworzymy obiekt BookDetail
-    book_detail = BookDetail.from_json_dict(book_detail)
-    return book_detail
+from core.services.book_index_service import BookIndexService
 
 def choose_a_book(index_path=BOOKS_INDEX_PATH) -> BookIndex:
     """
@@ -63,7 +10,7 @@ def choose_a_book(index_path=BOOKS_INDEX_PATH) -> BookIndex:
     :return:
     """
     # Wczytujemy indeks książek
-    books_index_list = load_books_index_json(index_path)
+    books_index_list = BookIndexService.load_books_index_json(index_path)
 
     # Wyszukujemy tytuły
     query = input("Wpisz tytuł książki: ")
@@ -87,7 +34,6 @@ def choose_a_book(index_path=BOOKS_INDEX_PATH) -> BookIndex:
     else:
         print("Niepoprawny numer książki.")
         return None
-
 
 def search_books(books_index_list, query: str, limit: int = 25) -> list[BookIndex]:
     """

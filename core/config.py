@@ -11,7 +11,7 @@ DEFAULT_MODEL = "gpt-3.5-turbo" # Domyślny model do zapytań do API
 # Konfiguracja API
 # Wolne Lektury
 WL_API_BASE_URL = "https://wolnelektury.pl/api"
-WL_API_BOOKS_URL = f"{WL_API_BASE_URL}/books/?format=json" # Adres API do pobierania książek
+WL_API_BOOKS_URL = f"{WL_API_BASE_URL}/books" # Adres API do pobierania książek
 
 # Konfiguracja ścieżek projektu
 # Główna ścieżka projektu (tam, gdzie main.py)

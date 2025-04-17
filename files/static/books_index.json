@@ -29848,6 +29848,19 @@
         "path_to_file": null
     },
     {
+        "full_sort_key": "hoffmann heinrich$czarne dzieci$8178",
+        "title": "Czarne dzieci",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-czarne-dzieci/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-czarne-dzieci/",
+        "slug": "hoffmann-czarne-dzieci",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
         "full_sort_key": "hoffmann e t a$das majorat$3320",
         "title": "Das Majorat",
         "author": "E. T. A. Hoffmann",
@@ -29900,6 +29913,45 @@
         "path_to_file": null
     },
     {
+        "full_sort_key": "hoffmann heinrich$o juleczku co mial~0 zwyczaj ssac~0 palec$8179",
+        "title": "O Juleczku, co miał zwyczaj ssać palec",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-historia-bardzo-smutna-o-chlopcu-ktory-nie-chcial-jesc-zupy/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-historia-bardzo-smutna-o-chlopcu-ktory-nie-chcial-jesc-zupy/",
+        "slug": "hoffmann-historia-bardzo-smutna-o-chlopcu-ktory-nie-chcial-jesc-zupy",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$je~0drus~0 gapa$8180",
+        "title": "Jędruś gapa",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-jedrus-gapa/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-jedrus-gapa/",
+        "slug": "hoffmann-jedrus-gapa",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$okropna historia z zapal~0kami$8181",
+        "title": "Okropna historia z zapałkami",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-okropna-historia-z-zapalkami/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-okropna-historia-z-zapalkami/",
+        "slug": "hoffmann-okropna-historia-z-zapalkami",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
         "full_sort_key": "hoffmann e t a $panna de scude~0ry$3128",
         "title": "Panna de Scudéry",
         "author": "E. T. A. Hoffmann",
@@ -29909,6 +29961,71 @@
         "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-panna-de-scudery/",
         "href": "https://wolnelektury.pl/api/books/hoffmann-panna-de-scudery/",
         "slug": "hoffmann-panna-de-scudery",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$pawel~0ek wiercipie~0ta$8182",
+        "title": "Pawełek Wiercipięta",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-pawelek-wiercipieta/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-pawelek-wiercipieta/",
+        "slug": "hoffmann-pawelek-wiercipieta",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$przygoda zl~0ego jo~0zia$8183",
+        "title": "Przygoda złego Józia",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-przygoda-zlego-jozia/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-przygoda-zlego-jozia/",
+        "slug": "hoffmann-przygoda-zlego-jozia",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$stas~0 straszydl~0o$8184",
+        "title": "Staś straszydło",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-stas-straszydlo/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-stas-straszydlo/",
+        "slug": "hoffmann-stas-straszydlo",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$straszny przypadek z parasolem$8185",
+        "title": "Straszny przypadek z parasolem",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-straszny-przypadek-z-parasolem/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-straszny-przypadek-z-parasolem/",
+        "slug": "hoffmann-straszny-przypadek-z-parasolem",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "hoffmann heinrich$zl~0ota ro~0z~1dz~1ka$8186",
+        "title": "Złota różdżka",
+        "author": "Heinrich Hoffmann",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Bajka",
+        "url": "https://wolnelektury.pl/katalog/lektura/hoffmann-zlota-rozdzka/",
+        "href": "https://wolnelektury.pl/api/books/hoffmann-zlota-rozdzka/",
+        "slug": "hoffmann-zlota-rozdzka",
         "downloaded": false,
         "path_to_file": null
     },
@@ -68381,7 +68498,7 @@
     },
     {
         "full_sort_key": "les~0mian bolesl~0aw$przygody sindbada z~1eglarza$2347",
-        "title": "Przygody Sindbada żeglarza",
+        "title": "Przygody Sindbada Żeglarza",
         "author": "Bolesław Leśmian",
         "kind": "Epika",
         "epoch": "Modernizm, Dwudziestolecie międzywojenne",
@@ -85345,6 +85462,19 @@
         "path_to_file": null
     },
     {
+        "full_sort_key": "tuwim julian$my z~1ydzi polscy$8187",
+        "title": "My, Żydzi polscy",
+        "author": "Julian Tuwim",
+        "kind": "Epika",
+        "epoch": "Współczesność",
+        "genre": "Manifest",
+        "url": "https://wolnelektury.pl/katalog/lektura/tuwim-my-zydzi-polscy/",
+        "href": "https://wolnelektury.pl/api/books/tuwim-my-zydzi-polscy/",
+        "slug": "tuwim-my-zydzi-polscy",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
         "full_sort_key": "tuwim julian$o grzesiu kl~0amczuchu i jego cioci$8109",
         "title": "O Grzesiu kłamczuchu i jego cioci",
         "author": "Julian Tuwim",
@@ -85822,6 +85952,19 @@
         "url": "https://wolnelektury.pl/katalog/lektura/ugoda-z-wroblami/",
         "href": "https://wolnelektury.pl/api/books/ugoda-z-wroblami/",
         "slug": "ugoda-z-wroblami",
+        "downloaded": false,
+        "path_to_file": null
+    },
+    {
+        "full_sort_key": "ujejski kornel$maraton$8177",
+        "title": "Maraton",
+        "author": "Kornel Ujejski",
+        "kind": "Liryka",
+        "epoch": "Romantyzm",
+        "genre": "Poemat",
+        "url": "https://wolnelektury.pl/katalog/lektura/ujejski-maraton/",
+        "href": "https://wolnelektury.pl/api/books/ujejski-maraton/",
+        "slug": "ujejski-maraton",
         "downloaded": false,
         "path_to_file": null
     },
