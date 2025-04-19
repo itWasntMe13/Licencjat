@@ -5,16 +5,16 @@ from core.utils import load_json_file, save_json_file, json_request
 
 class BookDetailService:
     @staticmethod
-    def load_book_details_json(book, load_directory=BOOK_DETAILS_DIR) -> BookDetail:
+    def load_book_details_json(book_index, load_directory=BOOK_DETAILS_DIR) -> BookDetail:
         """
         Wczytuje szczegóły książki z pliku JSON. Zwraca obiekt BookDetail.
-        :param book: Obiekt BookIndex
+        :param book_index: Obiekt BookIndex
         :param load_directory: Katalog, w którym znajdują się pliki JSON z danymi szczegółowymi książek
         :return: Obiekt BookIndex z danymi szczegółowymi
         """
 
         # Ścieżka do pliku JSON
-        file_path = load_directory / f"{book.slug}.json"
+        file_path = load_directory / f"{book_index.slug}.json"
 
         # Wczytujemy dane z pliku JSON
         book_detail = load_json_file(file_path)
@@ -27,7 +27,7 @@ class BookDetailService:
     def download_book_details_json(book_index, save_dir=BOOK_DETAILS_DIR) -> None:
         """
         Pobiera szczegóły książki na podstawie pola href z obiektu BookIndex i zapisuje je do pliku JSON.
-        :param book:
+        :param book_index:
         :param save_dir:
         :return:
         """
