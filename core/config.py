@@ -24,7 +24,7 @@ FILES_DIR = PROJECT_ROOT / "files"
 STATIC_DIR = FILES_DIR / "static"
 BOOKS_INDEX_RAW_PATH = STATIC_DIR / "books_index_raw.json" # Surowy indeks książek pobrany z API
 BOOKS_INDEX_PATH = STATIC_DIR / "books_index.json" # Indeks książek przetworzony do użytku w programie
-BOOKS_DETAILS_DIR = STATIC_DIR / "books_details" # Katalog z plikami JSON z danymi szczegółowymi książek
+BOOK_DETAILS_DIR = STATIC_DIR / "book_details" # Katalog z plikami JSON z danymi szczegółowymi książek
 
 # Dane wejściowe
 INPUT_DIR = FILES_DIR / "input"
@@ -51,5 +51,5 @@ REQUIRED_DIRS = [
     LOGS_DIR,
     OUTPUT_DIR,
     SUMMARY_TXT_DIR,
-    BOOKS_DETAILS_DIR
+    BOOK_DETAILS_DIR
 ]

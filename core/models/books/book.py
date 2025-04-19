@@ -1,6 +1,7 @@
 class Book:
     def __init__(
         self,
+        slug: str,
         title: str,
         author: str,
         kind: str,
@@ -8,6 +9,7 @@ class Book:
         genre: str,
         content: str
     ):
+        self.slug = slug
         self.title = title
         self.author = author
         self.kind = kind
@@ -17,6 +19,7 @@ class Book:
 
     def to_dict(self) -> dict:
         return {
+            "slug": self.slug,
             "title": self.title,
             "author": self.author,
             "kind": self.kind,
@@ -27,6 +30,7 @@ class Book:
 
     def from_dict(data: dict) -> "Book":
         return Book(
+            slug=data.get("slug"),
             title=data.get("title"),
             author=data.get("author"),
             kind=data.get("kind"),
