@@ -1,9 +1,11 @@
 import os
 
 from core.config import BOOKS_DIR
-from core.utils import txt_request, save_json_file
+from core.utils.common_utils import txt_request, save_json_file
 from core.services.books.book_detail_service import BookDetail
 from core.models.books.book import Book
+from core.utils.gpt_utils import count_tokens
+
 
 class BookService:
     @staticmethod
@@ -16,6 +18,7 @@ class BookService:
         :return:
         """
         book_content = BookService.download_book_txt(book_detail)  # Pobieramy treść książki
+        can_summarize = count_tokens(book_content) < 240000  # Sprawdzamy, czy książka jest wystarczająco krótka do podsumowania
 
         # Tworzymy obiekt Book
         book = Book(
@@ -25,7 +28,8 @@ class BookService:
             author=book_detail.author,
             kind=book_detail.kind,
             epoch=book_detail.epoch,
-            genre=book_detail.genre
+            genre=book_detail.genre,
+            can_summarize=can_summarize
         )
 
         if save:
@@ -44,7 +48,7 @@ class BookService:
         if not book_detail.txt_url:
             print(f"Brak URL do książki {book_detail.title}")
             return None
-        
+
         url = book_detail.txt_url  # book_detail.txt_url to URL do książki w formacie TXT
         book = txt_request(url)
 

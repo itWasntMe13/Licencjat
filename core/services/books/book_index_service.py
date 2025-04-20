@@ -1,8 +1,6 @@
-from re import findall
-
 from core.config import BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH
 from core.models.books.book_index import BookIndex
-from core.utils import load_json_file, save_json_file
+from core.utils.common_utils import load_json_file, save_json_file
 
 class BookIndexService:
 

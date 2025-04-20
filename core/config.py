@@ -1,4 +1,4 @@
-from core.utils import check_openai_version
+from core.utils.gpt_utils import check_openai_version
 from pathlib import Path
 
 # Ogólne

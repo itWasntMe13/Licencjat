@@ -16,7 +16,7 @@ def build_environment():
         except Exception as e:
             print(f"Nie udało się utworzyć katalogu: {directory}. Błąd: {e}")
 
-def create_book_indexes(force_update=True):
+def create_book_indexes(force_update=False):
     """
     Tworzy indeksy książek.
     :param force_update:

@@ -7,7 +7,8 @@ class Book:
         kind: str,
         epoch: str,
         genre: str,
-        content: str
+        content: str,
+        can_summarize: bool = False,
     ):
         self.slug = slug
         self.title = title
@@ -16,6 +17,7 @@ class Book:
         self.epoch = epoch
         self.genre = genre
         self.content = content
+        self.can_summarize = can_summarize
 
     def to_dict(self) -> dict:
         return {
@@ -25,7 +27,8 @@ class Book:
             "kind": self.kind,
             "epoch": self.epoch,
             "genre": self.genre,
-            "content": self.content
+            "content": self.content,
+            "can_summarize": self.can_summarize,
         }
 
     def from_dict(data: dict) -> "Book":
@@ -36,5 +39,6 @@ class Book:
             kind=data.get("kind"),
             epoch=data.get("epoch"),
             genre=data.get("genre"),
-            content=data.get("content")
+            content=data.get("content"),
+            can_summarize=data.get("can_summarize", False),
         )

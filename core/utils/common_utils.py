@@ -1,19 +1,6 @@
-from importlib.metadata import version, PackageNotFoundError
 import requests
 import json
 
-def check_openai_version():
-    """
-    Sprawdza wersję zainstalowanej biblioteki openai.
-    :return:
-    """
-    try:
-        version_openai = version("openai")
-        print(f"Zainstalowana wersja openai: {version_openai}")
-        return version_openai
-    except PackageNotFoundError:
-        print("Biblioteka openai nie jest zainstalowana.")
-        return None
 
 def save_json_file(data, file_path):
     """
@@ -35,8 +22,7 @@ def save_txt_file(data, file_path):
     :param file_path:
     :return:
     """
-    # Czy file_path nie jest za długi?
-    if len(file_path.name) > 204: # 200 znaków to maks Windowsa + 4 znaki na rozszerzenie (.txt)
+    if len(file_path.name) > 204:
         print(f"Nazwa pliku jest za długa: {file_path}")
         return
     try:
@@ -59,7 +45,7 @@ def load_json_file(file_path):
         print(f"Plik {file_path} nie został znaleziony.")
         return None
     except json.JSONDecodeError:
-        print(f"Błąd podczas dekodowania pliku JSON: {file_path}")
+        print(f"Bł��d podczas dekodowania pliku JSON: {file_path}")
         return None
     except Exception as e:
         print(f"Wystąpił nieoczekiwany błąd: {e}")
@@ -91,7 +77,7 @@ def json_request(url):
     url = url + "?format=json"
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Sprawdza, czy odpowiedź nie zawiera błędów
+        response.raise_for_status()
         return response.json()
     except requests.RequestException as e:
         print(f"Wystąpił błąd podczas pobierania danych z API: {e}")
@@ -106,8 +92,8 @@ def txt_request(url):
     url = url + "?format=txt"
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Sprawdza, czy odpowiedź nie zawiera błędów
-        if response.content.split()[0] == b"<html>": # Sprawdza, czy odpowiedź nie jest HTML-em
+        response.raise_for_status()
+        if response.content.split()[0] == b"<html>":
             print(f"Otrzymano HTML zamiast pliku TXT z URL: {url}")
             return None
         return response.content
