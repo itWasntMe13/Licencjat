@@ -6,6 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 import streamlit as st
 from ui.streamlit_app import main_view, admin_view
 
+# taskkill /f /im streamlit.exe - zabij wszystkie procesy streamlit.exe
 # Sidebar – nawigacja
 st.sidebar.title("📚 Nawigacja")
 page = st.sidebar.radio("Wybierz tryb:", ["📖 Użytkownik", "🛠️ Admin"])
