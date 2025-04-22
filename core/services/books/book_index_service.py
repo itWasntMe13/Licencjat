@@ -1,4 +1,4 @@
-from core.config import BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH
+from core.config.config import BOOKS_INDEX_PATH, BOOKS_INDEX_RAW_PATH
 from core.models.books.book_index import BookIndex
 from core.utils.common_utils import load_json_file, save_json_file
 

@@ -1,6 +1,6 @@
 import os
 
-from core.config import BOOKS_DIR
+from core.config.config import BOOKS_DIR
 from core.utils.common_utils import txt_request, save_json_file
 from core.services.books.book_detail_service import BookDetail
 from core.models.books.book import Book
@@ -36,6 +36,15 @@ class BookService:
             BookService.save_book_as_json(book, save_dir_path)  # Zapisujemy książkę do pliku JSON
 
         return book
+
+    @staticmethod
+    def is_summarizable(book: Book) -> bool:
+        """
+        Sprawdza, czy książka jest wystarczająco krótka do podsumowania.
+        :param book: Obiekt książki.
+        :return: True, jeśli książka jest wystarczająco krótka do podsumowania, False w przeciwnym razie.
+        """
+        return count_tokens(book.content) < 240000
 
     @staticmethod
     def download_book_txt(book_detail) -> str:

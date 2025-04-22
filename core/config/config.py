@@ -7,7 +7,7 @@ WL_API_BOOKS_URL = f"{WL_API_BASE_URL}/books" # Adres API do pobierania książe
 
 # Konfiguracja ścieżek projektu
 # Główna ścieżka projektu (tam, gdzie main.py)
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 # Katalog z wszystkimi plikami niewykonawczymi
 FILES_DIR = PROJECT_ROOT / "files"

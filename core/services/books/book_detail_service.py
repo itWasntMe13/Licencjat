@@ -1,4 +1,4 @@
-from core.config import BOOK_DETAILS_DIR
+from core.config.config import BOOK_DETAILS_DIR
 from core.models.books.book_detail import BookDetail
 from core.utils.common_utils import load_json_file, save_json_file, json_request
 

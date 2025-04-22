@@ -1,4 +1,4 @@
-from core.config import BOOKS_INDEX_RAW_PATH, WL_API_BOOKS_URL
+from core.config.config import BOOKS_INDEX_RAW_PATH, WL_API_BOOKS_URL
 from core.utils.common_utils import json_request, save_json_file
 
 class BookIndexRawService:
