@@ -1,23 +1,20 @@
+from dataclasses import dataclass
+
+@dataclass
 class Book:
-    def __init__(
-        self,
-        slug: str,
-        title: str,
-        author: str,
-        kind: str,
-        epoch: str,
-        genre: str,
-        content: str,
-        can_summarize: bool = False,
-    ):
-        self.slug = slug
-        self.title = title
-        self.author = author
-        self.kind = kind
-        self.epoch = epoch
-        self.genre = genre
-        self.content = content
-        self.can_summarize = can_summarize
+    slug: str
+    title: str
+    author: str
+    kind: str
+    epoch: str
+    genre: str
+    content: str
+    can_summarize: bool = False
+    short_description: str = None
+    summary: str = None
+    characters: str = None
+    test_questions: str = None
+    motifs: str = None
 
     def to_dict(self) -> dict:
         return {
@@ -29,8 +26,14 @@ class Book:
             "genre": self.genre,
             "content": self.content,
             "can_summarize": self.can_summarize,
+            "short_description": self.short_description,
+            "summary": self.summary,
+            "characters": self.characters,
+            "test_questions": self.test_questions,
+            "motifs": self.motifs
         }
 
+    @staticmethod
     def from_dict(data: dict) -> "Book":
         return Book(
             slug=data.get("slug"),
@@ -41,4 +44,9 @@ class Book:
             genre=data.get("genre"),
             content=data.get("content"),
             can_summarize=data.get("can_summarize", False),
+            short_description=data.get("short_description"),
+            summary=data.get("summary"),
+            characters=data.get("characters"),
+            test_questions=data.get("test_questions"),
+            motifs=data.get("motifs")
         )

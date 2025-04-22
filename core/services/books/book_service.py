@@ -1,6 +1,7 @@
 import os
 
 from core.config.config import BOOKS_DIR
+from core.config.gpt import GPTConfig
 from core.utils.common_utils import txt_request, save_json_file
 from core.services.books.book_detail_service import BookDetail
 from core.models.books.book import Book
@@ -18,7 +19,7 @@ class BookService:
         :return:
         """
         book_content = BookService.download_book_txt(book_detail)  # Pobieramy treść książki
-        can_summarize = count_tokens(book_content) < 240000  # Sprawdzamy, czy książka jest wystarczająco krótka do podsumowania
+        can_summarize = BookService.is_summarizable(book_content, GPTConfig())  # Sprawdzamy, czy książka jest wystarczająco krótka do podsumowania
 
         # Tworzymy obiekt Book
         book = Book(
@@ -38,13 +39,18 @@ class BookService:
         return book
 
     @staticmethod
-    def is_summarizable(book: Book) -> bool:
+    def is_summarizable(text: str, gpt_config: GPTConfig) -> bool:
         """
         Sprawdza, czy książka jest wystarczająco krótka do podsumowania.
         :param book: Obiekt książki.
         :return: True, jeśli książka jest wystarczająco krótka do podsumowania, False w przeciwnym razie.
         """
-        return count_tokens(book.content) < 240000
+        token_count = count_tokens(text)  # Liczymy tokeny w treści książki
+
+        if token_count < gpt_config.prompt_percentage * gpt_config.model.max_tokens:
+            return True
+        else:
+            return False
 
     @staticmethod
     def download_book_txt(book_detail) -> str:

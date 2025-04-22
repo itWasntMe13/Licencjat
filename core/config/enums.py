@@ -1,17 +1,17 @@
 from enum import Enum
 
 class GptModelInfo(Enum):
-    GPT_4O_MINI = ( # Najlepszy model do naszych zastosowań. Duży kontekst, niskie koszty,
-        "gpt-4o",
+    GPT_4O_MINI = (  # Najlepszy model do naszych zastosowań. Duży kontekst, niskie koszty,
+        "gpt-4o-mini",
         128000,
         0.005,
         0.015
     )
     GPT_3_5_TURBO = (
-        "gpt-3.5-turbo", # nazwa modelu
-        16384, # maksymalny kontekst
-        0.0005,  # input na 1k tokenów w dolcach
-        0.0015   # output na 1k tokenów w dolcach
+        "gpt-3.5-turbo",
+        16384,
+        0.0005,  # input per 1k tokens
+        0.0015  # output per 1k tokens
     )
     GPT_4 = (
         "gpt-4",
