@@ -1,0 +1,10 @@
+{
+  "summary": {
+    "name": "summary",
+    "prompt": "Stwórz streszczenie poniższego tekstu dla uczniów liceum..."
+  },
+  "characters": {
+    "name": "characters",
+    "prompt": "Wypisz główne postacie występujące w tym fragmencie książki..."
+  }
+}

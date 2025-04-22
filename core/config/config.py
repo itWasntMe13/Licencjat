@@ -1,11 +1,4 @@
-from core.utils.gpt_utils import check_openai_version
 from pathlib import Path
-
-# Ogólne
-OPENAI_VERSION = check_openai_version() # Wersja zainstalowanej biblioteki OpenAI
-CHARACTERS_LIMIT = 10000 # Limit znaków w jednym zapytaniu do API
-TOKEN_LIMIT = 4096 # Limit tokenów w jednym zapytaniu do API
-DEFAULT_MODEL = "gpt-3.5-turbo" # Domyślny model do zapytań do API
 
 # Konfiguracja API
 # Wolne Lektury

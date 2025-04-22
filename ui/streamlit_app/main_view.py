@@ -7,7 +7,7 @@ from streamlit import title
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from core.config import BOOKS_DIR
+from core.config.config import BOOKS_DIR
 from core.utils.common_utils import load_json_file
 from core.services.books.book_index_service import BookIndexService
 from core.services.books.book_browsing_service import BookBrowsingService
