@@ -45,3 +45,5 @@ REQUIRED_DIRS = [
     SUMMARY_TXT_DIR,
     BOOK_DETAILS_DIR
 ]
+
+GPT_CONFIG_PATH = PROJECT_ROOT / "core/config/gpt_config.json" # Ścieżka do pliku konfiguracyjnego GPT
