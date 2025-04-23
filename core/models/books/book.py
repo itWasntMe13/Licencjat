@@ -9,7 +9,6 @@ class Book:
     epoch: str
     genre: str
     content: str
-    can_summarize: bool = False
     short_description: str = None
     summary: str = None
     characters: str = None
@@ -25,7 +24,6 @@ class Book:
             "epoch": self.epoch,
             "genre": self.genre,
             "content": self.content,
-            "can_summarize": self.can_summarize,
             "short_description": self.short_description,
             "summary": self.summary,
             "characters": self.characters,
@@ -43,7 +41,6 @@ class Book:
             epoch=data.get("epoch"),
             genre=data.get("genre"),
             content=data.get("content"),
-            can_summarize=data.get("can_summarize", False),
             short_description=data.get("short_description"),
             summary=data.get("summary"),
             characters=data.get("characters"),

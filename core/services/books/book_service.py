@@ -10,7 +10,7 @@ from core.utils.gpt_utils import count_tokens
 
 class BookService:
     @staticmethod
-    def create_book_object(book_detail: BookDetail, save=False, save_dir_path=BOOKS_DIR, gpt_integration=False, gpt_config=None) -> Book:
+    def create_book_object(book_detail: BookDetail, save=False, save_dir_path=BOOKS_DIR) -> Book:
         """
         Pobiera treść książki, a następnie tworzy obiekt Book na podstawie obiektu BookDetail. Umożliwia zapis.
         :param save_dir_path:
@@ -21,10 +21,6 @@ class BookService:
         :return:
         """
         book_content = BookService.download_book_txt(book_detail)  # Pobieramy treść książki
-        if gpt_integration:
-            can_summarize = BookService.is_summarizable(book_content, gpt_config)  # Sprawdzamy, czy książka jest wystarczająco krótka do podsumowania
-        else:
-            can_summarize = False
 
         # Tworzymy obiekt Book
         book = Book(
@@ -34,30 +30,13 @@ class BookService:
             author=book_detail.author,
             kind=book_detail.kind,
             epoch=book_detail.epoch,
-            genre=book_detail.genre,
-            can_summarize=can_summarize
+            genre=book_detail.genre
         )
 
         if save:
             BookService.save_book_as_json(book, save_dir_path)  # Zapisujemy książkę do pliku JSON
 
         return book
-
-    @staticmethod
-    def is_summarizable(text: str, gpt_config: GptConfig) -> bool:
-        """
-        Sprawdza, czy książka jest wystarczająco krótka do podsumowania.
-        :param text: 
-        :param gpt_config: 
-        :param book: Obiekt książki.
-        :return: True, jeśli książka jest wystarczająco krótka do podsumowania, False w przeciwnym razie.
-        """
-        token_count = count_tokens(text)  # Liczymy tokeny w treści książki
-
-        if token_count < gpt_config.prompt_percentage * gpt_config.max_tokens:
-            return True
-        else:
-            return False
 
     @staticmethod
     def download_book_txt(book_detail) -> str:
