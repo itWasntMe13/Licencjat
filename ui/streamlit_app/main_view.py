@@ -3,7 +3,7 @@ import sys
 import os
 
 from narwhals.selectors import matches
-from streamlit import title
+from streamlit import title, button
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
@@ -65,6 +65,7 @@ def show():
 
                     # Jeśli książka już istnieje lokalnie
                     if book_path.exists():
+                        st.session_state["selected_book"] = book_detail
                         st.info("Książka już pobrana — wczytuję z lokalnego pliku.")
                         book_dict = load_json_file(book_path)
                         book_content = book_dict.get("content")

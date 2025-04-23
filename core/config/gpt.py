@@ -6,7 +6,6 @@ from core.utils.common_utils import load_json_file
 from core.utils.gpt_utils import check_openai_version
 
 OPENAI_VERSION = check_openai_version() # Wersja zainstalowanej biblioteki OpenAI
-
 PROMPTS = load_json_file(PROJECT_ROOT / "config/prompts.json")
 
 @dataclass
