@@ -14,10 +14,9 @@ class BookService:
         """
         Pobiera treść książki, a następnie tworzy obiekt Book na podstawie obiektu BookDetail. Umożliwia zapis.
         :param save_dir_path:
-        :param gpt_config:
         :param book_detail:
         :param save: Czy zapisać książkę?
-        :param save_path:
+        :param save_dir_path:
         :return:
         """
         book_content = BookService.download_book_txt(book_detail)  # Pobieramy treść książki
@@ -43,7 +42,6 @@ class BookService:
         """
         Pobiera treść książki na podstawie obiektu BookDetail.
         :param book_detail:
-        :param save_dir:
         :return: Treść książki w string-u.
         """
         if not book_detail.txt_url:
