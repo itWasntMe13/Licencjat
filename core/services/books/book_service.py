@@ -1,7 +1,7 @@
 import os
 
 from core.config.config import BOOKS_DIR
-from core.config.gpt import GPTConfig
+from core.config.gpt import GptConfig
 from core.utils.common_utils import txt_request, save_json_file
 from core.services.books.book_detail_service import BookDetail
 from core.models.books.book import Book
@@ -10,16 +10,21 @@ from core.utils.gpt_utils import count_tokens
 
 class BookService:
     @staticmethod
-    def create_book_object(book_detail: BookDetail, save=False, save_dir_path=BOOKS_DIR) -> Book:
+    def create_book_object(book_detail: BookDetail, save=False, save_dir_path=BOOKS_DIR, gpt_integration=False, gpt_config=None) -> Book:
         """
         Pobiera treść książki, a następnie tworzy obiekt Book na podstawie obiektu BookDetail. Umożliwia zapis.
+        :param save_dir_path:
+        :param gpt_config:
         :param book_detail:
         :param save: Czy zapisać książkę?
         :param save_path:
         :return:
         """
         book_content = BookService.download_book_txt(book_detail)  # Pobieramy treść książki
-        can_summarize = BookService.is_summarizable(book_content, GPTConfig())  # Sprawdzamy, czy książka jest wystarczająco krótka do podsumowania
+        if gpt_integration:
+            can_summarize = BookService.is_summarizable(book_content, gpt_config)  # Sprawdzamy, czy książka jest wystarczająco krótka do podsumowania
+        else:
+            can_summarize = False
 
         # Tworzymy obiekt Book
         book = Book(
@@ -39,15 +44,17 @@ class BookService:
         return book
 
     @staticmethod
-    def is_summarizable(text: str, gpt_config: GPTConfig) -> bool:
+    def is_summarizable(text: str, gpt_config: GptConfig) -> bool:
         """
         Sprawdza, czy książka jest wystarczająco krótka do podsumowania.
+        :param text: 
+        :param gpt_config: 
         :param book: Obiekt książki.
         :return: True, jeśli książka jest wystarczająco krótka do podsumowania, False w przeciwnym razie.
         """
         token_count = count_tokens(text)  # Liczymy tokeny w treści książki
 
-        if token_count < gpt_config.prompt_percentage * gpt_config.model.max_tokens:
+        if token_count < gpt_config.prompt_percentage * gpt_config.max_tokens:
             return True
         else:
             return False
