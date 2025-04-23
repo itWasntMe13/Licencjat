@@ -17,7 +17,9 @@ class BookService:
         :param gpt_config:
         :param book_detail:
         :param save: Czy zapisać książkę?
-        :param save_path:
+        :param save_dir_path: Ścieżka do katalogu, w którym zostanie zapisany plik JSON.
+        :param gpt_integration: Czy integracja z GPT?
+        :param gpt_config: Konfiguracja GPT.
         :return:
         """
         book_content = BookService.download_book_txt(book_detail)  # Pobieramy treść książki
@@ -30,7 +32,7 @@ class BookService:
         book = Book(
             slug=book_detail.slug,
             title=book_detail.title,
-            content=book_content,
+            content=book_content,   
             author=book_detail.author,
             kind=book_detail.kind,
             epoch=book_detail.epoch,
