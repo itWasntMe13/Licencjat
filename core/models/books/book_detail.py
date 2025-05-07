@@ -1,21 +1,15 @@
+from dataclasses import dataclass
+from typing import Optional
+
+@dataclass
 class BookDetail:
-    def __init__(
-        self,
-        title: str,
-        txt_url: str,
-        author: str,
-        epoch: str,
-        genre: str,
-        kind: str = None,
-        slug: str = None
-    ):
-        self.slug = slug
-        self.title = title
-        self.txt_url = txt_url
-        self.author = author
-        self.kind = kind
-        self.epoch = epoch
-        self.genre = genre
+    title: str
+    txt_url: str
+    author: str
+    epoch: str
+    genre: str
+    kind: Optional[str] = None
+    slug: Optional[str] = None
 
     @staticmethod
     def from_api_dict(data: dict) -> "BookDetail":
@@ -27,6 +21,7 @@ class BookDetail:
             genre=data.get("genres", [{}])[0].get("name")
         )
 
+    @staticmethod
     def from_json_dict(data: dict) -> "BookDetail":
         return BookDetail(
             slug=data.get("slug"),
