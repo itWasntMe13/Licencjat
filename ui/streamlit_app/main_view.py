@@ -5,6 +5,8 @@ import os
 from narwhals.selectors import matches
 from streamlit import title, button
 
+from core.models.books.book import Book
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from core.config.config import BOOKS_DIR
@@ -65,14 +67,15 @@ def show():
 
                     # Jeśli książka już istnieje lokalnie
                     if book_path.exists():
-                        st.session_state["selected_book"] = book_detail
                         st.info("Książka już pobrana — wczytuję z lokalnego pliku.")
                         book_dict = load_json_file(book_path)
+                        st.session_state["selected_book"] = Book.from_dict(book_dict)
                         book_content = book_dict.get("content")
 
                     # Pobieranie książki
                     if st.button("⬇️ Pobierz książkę"):
                         book_obj = BookService.create_book_object(book_detail, save=True)
+                        st.session_state["selected_book"] = book_obj
                         book_content = book_obj.content
                         st.success("✅ Książka została pobrana i zapisana.")
 

@@ -12,7 +12,7 @@ PROMPTS = load_json_file(PROJECT_ROOT / "core/config/prompts.json")
 @dataclass
 class GptConfig:
     model: str # Domyślny model
-    max_tokens: int = 128000 # Domyślny max_tokens dla gpt-4o-mini
+    max_tokens: int = 10000 # RPM czyli requests per minute dla gpt-4o-mini to 10 000 tokenów.
     temperature: float = 0.7
     output_percentage: float = 0.2 # np.: 0,2 * 128 000 = 25 600 tokenów model może wydać na output dla gpt-4o-mini.
     prompt_percentage: float = 0.8 # np.: 0,8 * 128 000 = 102 400 tokenów model może wydać na input dla gpt-4o-mini.

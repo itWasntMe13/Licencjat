@@ -2,6 +2,7 @@ import openai
 
 from core.config.gpt import GptConfig
 from core.services.gpt.gpt_config_service import GptConfigService
+from core.utils.gpt_utils import count_tokens
 
 
 class GptService:
@@ -25,11 +26,12 @@ class GptService:
         else:
             return False
 
-    def summarize_text(self, text: str, system_prompt: str = None) -> str:
-        prompt = system_prompt or "Stwórz streszczenie poniższego tekstu."
+    def summarize_text(self, gpt_config: GptConfig, text: str, system_prompt: str = None) -> str:
+        prompt = system_prompt or "Stwórz streszczenie edukacyjne załączonego tekstu."
+        model = gpt_config.model
 
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model=model,
             messages=[
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": text}
